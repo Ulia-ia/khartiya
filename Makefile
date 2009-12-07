@@ -13,6 +13,12 @@ FFSCRIPTS=generate.ff  spaces_dashes.ff  liga_sub.ff \
 #XGFFILES=$(FAMILY)-Regular.ed.xgf # $(FAMILY)-Italic.ed.xgf $(FAMILY)-Bold.ed.xgf $(FAMILY)-BoldItalic.ed.xgf
 COMPRESS=xz -9
 
+INSTALL=install
+DESTDIR=
+prefix=/usr
+fontdir=$(prefix)/share/fonts/TTF
+docdir=$(prefix)/doc/$(PKGNAME)
+
 all: $(OTFFILES) ttf
 
 $(FAMILY)-Regular.otf: $(FAMILY)-Regular.sfd $(FFSCRIPTS)
@@ -100,3 +106,9 @@ clean :
 
 distclean :
 	-rm $(OTFFILES) $(TTFFILES) $(PFBFILES) $(AFMFILES) $(FAMILY)-*_.sfd
+
+install:
+	mkdir -p $(DESTDIR)$(fontdir)
+	$(INSTALL) -p --mode=644 $(TTFFILES) $(DESTDIR)$(fontdir)/
+	mkdir -p $(DESTDIR)$(docdir)
+	$(INSTALL) -p --mode=644 $(DOCUMENTS) $(DESTDIR)$(docdir)/
