@@ -3,7 +3,7 @@ FontName: Khartiya-Regular
 FullName: Khartiya
 FamilyName: Khartiya
 Weight: Regular
-Copyright: Copyright 1990 as an unpublished work by Bitstream Inc.  All rights reserved.  Confidential.\n\n(C) 2009 Andrey V. Panov
+Copyright: Copyright 1990 as an unpublished work by Bitstream Inc.  All rights reserved.  Confidential.\n\nCopyright (c) 2009, 2010 Andrey V. Panov
 Version: 0.1
 ItalicAngle: 0
 UnderlinePosition: -109
@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1136849748
-ModificationTime: 1262919286
+ModificationTime: 1263387194
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
