@@ -63,7 +63,9 @@ else
  h_offset = 0
 endif
 add_ipa.ff(h_offset,cursive)
+*/
 same_cyrext.ff()
+/*
 SelectWorthOutputting()
 DefaultUseMyMetrics()
 SelectNone()
@@ -74,9 +76,9 @@ spaces_dashes.ff()
 /*
 case_sub.ff()
 add_accented.ff()
+*/
 same_kern.ff(cursive)
 make_kern.ff(cursive)
-*/
 liga_sub.ff()
 #dub_glyph.pe("quoteleft","quotereversed")
 #dub_glyph.pe("quotedblleft","uni201F")

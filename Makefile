@@ -8,6 +8,10 @@ TTFFILES=$(FAMILY)-Regular.ttf $(FAMILY)-Italic.ttf $(FAMILY)-Bold.ttf $(FAMILY)
 PFBFILES=$(FAMILY)-Regular.pfb $(FAMILY)-Italic.pfb $(FAMILY)-Bold.pfb $(FAMILY)-BoldItalic.pfb
 AFMFILES=$(FAMILY)-Regular.afm $(FAMILY)-Italic.afm $(FAMILY)-Bold.afm $(FAMILY)-BoldItalic.afm
 FFSCRIPTS=generate.ff  spaces_dashes.ff  liga_sub.ff \
+	dub_glyph.pe dub_glyph_ch.ff same_cyrext.ff \
+	same_kern.ff \
+	make_kern.ff cop_kern_left.ff cop_kern_right.ff cop_kern_acc.ff \
+	cop_kern.ff cop_kern_mult.ff \
 	COPYING.scripts
 #DIFFFILES=$(FAMILY)-Regular.gen.xgf.diff # $(FAMILY)-Italic.gen.xgf.diff $(FAMILY)-Bold.gen.xgf.diff $(FAMILY)-BoldItalic.gen.xgf.diff
 #XGFFILES=$(FAMILY)-Regular.ed.xgf # $(FAMILY)-Italic.ed.xgf $(FAMILY)-Bold.ed.xgf $(FAMILY)-BoldItalic.ed.xgf
