@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1136849748
-ModificationTime: 1263905316
+ModificationTime: 1264079309
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -52,7 +52,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 80 16 14
+WinInfo: 96 16 14
 BeginPrivate: 5
 BlueValues 32 [-16 0 486 500 671 687 739 743 ]
 OtherBlues 31 [-219 -219 -170 -170 -146 -146]
@@ -6021,7 +6021,7 @@ DStem2: 49 58 131 69 0.342473 0.939528<38.4176 217.746 276.867 538.725> 380 678 
 LayerCount: 2
 Fore
 Refer: 33 65 N 1 0 0 1 0 0 3
-Kerns2: 270 14 "LGC kerning subtable"  238 30 "LGC kerning subtable"  274 15 "LGC kerning subtable"  275 22 "LGC kerning subtable"  282 -39 "LGC kerning subtable"  229 31 "LGC kerning subtable" 
+Kerns2: 301 30 "LGC kerning subtable"  270 14 "LGC kerning subtable"  238 30 "LGC kerning subtable"  274 15 "LGC kerning subtable"  275 22 "LGC kerning subtable"  282 -39 "LGC kerning subtable"  229 31 "LGC kerning subtable" 
 EndChar
 
 StartChar: afii10019
@@ -7226,7 +7226,7 @@ SplineSet
  243.221 9.84732 195 -16 110 -16 c 0
  56 -16 18 12 18 56 c 0xa0
 EndSplineSet
-Kerns2: 268 -41 "LGC kerning subtable"  271 -68 "LGC kerning subtable"  274 15 "LGC kerning subtable"  270 14 "LGC kerning subtable"  255 -24 "LGC kerning subtable"  235 -21 "LGC kerning subtable"  275 23 "LGC kerning subtable"  282 -31 "LGC kerning subtable"  229 31 "LGC kerning subtable" 
+Kerns2: 301 30 "LGC kerning subtable"  238 38 "LGC kerning subtable"  268 -41 "LGC kerning subtable"  271 -68 "LGC kerning subtable"  274 15 "LGC kerning subtable"  270 14 "LGC kerning subtable"  255 -24 "LGC kerning subtable"  235 -21 "LGC kerning subtable"  275 23 "LGC kerning subtable"  282 -31 "LGC kerning subtable"  229 31 "LGC kerning subtable" 
 EndChar
 
 StartChar: afii10021
@@ -7490,7 +7490,7 @@ SplineSet
  314 0 l 1
  31 0 l 1x66
 EndSplineSet
-Kerns2: 282 -30 "LGC kerning subtable"  235 -31 "LGC kerning subtable" 
+Kerns2: 229 22 "LGC kerning subtable"  282 -30 "LGC kerning subtable"  235 -31 "LGC kerning subtable" 
 EndChar
 
 StartChar: afii10025
@@ -8016,7 +8016,7 @@ StartChar: afii10095
 Encoding: 1101 1101 291
 Width: 490
 Flags: W
-HStem: -8 72<97.7675 253.442> 49 67<30 97> 207 56<197.043 302.278> 235 56<105.257 211.258> 443 56<125.609 263.479>
+HStem: -8 72<97.7675 253.442> 49 67<30 97> 204 62<197.904 299.911> 232 62<106.299 210.616> 443 56<125.609 263.479>
 VStem: 47 59<343 392.7> 328 132<146.826 351.68>
 LayerCount: 2
 Back
@@ -8051,16 +8051,16 @@ SplineSet
  353 499 460 396 460 238 c 0
  460 101 356 -8 214 -8 c 0x8e
  147 -8 91 10 30 49 c 1x4e
-73 237 m 1
- 98 269 130 291 162 291 c 0x1e
- 204 291 232 263 261 263 c 0
- 274 263 314 266 325 308 c 1
+73 239 m 1
+ 98 271 130 294 162 294 c 0x1e
+ 204 294 233 266 260 266 c 0
+ 271 266 314 266 325 308 c 1
  336 286 l 1
  328 261 l 1
- 309 224 274 207 246 207 c 0x2e
- 205 207 176 235 145 235 c 0x1e
- 131 235 113 234 94 214 c 1
- 73 237 l 1
+ 309 224 274 204 246 204 c 0x2e
+ 205 204 176 232 145 232 c 0x1e
+ 133 232 113 231 95 213 c 1
+ 73 239 l 1
 EndSplineSet
 EndChar
 

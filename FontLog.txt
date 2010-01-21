@@ -12,3 +12,6 @@ Type 1 fonts.
 ChangeLog
 ---------
 
+2010-01-22 Andrey V. Panov
+	Version 0.1 is released.
+
