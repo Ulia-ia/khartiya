@@ -16,6 +16,7 @@ FFSCRIPTS=generate.ff  spaces_dashes.ff  liga_sub.ff \
 #DIFFFILES=$(FAMILY)-Regular.gen.xgf.diff # $(FAMILY)-Italic.gen.xgf.diff $(FAMILY)-Bold.gen.xgf.diff $(FAMILY)-BoldItalic.gen.xgf.diff
 #XGFFILES=$(FAMILY)-Regular.ed.xgf # $(FAMILY)-Italic.ed.xgf $(FAMILY)-Bold.ed.xgf $(FAMILY)-BoldItalic.ed.xgf
 COMPRESS=xz -9
+TEXENC=t1,t2a
 
 INSTALL=install
 DESTDIR=
@@ -79,6 +80,25 @@ $(FAMILY)-BoldItalic.otf: $(FAMILY)-BoldItalic.sfd $(FFSCRIPTS)
 
 ttf: $(OTFFILES) $(TTFFILES)
 
+tex-support: all
+	mkdir -p texmf
+	-rm -rf ./texmf/*
+	TEXMFVAR=`pwd`/texmf autoinst --encoding=$(TEXENC) \
+	--extra="--typeface=$(PKGNAME) --no-updmap  --vendor=public" \
+	$(OTFFILES)
+	mkdir -p texmf/fonts/enc/dvips/$(PKGNAME)
+	mv texmf/fonts/enc/dvips/public/* texmf/fonts/enc/dvips/$(PKGNAME)/
+	-rm -r texmf/fonts/enc/dvips/public
+	mkdir -p texmf/tex/latex/$(PKGNAME)
+	mkdir -p texmf/fonts/map/dvips/$(PKGNAME)
+	mv *$(FAMILY)-TLF.fd texmf/tex/latex/$(PKGNAME)/
+	mv $(FAMILY).sty texmf/tex/latex/$(PKGNAME)/$(PKGNAME).sty
+	mv $(FAMILY).map texmf/fonts/map/dvips/$(PKGNAME)/$(PKGNAME).map
+	mkdir -p texmf/dvips/$(PKGNAME)
+	echo "p +$(PKGNAME).map" > texmf/dvips/$(PKGNAME)/config.$(PKGNAME)
+	mkdir -p texmf/doc/fonts/$(PKGNAME)
+	cp -p $(DOCUMENTS) texmf/doc/fonts/$(PKGNAME)/
+
 dist-src:
 	tar -cvf $(PKGNAME)-src-$(VERSION).tar $(SFDFILES) Makefile \
 	$(FFSCRIPTS) $(DOCUMENTS) $(XGFFILES) $(DIFFFILES)
@@ -98,6 +118,12 @@ dist-pfb: all
 	tar -cvf $(PKGNAME)-pfb-$(VERSION).tar \
 	$(PFBFILES) $(AFMFILES) $(DOCUMENTS)
 	$(COMPRESS) $(PKGNAME)-pfb-$(VERSION).tar
+
+dist-tex:
+	( cd ./texmf ;\
+	tar -cvf ../$(PKGNAME)-tex-$(VERSION).tar \
+	doc dvips fonts tex )
+	$(COMPRESS) $(PKGNAME)-tex-$(VERSION).tar
 
 dist: dist-src dist-otf dist-ttf
 
