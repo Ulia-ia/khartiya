@@ -10,6 +10,7 @@ UnderlinePosition: -109
 UnderlineWidth: 61
 Ascent: 770
 Descent: 230
+Descent: 230
 LayerCount: 2
 Layer: 0 0 "+BBcEMAQ0BD0EOAQ5 +BD8EOwQwBD0A"  1
 Layer: 1 0 "+BB8ENQRABDUENAQ9BDgEOQAA +BD8EOwQwBD0A"  0
@@ -20,9 +21,9 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1136849748
-ModificationTime: 1264079923
+ModificationTime: 1265460676
 PfmFamily: 17
-TTFWeight: 400
+TTFWeight: 500
 TTFWidth: 5
 LineGap: 200
 VLineGap: 0
@@ -52,7 +53,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 16 16
+WinInfo: 0 16 14
 BeginPrivate: 5
 BlueValues 32 [-16 0 481 492 671 689 736 744 ]
 OtherBlues 31 [-218 -218 -170 -170 -146 -146]
