@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1136849748
-ModificationTime: 1265460658
+ModificationTime: 1267704336
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -83,7 +83,7 @@ Grid
  667 613 l 5
  559 58 l 5
 EndSplineSet
-BeginChars: 65536 306
+BeginChars: 65537 307
 
 StartChar: space
 Encoding: 32 32 0
@@ -2434,33 +2434,42 @@ HStem: -7 51<91.5 189.5> 424 26<33 33> 462 20<181 207 207 207> 596 108<186 215.5
 VStem: 49 83<37 86> 147 108<635 664.5 635 665>
 LayerCount: 2
 Fore
-SplineSet
-147 650 m 0
- 147 680 171 704 201 704 c 0
- 230 704 255 679 255 650 c 0
- 255 620 230 596 201 596 c 0
- 171 596 147 619 147 650 c 0
-EndSplineSet
-Refer: 144 305 S 1 0 0 1 0 0 3
+Refer: 306 -1 N 1 0 0 1 0 0 2
+Refer: 144 305 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: j
 Encoding: 106 106 74
 Width: 269
-Flags: W
+Flags: HW
 HStem: -216 66<-91 -3> 430 23<25 25> 462 20<177 213 213 213> 593 108<151.676 238.03>
 VStem: -128 341 141 108<604.463 689.537>
 DStem2: 81 123 157 126 0.155393 0.987853<-179.652 298.409>
 LayerCount: 2
-Fore
+Back
 SplineSet
+-128 -163 m 0
+ -128 -147 -120 -133 -106 -123 c 1
+ -3 -150 l 1
+ 47 -96 61 -4 81 123 c 2
+ 126 418 l 1
+ 25 430 l 1
+ 25 453 l 1
+ 177 482 l 1
+ 213 482 l 1
+ 157 126 l 2
+ 144 42 131 -34 81 -104 c 0
+ 28 -179 -28 -216 -75 -216 c 0
+ -107 -216 -128 -195 -128 -163 c 0
 141 647 m 0xf4
  141 677 165 701 195 701 c 0
  224 701 249 677 249 647 c 0
  249 617 224 593 195 593 c 0
  165 593 141 617 141 647 c 0xf4
 EndSplineSet
-Refer: 228 567 S 1 0 0 1 0 0 3
+Fore
+Refer: 306 -1 N 1 0 0 1 -6 -3 2
+Refer: 228 567 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: k
@@ -3542,12 +3551,8 @@ SplineSet
  121 34 103 -41 59 -103 c 0
  6 -178 -49 -216 -97 -216 c 0
  -129 -216 -151 -195 -151 -163 c 0
-439 650 m 0
- 439 680 463 704 493 704 c 0x28
- 522 704 547 679 547 650 c 0
- 547 620 522 596 493 596 c 0
- 463 596 439 619 439 650 c 0
 EndSplineSet
+Refer: 306 -1 S 1 0 0 1 292 0 2
 EndChar
 
 StartChar: fl
@@ -6311,7 +6316,7 @@ EndChar
 StartChar: afii10105
 Encoding: 1112 1112 251
 Width: 269
-Flags: W
+Flags: HW
 HStem: -216 66<-91 -3> 430 23<25 25> 462 20<177 213 213 213> 593 108<151.676 238.03>
 VStem: -128 341 141 108<604.463 689.537>
 DStem2: 81 123 157 126 0.155393 0.987853<-179.652 298.409>
@@ -6382,7 +6387,7 @@ EndChar
 StartChar: afii10103
 Encoding: 1110 1110 257
 Width: 287
-Flags: W
+Flags: HW
 HStem: -7 51<91.5 189.5> 424 26<33 33> 462 20<181 207 207 207> 596 108<186 215.5>
 VStem: 49 83<37 86> 147 108<635 664.5 635 665>
 LayerCount: 2
@@ -8893,6 +8898,23 @@ SplineSet
  339 180 357 162 357 140 c 0
  357 118 339 100 317 100 c 0
  295 100 278 118 278 140 c 0xfec0
+EndSplineSet
+EndChar
+
+StartChar: dotaccent.i
+Encoding: 65536 -1 306
+Width: 287
+Flags: W
+HStem: 596 108<157.676 243.228>
+VStem: 147 108<607.463 692.228>
+LayerCount: 2
+Fore
+SplineSet
+147 650 m 0
+ 147 680 171 704 201 704 c 0
+ 230 704 255 679 255 650 c 0
+ 255 620 230 596 201 596 c 0
+ 171 596 147 619 147 650 c 0
 EndSplineSet
 EndChar
 EndChars

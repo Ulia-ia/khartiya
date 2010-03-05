@@ -14,9 +14,13 @@ FFSCRIPTS=generate.ff  spaces_dashes.ff  liga_sub.ff \
 	cop_kern.ff cop_kern_mult.ff \
 	COPYING.scripts
 #DIFFFILES=$(FAMILY)-Regular.gen.xgf.diff # $(FAMILY)-Italic.gen.xgf.diff $(FAMILY)-Bold.gen.xgf.diff $(FAMILY)-BoldItalic.gen.xgf.diff
-#XGFFILES=$(FAMILY)-Regular.ed.xgf # $(FAMILY)-Italic.ed.xgf $(FAMILY)-Bold.ed.xgf $(FAMILY)-BoldItalic.ed.xgf
+XGFFILES= upr_functions.xgf \
+	inst_acc.py \
+	$(FAMILY)-Regular.ed.xgf $(FAMILY)-Italic.ed.xgf $(FAMILY)-Bold.ed.xgf $(FAMILY)-BoldItalic.ed.xgf
 COMPRESS=xz -9
 TEXENC=t1,t2a
+#PYTHON=python -W all
+PYTHON=fontforge -lang=py -script 
 
 INSTALL=install
 DESTDIR=
@@ -50,33 +54,45 @@ $(FAMILY)-BoldItalic.otf: $(FAMILY)-BoldItalic.sfd $(FFSCRIPTS)
 #
 # $(FAMILY)-BoldItalic.ttf: $(FAMILY)-BoldItalic.gen.ttf $(FAMILY)-BoldItalic.otf
 # 	cp -p $(FAMILY)-BoldItalic.gen.ttf $(FAMILY)-BoldItalic.ttf
-#
-# $(FAMILY)-Regular.ttf: $(FAMILY)-Regular.otf
-#
-# %.ttf: %.pe %.gen.ttf %.otf
-# 	fontforge -lang=ff -script $*.pe
 
-#%.gen.ttf: %.otf
+$(FAMILY)-Regular_.sfd: $(FAMILY)-Regular.otf
 
-# %.gen.ttx: %.gen.ttf %.otf
+$(FAMILY)-Bold_.sfd: $(FAMILY)-Bold.otf
+
+$(FAMILY)-Italic_.sfd: $(FAMILY)-Italic.otf
+
+$(FAMILY)-BoldItalic_.sfd: $(FAMILY)-BoldItalic.otf
+
+$(FAMILY)-Regular_acc.xgf: $(FAMILY)-Regular_.sfd $(FAMILY)-Regular.otf
+	$(PYTHON) inst_acc.py -c -j -i $(FAMILY)-Regular_.sfd  -o $(FAMILY)-Regular_acc.xgf
+
+$(FAMILY)-Bold_acc.xgf: $(FAMILY)-Bold_.sfd $(FAMILY)-Bold.otf
+	$(PYTHON) inst_acc.py -c -j -i $(FAMILY)-Bold_.sfd  -o $(FAMILY)-Bold_acc.xgf
+
+%.ttf: %.py %_.sfd %.otf
+	fontforge -lang=py -script $*.py
+
+#%_.sfd: %.otf
+
+#%.gen.ttx: %_.sfd %.otf
 # 	-rm $*.gen.ttx
 # 	ttx $*.gen.ttf
-#
+
 # %.gen.xgf: %.gen.ttx
 # 	-rm $*.gen.xgf
 # 	ttx2xgf $*.gen.ttx
-# #	patch -l --no-backup-if-mismatch < $*.gen.xgf.diff
-#
+
 # %.xml: %.gen.xgf %.ed.xgf
 # 	xgfmerge -o $@ $^
-#
-# %.pe: %.xml
-# 	xgridfit -p 25 -G no -i $*.gen.ttf -o $*.ttf $<
 
-#$(FAMILY)-Regular.ttf: $(FAMILY)-Regular.pe # $(FAMILY)-Regular.gen.ttf
-#	fontforge -lang=ff -script $(FAMILY)-Regular.pe
+%_acc.xgf: %_.sfd %.otf
+	$(PYTHON) inst_acc.py -i $*_.sfd  -o $*_acc.xgf
 
-.SECONDARY : *.pe *.xml *.gen.xgf *.gen.ttx
+%.py: %.ed.xgf %_.sfd %_acc.xgf upr_functions.xgf
+	xgridfit -m -p 25 -G no -i $*_.sfd -o $*.ttf -O $*.py $*.ed.xgf
+#	xgridfit -p 25 -G no -i $*_.sfd -o $*.ttf $<
+
+.SECONDARY : *.py *.xml *.gen.xgf *.gen.ttx
 
 ttf: $(OTFFILES) $(TTFFILES)
 
