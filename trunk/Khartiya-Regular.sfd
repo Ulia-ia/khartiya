@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1136849748
-ModificationTime: 1265460676
+ModificationTime: 1267703992
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -46,14 +46,14 @@ MarkAttachClasses: 1
 DEI: 91125
 LangName: 1049 "" "+BCUEMARABEIEOARP" 
 LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "Copyright (c) 2009, Andrey V. Panov (<panov @ canopus.iacp.dvo.ru>),+AAoA-with Reserved Font Name Khartiya.+AAoACgAA-This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoA" "http://scripts.sil.org/OFL" 
-Encoding: UnicodeBmp
+Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none
 NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 16 14
+WinInfo: 32 16 14
 BeginPrivate: 5
 BlueValues 32 [-16 0 481 492 671 689 736 744 ]
 OtherBlues 31 [-218 -218 -170 -170 -146 -146]
@@ -61,7 +61,7 @@ StdHW 4 [43]
 StdVW 4 [83]
 ForceBold 5 false
 EndPrivate
-BeginChars: 65536 306
+BeginChars: 1114113 307
 
 StartChar: space
 Encoding: 32 32 0
@@ -3932,14 +3932,8 @@ SplineSet
  150 486 l 1xe4
 EndSplineSet
 Fore
-SplineSet
-96 650 m 0
- 96 683 122 708 154 708 c 0x18
- 186 708 212 682 212 650 c 0
- 212 618 186 593 154 593 c 0
- 122 593 96 618 96 650 c 0
-EndSplineSet
-Refer: 144 305 S 1 0 0 1 0 0 3
+Refer: 306 -1 S 1 0 0 1 0 0 2
+Refer: 144 305 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: j
@@ -3971,13 +3965,7 @@ SplineSet
  114 593 88 618 88 650 c 0x18
 EndSplineSet
 Fore
-SplineSet
-88 650 m 0x18
- 88 683 114 708 146 708 c 0
- 178 708 204 682 204 650 c 0
- 204 618 178 593 146 593 c 0
- 114 593 88 618 88 650 c 0x18
-EndSplineSet
+Refer: 306 -1 S 1 0 0 1 -8 0 2
 Refer: 228 567 S 1 0 0 1 0 0 3
 EndChar
 
@@ -12673,6 +12661,23 @@ SplineSet
  339 180 357 162 357 140 c 0
  357 118 339 100 317 100 c 0
  295 100 278 118 278 140 c 0xfec0
+EndSplineSet
+EndChar
+
+StartChar: dotaccent.i
+Encoding: 1114112 -1 306
+Width: 280
+Flags: W
+HStem: 593 115<108.381 198.745>
+VStem: 96 116<605.848 694.745>
+LayerCount: 2
+Fore
+SplineSet
+96 650 m 0
+ 96 683 122 708 154 708 c 0
+ 186 708 212 682 212 650 c 0
+ 212 618 186 593 154 593 c 0
+ 122 593 96 618 96 650 c 0
 EndSplineSet
 EndChar
 EndChars

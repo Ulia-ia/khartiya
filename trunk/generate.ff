@@ -1,4 +1,4 @@
-/* Copyright (C) 2008, 2009 Andrey V. Panov
+/* Copyright (C) 2008, 2009, 2010 Andrey V. Panov
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -102,7 +102,7 @@ Generate(fontname+".otf","ttf",0x200A00,-1)
 Generate(fontname+".pfb","",0xa00021)
 SetFontOrder(2)
 SelectGlyphsBoth()
-SelectMoreSingletons("i","j",0u439)
+#SelectMoreSingletons("i","j",0u439)
 #SelectWorthOutputting()
 UnlinkReference()
 SelectWorthOutputting()
@@ -116,5 +116,5 @@ CanonicalStart()
 #SelectWorthOutputting()
 #SelectAll()
 AutoInstr()
-#Save(fontname+"_.sfd")
-Generate(fontname+".ttf","ttf",0xA00,-1)
+Save(fontname+"_.sfd")
+Generate(fontname+".gen.ttf","ttf",0xA00,-1)
