@@ -69,12 +69,12 @@ same_cyrext.ff()
 SelectWorthOutputting()
 DefaultUseMyMetrics()
 SelectNone()
+*/
 combining.ff()
 anchors.ff()
-*/
 spaces_dashes.ff()
-/*
 case_sub.ff()
+/*
 add_accented.ff()
 */
 same_kern.ff(cursive)
