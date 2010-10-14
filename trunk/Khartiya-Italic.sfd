@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1136849748
-ModificationTime: 1277811302
+ModificationTime: 1287050058
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -53,7 +53,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 96 16 14
+WinInfo: 48 16 14
 BeginPrivate: 5
 BlueValues 32 [-17 0 473 487 671 684 732 736 ]
 OtherBlues 32 [-218 -218  -190 -190 -170 -170]
@@ -2154,7 +2154,7 @@ EndChar
 StartChar: a
 Encoding: 97 97 65
 Width: 525
-Flags: MW
+Flags: HMW
 HStem: -9 61<158 179> 443 39<250.5 305.5 303 314 250.5 317>
 VStem: 17 83<132 199.5>
 DStem2: 305 118 388 162 0.193256 0.981148<-10.7514 269.072>
@@ -2174,8 +2174,8 @@ SplineSet
  443 46 461 50 488 56 c 1
  488 26 l 1
  433 3 392 -9 365 -9 c 0
- 323 -9 304 16 304 67 c 0
- 304 70 304 72 304 75 c 1
+ 323 -9 304 16 304 67 c 2
+ 304 75 l 1
  251 19 203 -9 155 -9 c 0
  70 -9 17 56 17 166 c 0
 100 172 m 0
@@ -2183,7 +2183,7 @@ SplineSet
  225 52 264 74 305 118 c 1
  357 382 l 1
  317 443 l 1
- 312 443 308 443 303 443 c 0
+ 303 443 l 2
  186 443 100 331 100 172 c 0
 EndSplineSet
 EndChar
@@ -6188,7 +6188,7 @@ EndChar
 StartChar: afii10065
 Encoding: 1072 1072 240
 Width: 525
-Flags: W
+Flags: HW
 HStem: -9 61<158 179> 443 39<250.5 305.5 303 314 250.5 317>
 VStem: 17 83<132 199.5>
 DStem2: 305 118 388 162 0.193256 0.981148<-10.7514 269.072>
