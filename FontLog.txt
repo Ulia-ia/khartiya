@@ -9,6 +9,26 @@ left intact on all copies of such fonts and that Bitstream's trademark
 is acknowledged as shown below on all unmodified copies of the 4 Charter
 Type 1 fonts.
 
+Build and install instructions
+==============================
+
+You need fontforge (http://fontforge.sourceforge.net/), xgridfit
+(http://xgridfit.sourceforge.net/) and font-helpers
+(http://code.google.com/p/font-helpers/ ) in order to build fonts from
+the sources. Also you should have GNU make and coreutils. At first you
+must unpack/copy files from font-helpers into the directory where *.sfd
+files are located. Then type
+
+make
+
+and truetype fonts will be produced. On systems with X.Org you may do
+
+make install
+
+as root to install fonts system-wide (/usr/share/fonts/TTF). Otherwise
+copy *.ttf files into ~/.fonts/ directory. Then run fc-cache if you have
+fontconfig.
+
 ChangeLog
 ---------
 
