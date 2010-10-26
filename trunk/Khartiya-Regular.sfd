@@ -4,7 +4,7 @@ FullName: Khartiya
 FamilyName: Khartiya
 Weight: Regular
 Copyright: Copyright 1990 as an unpublished work by Bitstream Inc.  All rights reserved.  Confidential.\n\nCopyright (c) 2009, 2010 Andrey V. Panov
-Version: 0.1
+Version: 0.2
 ItalicAngle: 0
 UnderlinePosition: -109
 UnderlineWidth: 61
@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1136849748
-ModificationTime: 1287829739
+ModificationTime: 1288003419
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -52,7 +52,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 112 16 14
+WinInfo: 64 16 14
 BeginPrivate: 5
 BlueValues 32 [-16 0 481 492 671 689 736 744 ]
 OtherBlues 31 [-218 -218 -170 -170 -146 -146]
@@ -60,7 +60,7 @@ StdHW 4 [43]
 StdVW 4 [83]
 ForceBold 5 false
 EndPrivate
-BeginChars: 65537 323
+BeginChars: 65537 324
 
 StartChar: space
 Encoding: 32 32 0
@@ -13081,6 +13081,28 @@ SplineSet
  512 23 l 1
  460 -8 386 -12 346 -12 c 0
  201 -12 89 106 89 336 c 0
+EndSplineSet
+EndChar
+
+StartChar: space_uni030F
+Encoding: 61861 61861 323
+Width: 500
+Flags: MW
+HStem: 546 190
+VStem: 40 340<546 736>
+LayerCount: 2
+Fore
+SplineSet
+40 736 m 1
+ 138 736 l 1
+ 276 546 l 1
+ 229 546 l 1
+ 40 736 l 1
+198 736 m 1
+ 286 736 l 1
+ 380 546 l 1
+ 339 546 l 1
+ 198 736 l 1
 EndSplineSet
 EndChar
 EndChars

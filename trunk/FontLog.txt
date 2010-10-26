@@ -32,6 +32,11 @@ fontconfig.
 ChangeLog
 ---------
 
+2010-10-26 Andrey V. Panov
+	Version 0.2 is released.
+	Added combining diacritics, anchors.
+	Added Russian pre-1918 letters, "Euro".
+
 2010-01-22 Andrey V. Panov
 	Version 0.1 is released.
 

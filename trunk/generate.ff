@@ -57,8 +57,8 @@ endif
 # Select("fi") 
 # AddPosSub("Latin ligatures subtable","f i")
 /* 
-if (cursive)
- h_offset = -12
+if ($italicangle != 0)
+ h_offset = -66
 else
  h_offset = 0
 endif
