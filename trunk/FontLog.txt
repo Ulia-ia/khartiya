@@ -32,6 +32,11 @@ fontconfig.
 ChangeLog
 ---------
 
+2010-12-21 Andrey V. Panov
+	Version 0.3 is released.
+	Added subscript, superscript, denominator and tabular oldstyle figures.
+	Added more vulgar fractions.
+
 2010-10-26 Andrey V. Panov
 	Version 0.2 is released.
 	Added combining diacritics, anchors.
