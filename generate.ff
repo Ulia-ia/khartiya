@@ -1,4 +1,4 @@
-/* Copyright (C) 2008, 2009, 2010 Andrey V. Panov
+/* Copyright (C) 2008, 2009, 2010, 2011 Andrey V. Panov
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -24,6 +24,7 @@ SetPref("CounterControl",1)
 SetPref("PreferSpacingAccents",0)
 Open(fontname+".sfd")
 cursive = $italicangle != 0
+smallcap = fontname == "Khartiya-Regular" || fontname == "Khartiya-Bold"
 Reencode("unicode")
 SelectSingletons(0u409,0u40A,0u429,0u42A,0u42E,0u449,0u44A,0u44E,0u459,0u45A,0u462,0u463,0u472,0u473)
 SelectMoreSingletons(0u492,0u493,0u497,0u49B,0u4A3,0u4BE,0u4BF,0u4F7)
@@ -32,6 +33,11 @@ SelectMoreSingletons(0u26E,0u2A1)
 UnlinkReference()
 Select(0u401,0u4FF)
 SelectMoreSingletons(0u255,0u26B,0u26C,0u26E,0u278,0u291,0u2A1,"Euro")
+if (smallcap)
+ SelectMore("afii10018.sc","afii10049.sc")
+ SelectMore("A.sc","Z.sc")
+ SelectMoreSingletons("afii10147.sc")
+endif
 RemoveOverlap()
 RoundToInt()
 Simplify()
@@ -61,6 +67,12 @@ add_accented.ff()
 */
 same_kern.ff(cursive)
 make_kern.ff(cursive)
+if (smallcap)
+ sc_sub.ff()
+ anchors_sc.ff()
+ same_kern_sc.ff()
+ make_kern_sc.ff()
+endif
 liga_sub.ff()
 ## import BDF files
 /*
