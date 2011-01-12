@@ -1077,7 +1077,7 @@ SplineSet
  319 -12 256 4 207 33 c 0
  103 95 41 207 41 335 c 0
 EndSplineSet
-Kerns2: 313 0 "LGC kerning subtable"  7 37 "LGC kerning subtable"  118 37 "LGC kerning subtable"  13 23 "LGC kerning subtable"  51 19 "LGC kerning subtable"  153 -19 "LGC kerning subtable"  33 -19 "LGC kerning subtable" 
+Kerns2: 33 -19 "LGC kerning subtable"  153 -19 "LGC kerning subtable"  51 19 "LGC kerning subtable"  13 23 "LGC kerning subtable"  118 37 "LGC kerning subtable"  7 37 "LGC kerning subtable" 
 EndChar
 
 StartChar: D
@@ -1109,7 +1109,7 @@ SplineSet
  238 615 l 1
  238 56 l 1
 EndSplineSet
-Kerns2: 313 0 "LGC kerning subtable"  13 37 "LGC kerning subtable"  57 -19 "LGC kerning subtable"  54 -19 "LGC kerning subtable"  153 -19 "LGC kerning subtable"  33 -19 "LGC kerning subtable" 
+Kerns2: 33 -19 "LGC kerning subtable"  153 -19 "LGC kerning subtable"  54 -19 "LGC kerning subtable"  57 -19 "LGC kerning subtable"  13 37 "LGC kerning subtable" 
 EndChar
 
 StartChar: E
@@ -1194,7 +1194,7 @@ SplineSet
  90 617 l 1
  26 622 l 1
 EndSplineSet
-Kerns2: 27 -37 "LGC kerning subtable"  313 0 "LGC kerning subtable"  116 -56 "LGC kerning subtable"  117 -56 "LGC kerning subtable"  14 -190 "LGC kerning subtable"  13 -74 "LGC kerning subtable"  12 -190 "LGC kerning subtable"  26 -37 "LGC kerning subtable"  89 -37 "LGC kerning subtable"  85 -37 "LGC kerning subtable"  82 -37 "LGC kerning subtable"  146 -46 "LGC kerning subtable"  147 -46 "LGC kerning subtable"  79 -46 "LGC kerning subtable"  73 -19 "LGC kerning subtable"  69 -65 "LGC kerning subtable"  143 -79 "LGC kerning subtable"  65 -79 "LGC kerning subtable"  153 -97 "LGC kerning subtable"  33 -97 "LGC kerning subtable" 
+Kerns2: 33 -97 "LGC kerning subtable"  153 -97 "LGC kerning subtable"  65 -79 "LGC kerning subtable"  143 -79 "LGC kerning subtable"  69 -65 "LGC kerning subtable"  73 -19 "LGC kerning subtable"  79 -46 "LGC kerning subtable"  147 -46 "LGC kerning subtable"  146 -46 "LGC kerning subtable"  82 -37 "LGC kerning subtable"  85 -37 "LGC kerning subtable"  89 -37 "LGC kerning subtable"  26 -37 "LGC kerning subtable"  12 -190 "LGC kerning subtable"  13 -74 "LGC kerning subtable"  14 -190 "LGC kerning subtable"  117 -56 "LGC kerning subtable"  116 -56 "LGC kerning subtable"  27 -37 "LGC kerning subtable" 
 EndChar
 
 StartChar: G
@@ -1338,7 +1338,7 @@ SplineSet
  387 75 318 -12 155 -12 c 0
  108 -12 61 -4 12 12 c 1
 EndSplineSet
-Kerns2: 313 0 "LGC kerning subtable"  153 -37 "LGC kerning subtable"  33 -37 "LGC kerning subtable" 
+Kerns2: 33 -37 "LGC kerning subtable"  153 -37 "LGC kerning subtable" 
 EndChar
 
 StartChar: K
@@ -1386,7 +1386,7 @@ SplineSet
  314 0 l 1
  30 0 l 1
 EndSplineSet
-Kerns2: 313 0 "LGC kerning subtable"  116 37 "LGC kerning subtable"  117 37 "LGC kerning subtable"  13 -37 "LGC kerning subtable"  89 -102 "LGC kerning subtable"  57 -28 "LGC kerning subtable"  55 -37 "LGC kerning subtable"  85 -19 "LGC kerning subtable"  53 -37 "LGC kerning subtable"  146 -37 "LGC kerning subtable"  140 -28 "LGC kerning subtable"  147 -37 "LGC kerning subtable"  141 -28 "LGC kerning subtable"  79 -37 "LGC kerning subtable"  47 -28 "LGC kerning subtable"  69 -37 "LGC kerning subtable"  35 -28 "LGC kerning subtable"  143 19 "LGC kerning subtable"  65 19 "LGC kerning subtable"  153 -23 "LGC kerning subtable"  33 -23 "LGC kerning subtable" 
+Kerns2: 33 -23 "LGC kerning subtable"  153 -23 "LGC kerning subtable"  65 19 "LGC kerning subtable"  143 19 "LGC kerning subtable"  35 -28 "LGC kerning subtable"  69 -37 "LGC kerning subtable"  47 -28 "LGC kerning subtable"  79 -37 "LGC kerning subtable"  141 -28 "LGC kerning subtable"  147 -37 "LGC kerning subtable"  140 -28 "LGC kerning subtable"  146 -37 "LGC kerning subtable"  53 -37 "LGC kerning subtable"  85 -19 "LGC kerning subtable"  55 -37 "LGC kerning subtable"  57 -28 "LGC kerning subtable"  89 -102 "LGC kerning subtable"  13 -37 "LGC kerning subtable"  117 37 "LGC kerning subtable"  116 37 "LGC kerning subtable" 
 EndChar
 
 StartChar: L
@@ -1567,7 +1567,7 @@ SplineSet
  238 613 l 1
  238 307 l 1
 EndSplineSet
-Kerns2: 27 -37 "LGC kerning subtable"  313 0 "LGC kerning subtable"  116 -93 "LGC kerning subtable"  117 -93 "LGC kerning subtable"  14 -259 "LGC kerning subtable"  13 -93 "LGC kerning subtable"  12 -259 "LGC kerning subtable"  26 -37 "LGC kerning subtable"  53 -19 "LGC kerning subtable"  146 -32 "LGC kerning subtable"  147 -32 "LGC kerning subtable"  79 -32 "LGC kerning subtable"  69 -37 "LGC kerning subtable"  143 -37 "LGC kerning subtable"  65 -37 "LGC kerning subtable"  153 -93 "LGC kerning subtable"  33 -93 "LGC kerning subtable" 
+Kerns2: 33 -93 "LGC kerning subtable"  153 -93 "LGC kerning subtable"  65 -37 "LGC kerning subtable"  143 -37 "LGC kerning subtable"  69 -37 "LGC kerning subtable"  79 -32 "LGC kerning subtable"  147 -32 "LGC kerning subtable"  146 -32 "LGC kerning subtable"  53 -19 "LGC kerning subtable"  26 -37 "LGC kerning subtable"  12 -259 "LGC kerning subtable"  13 -93 "LGC kerning subtable"  14 -259 "LGC kerning subtable"  117 -93 "LGC kerning subtable"  116 -93 "LGC kerning subtable"  27 -37 "LGC kerning subtable" 
 EndChar
 
 StartChar: Q
@@ -1712,7 +1712,7 @@ SplineSet
  85 494 l 1
  16 494 l 1
 EndSplineSet
-Kerns2: 27 -37 "LGC kerning subtable"  313 0 "LGC kerning subtable"  7 19 "LGC kerning subtable"  64 37 "LGC kerning subtable"  118 19 "LGC kerning subtable"  104 37 "LGC kerning subtable"  14 -148 "LGC kerning subtable"  13 -130 "LGC kerning subtable"  106 -37 "LGC kerning subtable"  105 -37 "LGC kerning subtable"  12 -148 "LGC kerning subtable"  26 -37 "LGC kerning subtable"  89 -93 "LGC kerning subtable"  87 -74 "LGC kerning subtable"  85 -111 "LGC kerning subtable"  52 19 "LGC kerning subtable"  83 -74 "LGC kerning subtable"  82 -74 "LGC kerning subtable"  146 -97 "LGC kerning subtable"  147 -97 "LGC kerning subtable"  79 -97 "LGC kerning subtable"  73 -19 "LGC kerning subtable"  69 -97 "LGC kerning subtable"  67 -97 "LGC kerning subtable"  143 -97 "LGC kerning subtable"  65 -97 "LGC kerning subtable"  153 -111 "LGC kerning subtable"  33 -111 "LGC kerning subtable" 
+Kerns2: 33 -111 "LGC kerning subtable"  153 -111 "LGC kerning subtable"  65 -97 "LGC kerning subtable"  143 -97 "LGC kerning subtable"  67 -97 "LGC kerning subtable"  69 -97 "LGC kerning subtable"  73 -19 "LGC kerning subtable"  79 -97 "LGC kerning subtable"  147 -97 "LGC kerning subtable"  146 -97 "LGC kerning subtable"  82 -74 "LGC kerning subtable"  83 -74 "LGC kerning subtable"  52 19 "LGC kerning subtable"  85 -111 "LGC kerning subtable"  87 -74 "LGC kerning subtable"  89 -93 "LGC kerning subtable"  26 -37 "LGC kerning subtable"  12 -148 "LGC kerning subtable"  105 -37 "LGC kerning subtable"  106 -37 "LGC kerning subtable"  13 -130 "LGC kerning subtable"  14 -148 "LGC kerning subtable"  104 37 "LGC kerning subtable"  118 19 "LGC kerning subtable"  64 37 "LGC kerning subtable"  7 19 "LGC kerning subtable"  27 -37 "LGC kerning subtable" 
 EndChar
 
 StartChar: U
@@ -1749,7 +1749,7 @@ SplineSet
  83 617 l 1
  20 622 l 1
 EndSplineSet
-Kerns2: 313 0 "LGC kerning subtable"  42 -28 "LGC kerning subtable"  153 -32 "LGC kerning subtable"  33 -32 "LGC kerning subtable" 
+Kerns2: 33 -32 "LGC kerning subtable"  153 -32 "LGC kerning subtable"  42 -28 "LGC kerning subtable" 
 EndChar
 
 StartChar: V
@@ -1781,7 +1781,7 @@ SplineSet
  45 610 l 1
  -21 622 l 1
 EndSplineSet
-Kerns2: 27 -102 "LGC kerning subtable"  313 0 "LGC kerning subtable"  116 -74 "LGC kerning subtable"  7 37 "LGC kerning subtable"  118 37 "LGC kerning subtable"  117 -74 "LGC kerning subtable"  14 -222 "LGC kerning subtable"  13 -93 "LGC kerning subtable"  12 -222 "LGC kerning subtable"  26 -102 "LGC kerning subtable"  89 -65 "LGC kerning subtable"  85 -65 "LGC kerning subtable"  146 -93 "LGC kerning subtable"  140 -19 "LGC kerning subtable"  147 -93 "LGC kerning subtable"  141 -19 "LGC kerning subtable"  79 -93 "LGC kerning subtable"  47 -19 "LGC kerning subtable"  73 -28 "LGC kerning subtable"  69 -106 "LGC kerning subtable"  143 -111 "LGC kerning subtable"  65 -111 "LGC kerning subtable"  153 -79 "LGC kerning subtable"  33 -79 "LGC kerning subtable" 
+Kerns2: 33 -79 "LGC kerning subtable"  153 -79 "LGC kerning subtable"  65 -111 "LGC kerning subtable"  143 -111 "LGC kerning subtable"  69 -106 "LGC kerning subtable"  73 -28 "LGC kerning subtable"  47 -19 "LGC kerning subtable"  79 -93 "LGC kerning subtable"  141 -19 "LGC kerning subtable"  147 -93 "LGC kerning subtable"  140 -19 "LGC kerning subtable"  146 -93 "LGC kerning subtable"  85 -65 "LGC kerning subtable"  89 -65 "LGC kerning subtable"  26 -102 "LGC kerning subtable"  12 -222 "LGC kerning subtable"  13 -93 "LGC kerning subtable"  14 -222 "LGC kerning subtable"  117 -74 "LGC kerning subtable"  118 37 "LGC kerning subtable"  7 37 "LGC kerning subtable"  116 -74 "LGC kerning subtable"  27 -102 "LGC kerning subtable" 
 EndChar
 
 StartChar: W
@@ -1819,7 +1819,7 @@ SplineSet
  65 608 l 1
  2 622 l 1
 EndSplineSet
-Kerns2: 27 -88 "LGC kerning subtable"  313 0 "LGC kerning subtable"  116 -37 "LGC kerning subtable"  7 19 "LGC kerning subtable"  118 19 "LGC kerning subtable"  117 -37 "LGC kerning subtable"  14 -176 "LGC kerning subtable"  13 -74 "LGC kerning subtable"  12 -176 "LGC kerning subtable"  26 -88 "LGC kerning subtable"  89 -42 "LGC kerning subtable"  85 -60 "LGC kerning subtable"  82 -65 "LGC kerning subtable"  146 -88 "LGC kerning subtable"  147 -88 "LGC kerning subtable"  79 -88 "LGC kerning subtable"  73 -37 "LGC kerning subtable"  69 -83 "LGC kerning subtable"  143 -88 "LGC kerning subtable"  65 -88 "LGC kerning subtable"  153 -60 "LGC kerning subtable"  33 -60 "LGC kerning subtable" 
+Kerns2: 33 -60 "LGC kerning subtable"  153 -60 "LGC kerning subtable"  65 -88 "LGC kerning subtable"  143 -88 "LGC kerning subtable"  69 -83 "LGC kerning subtable"  73 -37 "LGC kerning subtable"  79 -88 "LGC kerning subtable"  147 -88 "LGC kerning subtable"  146 -88 "LGC kerning subtable"  82 -65 "LGC kerning subtable"  85 -60 "LGC kerning subtable"  89 -42 "LGC kerning subtable"  26 -88 "LGC kerning subtable"  12 -176 "LGC kerning subtable"  13 -74 "LGC kerning subtable"  14 -176 "LGC kerning subtable"  117 -37 "LGC kerning subtable"  118 19 "LGC kerning subtable"  7 19 "LGC kerning subtable"  116 -37 "LGC kerning subtable"  27 -88 "LGC kerning subtable" 
 EndChar
 
 StartChar: X
@@ -1866,7 +1866,7 @@ SplineSet
  231 0 l 1
  0 0 l 1
 EndSplineSet
-Kerns2: 313 0 "LGC kerning subtable"  116 19 "LGC kerning subtable"  117 19 "LGC kerning subtable"  13 -37 "LGC kerning subtable"  140 -19 "LGC kerning subtable"  141 -19 "LGC kerning subtable"  47 -19 "LGC kerning subtable"  69 -37 "LGC kerning subtable"  35 -19 "LGC kerning subtable"  153 -19 "LGC kerning subtable"  33 -19 "LGC kerning subtable" 
+Kerns2: 33 -19 "LGC kerning subtable"  153 -19 "LGC kerning subtable"  35 -19 "LGC kerning subtable"  69 -37 "LGC kerning subtable"  47 -19 "LGC kerning subtable"  141 -19 "LGC kerning subtable"  140 -19 "LGC kerning subtable"  13 -37 "LGC kerning subtable"  117 19 "LGC kerning subtable"  116 19 "LGC kerning subtable" 
 EndChar
 
 StartChar: Y
@@ -1906,7 +1906,7 @@ SplineSet
  53 612 l 1
  -11 622 l 1
 EndSplineSet
-Kerns2: 27 -125 "LGC kerning subtable"  313 0 "LGC kerning subtable"  116 -37 "LGC kerning subtable"  7 28 "LGC kerning subtable"  118 28 "LGC kerning subtable"  117 -37 "LGC kerning subtable"  14 -130 "LGC kerning subtable"  13 -130 "LGC kerning subtable"  106 -56 "LGC kerning subtable"  105 -56 "LGC kerning subtable"  12 -130 "LGC kerning subtable"  26 -125 "LGC kerning subtable"  85 -88 "LGC kerning subtable"  146 -116 "LGC kerning subtable"  147 -116 "LGC kerning subtable"  79 -116 "LGC kerning subtable"  73 -37 "LGC kerning subtable"  69 -125 "LGC kerning subtable"  35 -19 "LGC kerning subtable"  143 -116 "LGC kerning subtable"  65 -116 "LGC kerning subtable"  153 -60 "LGC kerning subtable"  33 -60 "LGC kerning subtable" 
+Kerns2: 33 -60 "LGC kerning subtable"  153 -60 "LGC kerning subtable"  65 -116 "LGC kerning subtable"  143 -116 "LGC kerning subtable"  35 -19 "LGC kerning subtable"  69 -125 "LGC kerning subtable"  73 -37 "LGC kerning subtable"  79 -116 "LGC kerning subtable"  147 -116 "LGC kerning subtable"  146 -116 "LGC kerning subtable"  85 -88 "LGC kerning subtable"  26 -125 "LGC kerning subtable"  12 -130 "LGC kerning subtable"  105 -56 "LGC kerning subtable"  106 -56 "LGC kerning subtable"  13 -130 "LGC kerning subtable"  14 -130 "LGC kerning subtable"  117 -37 "LGC kerning subtable"  118 28 "LGC kerning subtable"  7 28 "LGC kerning subtable"  116 -37 "LGC kerning subtable"  27 -125 "LGC kerning subtable" 
 EndChar
 
 StartChar: Z
@@ -5471,7 +5471,7 @@ SplineSet
  238 321 l 1
  238 56 l 1
 EndSplineSet
-Kerns2: 313 0 "LGC kerning subtable"  13 37 "LGC kerning subtable"  57 -19 "LGC kerning subtable"  54 -19 "LGC kerning subtable"  153 -19 "LGC kerning subtable"  33 -19 "LGC kerning subtable" 
+Kerns2: 33 -19 "LGC kerning subtable"  153 -19 "LGC kerning subtable"  54 -19 "LGC kerning subtable"  57 -19 "LGC kerning subtable"  13 37 "LGC kerning subtable" 
 EndChar
 
 StartChar: Thorn
