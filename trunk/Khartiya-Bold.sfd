@@ -4,7 +4,7 @@ FullName: Khartiya Bold
 FamilyName: Khartiya
 Weight: Bold
 Copyright: Copyright 1990 as an unpublished work by Bitstream Inc.  All rights reserved.  Confidential.\n\nCopyright (c) 2009, 2010, 2011 Andrey V. Panov
-Version: 0.3
+Version: 0.4
 ItalicAngle: 0
 UnderlinePosition: -109
 UnderlineWidth: 90
@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1136849748
-ModificationTime: 1294402264
+ModificationTime: 1294833430
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -45,13 +45,13 @@ MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "Copyright (c) 2009, Andrey V. Panov (<panov @ canopus.iacp.dvo.ru>),+AAoA-with Reserved Font Name Khartiya.+AAoACgAA-This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoA" "http://scripts.sil.org/OFL" 
 LangName: 1049 "" "+BCUEMARABEIEOARP" 
-Encoding: Custom
+Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 240 16 14
+WinInfo: 928 16 14
 BeginPrivate: 5
 BlueValues 32 [-16 0 486 500 671 687 739 743 ]
 OtherBlues 31 [-219 -219 -170 -170 -146 -146]
@@ -60,17 +60,17 @@ StdVW 5 [122]
 ForceBold 5 false
 EndPrivate
 TeXData: 1 0 0 305135 152567 101711 509608 1048576 101711 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 454 454
+BeginChars: 65537 454
 
 StartChar: space
-Encoding: 1 32 0
+Encoding: 32 32 0
 Width: 291
 Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: exclam
-Encoding: 2 33 1
+Encoding: 33 33 1
 Width: 340
 Flags: HMW
 HStem: -7 152<150 190.5> 198 486<146.5 193.5 146.5 197 144 193.5>
@@ -95,7 +95,7 @@ EndSplineSet
 EndChar
 
 StartChar: quotedbl
-Encoding: 3 34 2
+Encoding: 34 34 2
 Width: 339
 Flags: HMW
 HStem: 418 296<78 78 78 97 242 261 242 242>
@@ -116,7 +116,7 @@ Refer: 103 39 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: numbersign
-Encoding: 4 35 3
+Encoding: 35 35 3
 Width: 736
 Flags: HMW
 HStem: -24 20 221 60<56 193 56 212 279 389 56 259 477 634> 416 62<105 256 105 276 343 454 105 323 541 675> 690 20<354 354>
@@ -162,7 +162,7 @@ EndSplineSet
 EndChar
 
 StartChar: dollar
-Encoding: 5 36 4
+Encoding: 36 36 4
 Width: 581
 Flags: HMW
 HStem: -102 20 1 58<266 266 266 321> 607 61<271 271> 722 20<271 324 324 324>
@@ -205,7 +205,7 @@ EndSplineSet
 EndChar
 
 StartChar: percent
-Encoding: 6 37 5
+Encoding: 37 37 5
 Width: 888
 Flags: HW
 HStem: -12 45<671.5 717 671.5 747> 263 46<177.5 222.5 177.5 254> 363 44<672 716.5> 638 45<178 222.5>
@@ -242,7 +242,7 @@ EndSplineSet
 EndChar
 
 StartChar: ampersand
-Encoding: 7 38 6
+Encoding: 38 38 6
 Width: 741
 Flags: HW
 HStem: -12 12 48 21 335 46<502 711 502 711> 627 57<281 329.5>
@@ -287,7 +287,7 @@ EndSplineSet
 EndChar
 
 StartChar: quoteright
-Encoding: 293 8217 7
+Encoding: 8217 8217 7
 Width: 255
 Flags: HMW
 HStem: 395 303<69 156.5>
@@ -308,7 +308,7 @@ EndSplineSet
 EndChar
 
 StartChar: parenleft
-Encoding: 9 40 8
+Encoding: 40 40 8
 Width: 428
 Flags: HMW
 HStem: -142 51<386 386> 667 51<386 386>
@@ -327,7 +327,7 @@ EndSplineSet
 EndChar
 
 StartChar: parenright
-Encoding: 10 41 9
+Encoding: 41 41 9
 Width: 428
 Flags: HMW
 HStem: -142 51<37 37> 667 51<37 37>
@@ -346,7 +346,7 @@ EndSplineSet
 EndChar
 
 StartChar: asterisk
-Encoding: 11 42 10
+Encoding: 42 42 10
 Width: 500
 Flags: HMW
 VStem: 53 393<571 571>
@@ -387,7 +387,7 @@ EndSplineSet
 EndChar
 
 StartChar: plus
-Encoding: 12 43 11
+Encoding: 43 43 11
 Width: 833
 Flags: HMW
 HStem: 258 81<124 375 124 375 458 709>
@@ -412,7 +412,7 @@ EndSplineSet
 EndChar
 
 StartChar: comma
-Encoding: 13 44 12
+Encoding: 44 44 12
 Width: 289
 Flags: HMW
 HStem: -175 304<31 156>
@@ -433,7 +433,7 @@ EndSplineSet
 EndChar
 
 StartChar: hyphen
-Encoding: 14 45 13
+Encoding: 45 45 13
 Width: 326
 Flags: HMW
 HStem: 192 98<36 290 36 290>
@@ -451,7 +451,7 @@ Kerns2: 57 -74 "LGC kerning subtable"  56 -37 "LGC kerning subtable"  55 -56 "LG
 EndChar
 
 StartChar: period
-Encoding: 15 46 14
+Encoding: 46 46 14
 Width: 289
 Flags: W
 HStem: -8 158<90.352 199.648>
@@ -476,7 +476,7 @@ EndSplineSet
 EndChar
 
 StartChar: slash
-Encoding: 16 47 15
+Encoding: 47 47 15
 Width: 491
 Flags: HMW
 HStem: -93 764<-27 471 -27 471>
@@ -493,7 +493,7 @@ EndSplineSet
 EndChar
 
 StartChar: zero
-Encoding: 17 48 16
+Encoding: 48 48 16
 Width: 581
 Flags: HMW
 HStem: -12 57<254.5 333.5 254.5 370.5> 627 56<255.5 333.5>
@@ -515,7 +515,7 @@ EndSplineSet
 EndChar
 
 StartChar: one
-Encoding: 18 49 17
+Encoding: 49 49 17
 Width: 581
 Flags: W
 HStem: 0 50<148 495 148 148> 557 51<109 109> 661 20<325 390 390 390>
@@ -542,7 +542,7 @@ EndSplineSet
 EndChar
 
 StartChar: two
-Encoding: 19 50 18
+Encoding: 50 50 18
 Width: 581
 Flags: HMW
 HStem: 0 102<173 453 173 532> 619 64<241 288>
@@ -570,7 +570,7 @@ EndSplineSet
 EndChar
 
 StartChar: three
-Encoding: 20 51 19
+Encoding: 51 51 19
 Width: 581
 Flags: HW
 HStem: -11 59<243 291 243 330> 310 66<242 263 211.5 291.5> 618 64<230.5 275.5>
@@ -604,7 +604,7 @@ EndSplineSet
 EndChar
 
 StartChar: four
-Encoding: 21 52 20
+Encoding: 52 52 20
 Width: 581
 Flags: HMW
 HStem: -31 20 181 79<116 336 116 336 453 566> 657 20<355 453 453 453>
@@ -633,7 +633,7 @@ EndSplineSet
 EndChar
 
 StartChar: five
-Encoding: 22 53 21
+Encoding: 53 53 21
 Width: 581
 Flags: HMW
 HStem: -9 58<240 288.5 240 326.5> 339 81<196.5 367.5> 567 104<177 489 177 177>
@@ -662,7 +662,7 @@ EndSplineSet
 EndChar
 
 StartChar: six
-Encoding: 23 54 22
+Encoding: 54 54 22
 Width: 581
 Flags: HMW
 HStem: -13 62<268.5 341.5 268.5 371.5> 372 80<318 328.5> 694 20<469 469>
@@ -689,7 +689,7 @@ EndSplineSet
 EndChar
 
 StartChar: seven
-Encoding: 24 55 23
+Encoding: 55 55 23
 Width: 581
 Flags: HMW
 HStem: -34 20 560 111<157 446 157 157>
@@ -713,7 +713,7 @@ EndSplineSet
 EndChar
 
 StartChar: eight
-Encoding: 25 56 24
+Encoding: 56 56 24
 Width: 581
 Flags: HW
 HStem: -15 61<255 329 255 364.5> 625 60<265 324.5>
@@ -744,7 +744,7 @@ EndSplineSet
 EndChar
 
 StartChar: nine
-Encoding: 26 57 25
+Encoding: 57 57 25
 Width: 581
 Flags: HMW
 HStem: -53 20 223 76<187.5 332> 624 59<257.5 327.5>
@@ -771,7 +771,7 @@ EndSplineSet
 EndChar
 
 StartChar: colon
-Encoding: 27 58 26
+Encoding: 58 58 26
 Width: 340
 Flags: HMW
 HStem: -8 159<152 194.5> 330 158<151.5 194.5>
@@ -806,7 +806,7 @@ EndSplineSet
 EndChar
 
 StartChar: semicolon
-Encoding: 28 59 27
+Encoding: 59 59 27
 Width: 340
 Flags: HMW
 HStem: -175 304<68 191> 330 158<151.5 194.5>
@@ -832,7 +832,7 @@ EndSplineSet
 EndChar
 
 StartChar: less
-Encoding: 29 60 28
+Encoding: 60 60 28
 Width: 833
 Flags: HMW
 HStem: 23 551<704 704>
@@ -852,7 +852,7 @@ EndSplineSet
 EndChar
 
 StartChar: equal
-Encoding: 30 61 29
+Encoding: 61 61 29
 Width: 833
 Flags: HMW
 HStem: 157 81<124 709 124 709> 358 82<124 709 124 709>
@@ -874,7 +874,7 @@ EndSplineSet
 EndChar
 
 StartChar: greater
-Encoding: 31 62 30
+Encoding: 62 62 30
 Width: 833
 Flags: HMW
 HStem: 23 551<129 129>
@@ -894,7 +894,7 @@ EndSplineSet
 EndChar
 
 StartChar: question
-Encoding: 32 63 31
+Encoding: 63 63 31
 Width: 487
 Flags: HMW
 HStem: -7 152<176 216.5> 625 58<174 177 174 174.5>
@@ -925,7 +925,7 @@ Kerns2: 14 -126 "LGC kerning subtable"
 EndChar
 
 StartChar: at
-Encoding: 33 64 32
+Encoding: 64 64 32
 Width: 917
 Flags: HMW
 HStem: -153 55<413.5 513.5> 57 70<354.5 457.5> 444 47<475.5 517> 643 49<473 608>
@@ -973,7 +973,7 @@ EndSplineSet
 EndChar
 
 StartChar: A
-Encoding: 34 65 33
+Encoding: 65 65 33
 Width: 651
 Flags: HMW
 HStem: 0 49<-11 204 -11 -11> 238 56<210 386 210 409 191 386> 658 20<275 380 380 380>
@@ -1010,7 +1010,7 @@ Kerns2: 411 -32 "LGC kerning subtable"  408 -32 "LGC kerning subtable"  7 -130 "
 EndChar
 
 StartChar: B
-Encoding: 35 66 34
+Encoding: 66 66 34
 Width: 628
 Flags: W
 HStem: 0 55<29 88 234.796 389.069> 317 55<234 360.56> 617 54<29 88 234.656 368.674>
@@ -1049,7 +1049,7 @@ Kerns2: 13 37 "LGC kerning subtable"  57 -19 "LGC kerning subtable"  55 -19 "LGC
 EndChar
 
 StartChar: C
-Encoding: 36 67 35
+Encoding: 67 67 35
 Width: 638
 Flags: MW
 HStem: -12 63<355 427.5> 618 65<346.5 428>
@@ -1081,7 +1081,7 @@ Kerns2: 33 -19 "LGC kerning subtable"  153 -19 "LGC kerning subtable"  51 19 "LG
 EndChar
 
 StartChar: D
-Encoding: 37 68 36
+Encoding: 68 68 36
 Width: 716
 Flags: HMW
 HStem: 0 56<238 296 296 321> 615 56<238 238 238 296>
@@ -1113,7 +1113,7 @@ Kerns2: 33 -19 "LGC kerning subtable"  153 -19 "LGC kerning subtable"  54 -19 "L
 EndChar
 
 StartChar: E
-Encoding: 38 69 37
+Encoding: 69 69 37
 Width: 596
 Flags: MW
 HStem: 0 57<236 468 236 566> 317 60<236 366 236 366> 615 56<236 435 236 236>
@@ -1156,7 +1156,7 @@ EndSplineSet
 EndChar
 
 StartChar: F
-Encoding: 39 70 38
+Encoding: 70 70 38
 Width: 552
 Flags: HMW
 HStem: 0 49<30 30 30 325> 303 61<238 372 238 372> 613 58<238 431 238 238>
@@ -1198,7 +1198,7 @@ Kerns2: 33 -97 "LGC kerning subtable"  153 -97 "LGC kerning subtable"  65 -79 "L
 EndChar
 
 StartChar: G
-Encoding: 40 71 39
+Encoding: 71 71 39
 Width: 710
 Flags: HMW
 HStem: -12 67<356 428.5> 281 49<398 690 398 690> 619 63<351.5 438 294 440.5>
@@ -1233,7 +1233,7 @@ Kerns2: 13 19 "LGC kerning subtable"  57 -23 "LGC kerning subtable"  55 -19 "LGC
 EndChar
 
 StartChar: H
-Encoding: 41 72 40
+Encoding: 72 72 40
 Width: 760
 Flags: HMW
 HStem: 0 49<30 313 30 30> 322 60<237 526 237 526> 622 49<30 313 30 313>
@@ -1282,7 +1282,7 @@ EndSplineSet
 EndChar
 
 StartChar: I
-Encoding: 42 73 41
+Encoding: 73 73 41
 Width: 354
 Flags: MW
 HStem: 0 49<30 30 30 329> 622 49<30 329 30 329>
@@ -1311,7 +1311,7 @@ EndSplineSet
 EndChar
 
 StartChar: J
-Encoding: 43 74 42
+Encoding: 74 74 42
 Width: 465
 Flags: HMW
 HStem: -12 58<135.5 183.5 135.5 236.5> 622 49<170 464 170 464>
@@ -1342,7 +1342,7 @@ Kerns2: 33 -37 "LGC kerning subtable"  153 -37 "LGC kerning subtable"
 EndChar
 
 StartChar: K
-Encoding: 44 75 43
+Encoding: 75 75 43
 Width: 650
 Flags: MW
 HStem: 0 49<30 30 30 314> 294 47<239 267 239 297 239 267> 622 49<30 314 30 314>
@@ -1390,7 +1390,7 @@ Kerns2: 33 -23 "LGC kerning subtable"  153 -23 "LGC kerning subtable"  65 19 "LG
 EndChar
 
 StartChar: L
-Encoding: 45 76 44
+Encoding: 76 76 44
 Width: 543
 Flags: MW
 HStem: 0 58<238 430 238 532> 622 49<27 315 27 315>
@@ -1422,7 +1422,7 @@ Kerns2: 411 -64 "LGC kerning subtable"  408 -72 "LGC kerning subtable"  406 -56 
 EndChar
 
 StartChar: M
-Encoding: 46 77 45
+Encoding: 77 77 45
 Width: 883
 Flags: MW
 HStem: 0 49<25 25 25 252> 623 48<25 287>
@@ -1469,7 +1469,7 @@ EndSplineSet
 EndChar
 
 StartChar: N
-Encoding: 47 78 46
+Encoding: 78 78 46
 Width: 727
 Flags: HMW
 HStem: 0 48<26 26 26 254> 622 49<25 255>
@@ -1509,7 +1509,7 @@ EndSplineSet
 EndChar
 
 StartChar: O
-Encoding: 48 79 47
+Encoding: 79 79 47
 Width: 752
 Flags: HMW
 HStem: -16 61<324.5 427> 622 64<331.5 421 331.5 434.5>
@@ -1535,7 +1535,7 @@ Kerns2: 14 -60 "LGC kerning subtable"  13 37 "LGC kerning subtable"  12 -60 "LGC
 EndChar
 
 StartChar: P
-Encoding: 49 80 48
+Encoding: 80 80 48
 Width: 587
 Flags: HMW
 HStem: 0 49<29 29 29 324> 247 58<298.5 326 268.5 390> 613 58<238 290 238 238>
@@ -1571,7 +1571,7 @@ Kerns2: 33 -93 "LGC kerning subtable"  153 -93 "LGC kerning subtable"  65 -37 "L
 EndChar
 
 StartChar: Q
-Encoding: 50 81 49
+Encoding: 81 81 49
 Width: 752
 Flags: HMW
 HStem: -178 60<447 603> -2 52 622 65<322 419 315.5 431.5>
@@ -1602,7 +1602,7 @@ Kerns2: 7 19 "LGC kerning subtable"  118 19 "LGC kerning subtable"  13 37 "LGC k
 EndChar
 
 StartChar: R
-Encoding: 51 82 50
+Encoding: 82 82 50
 Width: 671
 Flags: HMW
 HStem: 0 49<31 313 31 31> 295 57<236 325.5 236 325.5> 614 57<236 236 236 282>
@@ -1643,11 +1643,11 @@ SplineSet
  236 614 l 1
  236 353 l 1
 EndSplineSet
-Kerns2: 27 -19 "LGC kerning subtable"  116 37 "LGC kerning subtable"  7 -37 "LGC kerning subtable"  64 -37 "LGC kerning subtable"  118 -37 "LGC kerning subtable"  104 -37 "LGC kerning subtable"  117 37 "LGC kerning subtable"  26 -19 "LGC kerning subtable"  89 -46 "LGC kerning subtable"  57 -51 "LGC kerning subtable"  55 -42 "LGC kerning subtable"  54 -56 "LGC kerning subtable"  85 -37 "LGC kerning subtable"  52 -37 "LGC kerning subtable"  146 -37 "LGC kerning subtable"  147 -37 "LGC kerning subtable"  79 -37 "LGC kerning subtable"  69 -37 "LGC kerning subtable" 
+Kerns2: 401 -30 "LGC kerning subtable"  27 -19 "LGC kerning subtable"  116 37 "LGC kerning subtable"  7 -37 "LGC kerning subtable"  64 -37 "LGC kerning subtable"  118 -37 "LGC kerning subtable"  104 -37 "LGC kerning subtable"  117 37 "LGC kerning subtable"  26 -19 "LGC kerning subtable"  89 -46 "LGC kerning subtable"  57 -51 "LGC kerning subtable"  55 -42 "LGC kerning subtable"  54 -56 "LGC kerning subtable"  85 -37 "LGC kerning subtable"  52 -37 "LGC kerning subtable"  146 -37 "LGC kerning subtable"  147 -37 "LGC kerning subtable"  79 -37 "LGC kerning subtable"  69 -37 "LGC kerning subtable" 
 EndChar
 
 StartChar: S
-Encoding: 52 83 51
+Encoding: 83 83 51
 Width: 568
 Flags: MW
 HStem: -11 65<236.5 292.5 236.5 334> 619 64<284.5 337>
@@ -1682,7 +1682,7 @@ EndSplineSet
 EndChar
 
 StartChar: T
-Encoding: 53 84 52
+Encoding: 84 84 52
 Width: 603
 Flags: HMW
 HStem: 0 49<155 454 155 155> 614 57<117 237 117 117 372 492 372 372>
@@ -1712,11 +1712,11 @@ SplineSet
  85 494 l 1
  16 494 l 1
 EndSplineSet
-Kerns2: 33 -111 "LGC kerning subtable"  153 -111 "LGC kerning subtable"  65 -97 "LGC kerning subtable"  143 -97 "LGC kerning subtable"  67 -97 "LGC kerning subtable"  69 -97 "LGC kerning subtable"  73 -19 "LGC kerning subtable"  79 -97 "LGC kerning subtable"  147 -97 "LGC kerning subtable"  146 -97 "LGC kerning subtable"  82 -74 "LGC kerning subtable"  83 -74 "LGC kerning subtable"  52 19 "LGC kerning subtable"  85 -111 "LGC kerning subtable"  87 -74 "LGC kerning subtable"  89 -93 "LGC kerning subtable"  26 -37 "LGC kerning subtable"  12 -148 "LGC kerning subtable"  105 -37 "LGC kerning subtable"  106 -37 "LGC kerning subtable"  13 -130 "LGC kerning subtable"  14 -148 "LGC kerning subtable"  104 37 "LGC kerning subtable"  118 19 "LGC kerning subtable"  64 37 "LGC kerning subtable"  7 19 "LGC kerning subtable"  27 -37 "LGC kerning subtable" 
+Kerns2: 401 -58 "LGC kerning subtable"  387 -58 "LGC kerning subtable"  33 -111 "LGC kerning subtable"  153 -111 "LGC kerning subtable"  65 -97 "LGC kerning subtable"  143 -97 "LGC kerning subtable"  67 -97 "LGC kerning subtable"  69 -97 "LGC kerning subtable"  73 -19 "LGC kerning subtable"  79 -97 "LGC kerning subtable"  147 -97 "LGC kerning subtable"  146 -97 "LGC kerning subtable"  82 -74 "LGC kerning subtable"  83 -74 "LGC kerning subtable"  52 19 "LGC kerning subtable"  85 -111 "LGC kerning subtable"  87 -74 "LGC kerning subtable"  89 -93 "LGC kerning subtable"  26 -37 "LGC kerning subtable"  12 -148 "LGC kerning subtable"  105 -37 "LGC kerning subtable"  106 -37 "LGC kerning subtable"  13 -130 "LGC kerning subtable"  14 -148 "LGC kerning subtable"  104 37 "LGC kerning subtable"  118 19 "LGC kerning subtable"  64 37 "LGC kerning subtable"  7 19 "LGC kerning subtable"  27 -37 "LGC kerning subtable" 
 EndChar
 
 StartChar: U
-Encoding: 54 85 53
+Encoding: 85 85 53
 Width: 705
 Flags: HMW
 HStem: -12 79<334 449> 622 49<20 307 20 307>
@@ -1753,7 +1753,7 @@ Kerns2: 33 -32 "LGC kerning subtable"  153 -32 "LGC kerning subtable"  42 -28 "L
 EndChar
 
 StartChar: V
-Encoding: 55 86 54
+Encoding: 86 86 54
 Width: 635
 Flags: HMW
 HStem: -2 20 622 49<-21 254 -21 254>
@@ -1785,7 +1785,7 @@ Kerns2: 33 -79 "LGC kerning subtable"  153 -79 "LGC kerning subtable"  65 -111 "
 EndChar
 
 StartChar: W
-Encoding: 56 87 55
+Encoding: 87 87 55
 Width: 946
 Flags: HMW
 HStem: 0 20 622 49<2 264>
@@ -1823,7 +1823,7 @@ Kerns2: 33 -60 "LGC kerning subtable"  153 -60 "LGC kerning subtable"  65 -88 "L
 EndChar
 
 StartChar: X
-Encoding: 57 88 56
+Encoding: 88 88 56
 Width: 637
 Flags: HMW
 HStem: 0 48<0 231 0 0> 623 48<14 297 14 297>
@@ -1866,11 +1866,11 @@ SplineSet
  231 0 l 1
  0 0 l 1
 EndSplineSet
-Kerns2: 33 -19 "LGC kerning subtable"  153 -19 "LGC kerning subtable"  35 -19 "LGC kerning subtable"  69 -37 "LGC kerning subtable"  47 -19 "LGC kerning subtable"  141 -19 "LGC kerning subtable"  140 -19 "LGC kerning subtable"  13 -37 "LGC kerning subtable"  117 19 "LGC kerning subtable"  116 19 "LGC kerning subtable" 
+Kerns2: 401 -25 "LGC kerning subtable"  33 -19 "LGC kerning subtable"  153 -19 "LGC kerning subtable"  35 -19 "LGC kerning subtable"  69 -37 "LGC kerning subtable"  47 -19 "LGC kerning subtable"  141 -19 "LGC kerning subtable"  140 -19 "LGC kerning subtable"  13 -37 "LGC kerning subtable"  117 19 "LGC kerning subtable"  116 19 "LGC kerning subtable" 
 EndChar
 
 StartChar: Y
-Encoding: 58 89 57
+Encoding: 89 89 57
 Width: 610
 Flags: HMW
 HStem: 0 50<162 462 162 162> 622 49<-11 262 -11 262>
@@ -1910,7 +1910,7 @@ Kerns2: 33 -60 "LGC kerning subtable"  153 -60 "LGC kerning subtable"  65 -116 "
 EndChar
 
 StartChar: Z
-Encoding: 59 90 58
+Encoding: 90 90 58
 Width: 592
 Flags: HMW
 HStem: 0 59<194 450 194 550> 613 58<168 394 168 168>
@@ -1940,7 +1940,7 @@ EndSplineSet
 EndChar
 
 StartChar: bracketleft
-Encoding: 60 91 59
+Encoding: 91 91 59
 Width: 443
 Flags: HMW
 HStem: -132 55<251 405 251 405> 652 56<251 405 251 251>
@@ -1961,7 +1961,7 @@ EndSplineSet
 EndChar
 
 StartChar: backslash
-Encoding: 61 92 60
+Encoding: 92 92 60
 Width: 491
 Flags: MW
 HStem: -93 764<-7 486 -7 411>
@@ -1978,7 +1978,7 @@ EndSplineSet
 EndChar
 
 StartChar: bracketright
-Encoding: 62 93 61
+Encoding: 93 93 61
 Width: 443
 Flags: HMW
 HStem: -132 55<42 196 42 312 42 196> 653 55<42 196 42 312>
@@ -1999,7 +1999,7 @@ EndSplineSet
 EndChar
 
 StartChar: asciicircum
-Encoding: 63 94 62
+Encoding: 94 94 62
 Width: 1000
 Flags: HMW
 HStem: 438 276<201 552 201 552 447 797 447 746>
@@ -2019,7 +2019,7 @@ EndSplineSet
 EndChar
 
 StartChar: underscore
-Encoding: 64 95 63
+Encoding: 95 95 63
 Width: 500
 Flags: HMW
 HStem: -236 84<0 500 0 500>
@@ -2036,7 +2036,7 @@ EndSplineSet
 EndChar
 
 StartChar: quoteleft
-Encoding: 292 8216 64
+Encoding: 8216 8216 64
 Width: 255
 Flags: HMW
 HStem: 395 303<112 200>
@@ -2058,7 +2058,7 @@ Kerns2: 89 19 "LGC kerning subtable"  57 37 "LGC kerning subtable"  56 37 "LGC k
 EndChar
 
 StartChar: a
-Encoding: 66 97 65
+Encoding: 97 97 65
 Width: 544
 Flags: HMW
 HStem: -9 9 44 24 261 51<343 344> 446 53<241.5 282>
@@ -2093,7 +2093,7 @@ EndSplineSet
 EndChar
 
 StartChar: b
-Encoding: 67 98 66
+Encoding: 98 98 66
 Width: 577
 Flags: HMW
 HStem: -1 54<192 297.5 192 297.5> 420 78<259 407> 653 39<9 81 9 9> 719 20<157 205 205 205>
@@ -2124,7 +2124,7 @@ EndSplineSet
 EndChar
 
 StartChar: c
-Encoding: 68 99 67
+Encoding: 99 99 67
 Width: 476
 Flags: HMW
 HStem: -8 79<278.5 307> 448 49<267 305.5>
@@ -2149,7 +2149,7 @@ EndSplineSet
 EndChar
 
 StartChar: d
-Encoding: 69 100 68
+Encoding: 100 100 68
 Width: 596
 Flags: HMW
 HStem: -9 9 44 32 444 56<272.5 308.5 219 325.5> 652 40<316 389 316 316> 719 20<465 511 511 511>
@@ -2183,7 +2183,7 @@ EndSplineSet
 EndChar
 
 StartChar: e
-Encoding: 70 101 69
+Encoding: 101 101 69
 Width: 524
 Flags: HMW
 HStem: -9 78<276.5 319> 255 53<170 361 170 492 165 361> 445 55<244 301.5>
@@ -2211,7 +2211,7 @@ EndSplineSet
 EndChar
 
 StartChar: f
-Encoding: 71 102 70
+Encoding: 102 102 70
 Width: 341
 Flags: HMW
 HStem: 0 46<31 31 31 301> 414 60<218 352 218 352> 694 49<257 347>
@@ -2248,7 +2248,7 @@ Kerns2: 7 74 "LGC kerning subtable"  64 37 "LGC kerning subtable"  118 74 "LGC k
 EndChar
 
 StartChar: g
-Encoding: 72 103 71
+Encoding: 103 103 71
 Width: 551
 Flags: HW
 HStem: -217 53<238.5 308 238.5 321.5> 19 86<198 223> 168 45<252.5 288.5 241 323> 411 57<447 555 447 447> 450 47<242 289>
@@ -2290,7 +2290,7 @@ EndSplineSet
 EndChar
 
 StartChar: h
-Encoding: 73 104 72
+Encoding: 104 104 72
 Width: 597
 Flags: HMW
 HStem: 0 45<24 271 24 24> 411 87<295 429> 653 39<16 89 16 16> 719 20<164 212 212 212>
@@ -2330,7 +2330,7 @@ EndSplineSet
 EndChar
 
 StartChar: i
-Encoding: 74 105 73
+Encoding: 105 105 73
 Width: 305
 Flags: HW
 HStem: 0 45<30 292 30 30> 409 40<32 98 32 32> 476 20<173 221 221 221> 575 149<143 184>
@@ -2342,7 +2342,7 @@ Refer: 144 305 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: j
-Encoding: 75 106 74
+Encoding: 106 106 74
 Width: 297
 Flags: W
 HStem: -214 45<-17 76> 409 39<38 109 38 38> 476 20<189 231 231 231> 575 149<114.625 219.75>
@@ -2375,7 +2375,7 @@ Refer: 228 567 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: k
-Encoding: 76 107 75
+Encoding: 107 107 75
 Width: 553
 Flags: HMW
 HStem: 0 44<25 25 25 277> 226 33<214 236 214 263 214 236> 442 44<328 532 328 532> 653 39<18 91 18 18> 719 20<172 214 214 214>
@@ -2419,7 +2419,7 @@ EndSplineSet
 EndChar
 
 StartChar: l
-Encoding: 77 108 76
+Encoding: 108 108 76
 Width: 304
 Flags: MW
 HStem: 0 44<23 23 23 291> 652 39<23 95 23 23> 719 20<174 218 218 218>
@@ -2445,11 +2445,11 @@ EndSplineSet
 EndChar
 
 StartChar: m
-Encoding: 78 109 77
+Encoding: 109 109 77
 Width: 892
-Flags: HW
-HStem: 0 45<31 276 31 31> 412 37 412 88<292 409>
-VStem: 96 124<64 394 64 409 64 409> 394 122<66 309 309 344> 694 123<64 303 303 332 64 340.5>
+Flags: W
+HStem: 0 45<31 82 234 276 339 380 530 575 637 680 830 883> 412 88<298.211 401.355 599.236 718.914>
+VStem: 96 124<64 401.449> 394 122<66 386.75> 694 123<64 384.277>
 LayerCount: 2
 Fore
 SplineSet
@@ -2459,12 +2459,12 @@ SplineSet
  96 64 l 1
  96 409 l 1
  31 409 l 1
- 31 449 l 1xdc
+ 31 449 l 1
  172 496 l 1
  220 496 l 1
  220 437 l 1
  288 477 340 500 384 500 c 0
- 434 500 474 476 501 430 c 1x30
+ 434 500 474 476 501 430 c 1
  581 476 641 498 678 498 c 0
  771 498 817 443 817 332 c 2
  817 64 l 1
@@ -2498,7 +2498,7 @@ EndSplineSet
 EndChar
 
 StartChar: n
-Encoding: 79 110 78
+Encoding: 110 110 78
 Width: 605
 Flags: W
 HStem: 0 45<31 31 31 278> 411 38 411 87<302.5 437>
@@ -2538,7 +2538,7 @@ EndSplineSet
 EndChar
 
 StartChar: o
-Encoding: 80 111 79
+Encoding: 111 111 79
 Width: 577
 Flags: HMW
 HStem: -8 53<256 328 256 367> 446 53<256.5 327.5>
@@ -2561,7 +2561,7 @@ Kerns2: 387 -16 "LGC kerning subtable"
 EndChar
 
 StartChar: p
-Encoding: 81 112 80
+Encoding: 112 112 80
 Width: 591
 Flags: W
 HStem: -219 46<23 77 228 290> -1 54<214.31 348.035> 409 40<22 43.7447> 413 86<283.35 420.522>
@@ -2598,7 +2598,7 @@ EndSplineSet
 EndChar
 
 StartChar: q
-Encoding: 82 113 81
+Encoding: 113 113 81
 Width: 575
 Flags: HMW
 HStem: -218 46<304 571 304 304> -4 79<177.5 322.5> 444 55<281 341>
@@ -2631,7 +2631,7 @@ EndSplineSet
 EndChar
 
 StartChar: r
-Encoding: 83 114 82
+Encoding: 114 114 82
 Width: 421
 Flags: HW
 HStem: 0 45<29 29 29 305> 379 119<282 365> 409 40<24 96 24 24>
@@ -2666,7 +2666,7 @@ Kerns2: 116 -37 "LGC kerning subtable"  117 -37 "LGC kerning subtable"  14 -111 
 EndChar
 
 StartChar: s
-Encoding: 84 115 83
+Encoding: 115 115 83
 Width: 447
 Flags: HMW
 HStem: -11 55<192 234 192 270.5> 444 56<222.5 258.5>
@@ -2699,7 +2699,7 @@ EndSplineSet
 EndChar
 
 StartChar: t
-Encoding: 85 116 84
+Encoding: 116 116 84
 Width: 358
 Flags: HMW
 HStem: -5 73<186.5 303> 414 60<208 356 208 356> 578 20<145 208 208 208>
@@ -2729,7 +2729,7 @@ EndSplineSet
 EndChar
 
 StartChar: u
-Encoding: 86 117 85
+Encoding: 117 117 85
 Width: 600
 Flags: HW
 HStem: -9 86<178.5 319.5> 0 45<393 582> 412 39<23 88 23 23> 479 20<164 212 212 212 470 516 516 516>
@@ -2763,7 +2763,7 @@ EndSplineSet
 EndChar
 
 StartChar: v
-Encoding: 87 118 86
+Encoding: 118 118 86
 Width: 513
 Flags: HMW
 HStem: 0 20 441 46<-6 248 -6 248>
@@ -2795,7 +2795,7 @@ Kerns2: 7 28 "LGC kerning subtable"  118 28 "LGC kerning subtable"  14 -120 "LGC
 EndChar
 
 StartChar: w
-Encoding: 88 119 87
+Encoding: 119 119 87
 Width: 799
 Flags: HMW
 HStem: 0 20 441 46<-1 247 -1 247>
@@ -2833,7 +2833,7 @@ Kerns2: 116 -37 "LGC kerning subtable"  7 19 "LGC kerning subtable"  64 19 "LGC 
 EndChar
 
 StartChar: x
-Encoding: 89 120 88
+Encoding: 120 120 88
 Width: 531
 Flags: HMW
 HStem: 0 44<11 205 11 11> 441 46<14 255>
@@ -2878,7 +2878,7 @@ Kerns2: 146 -19 "LGC kerning subtable"  147 -19 "LGC kerning subtable"  79 -19 "
 EndChar
 
 StartChar: y
-Encoding: 90 121 89
+Encoding: 121 121 89
 Width: 515
 Flags: HMW
 HStem: -219 85<78.5 156> 443 43<-4 250 -4 250>
@@ -2914,7 +2914,7 @@ Kerns2: 64 19 "LGC kerning subtable"  104 19 "LGC kerning subtable"  14 -134 "LG
 EndChar
 
 StartChar: z
-Encoding: 91 122 90
+Encoding: 122 122 90
 Width: 495
 Flags: MW
 HStem: 0 56<185 370 185 465> 432 54<142 304 142 142>
@@ -2944,7 +2944,7 @@ EndSplineSet
 EndChar
 
 StartChar: braceleft
-Encoding: 92 123 91
+Encoding: 123 123 91
 Width: 493
 Flags: HMW
 HStem: -134 53<416 421> 263 57<46 66 46 49.5> 654 51<400 421>
@@ -2976,7 +2976,7 @@ EndSplineSet
 EndChar
 
 StartChar: bar
-Encoding: 93 124 92
+Encoding: 124 124 92
 Width: 500
 Flags: HMW
 HStem: -236 20 744 20<207 294 294 294>
@@ -2993,7 +2993,7 @@ EndSplineSet
 EndChar
 
 StartChar: braceright
-Encoding: 94 125 93
+Encoding: 125 125 93
 Width: 493
 Flags: HMW
 HStem: -135 54<62 168.5> 263 56<373 418.5 371.5 420.5 417 418.5 371.5 437> 654 51<62 83>
@@ -3025,7 +3025,7 @@ EndSplineSet
 EndChar
 
 StartChar: asciitilde
-Encoding: 95 126 94
+Encoding: 126 126 94
 Width: 833
 Flags: HW
 HStem: 224 84<546.5 591> 290 83<247 304.5 247 307>
@@ -3048,7 +3048,7 @@ EndSplineSet
 EndChar
 
 StartChar: exclamdown
-Encoding: 96 161 95
+Encoding: 161 161 95
 Width: 340
 Flags: HMW
 HStem: -8 487<145.5 192> 532 152<149.5 190 149.5 190.5>
@@ -3073,7 +3073,7 @@ EndSplineSet
 EndChar
 
 StartChar: cent
-Encoding: 97 162 96
+Encoding: 162 162 96
 Width: 581
 Flags: HMW
 HStem: -102 20 1 56<360 372> 455 57<360 371.5> 592 20<305 360 360 360>
@@ -3109,7 +3109,7 @@ EndSplineSet
 EndChar
 
 StartChar: sterling
-Encoding: 98 163 97
+Encoding: 163 163 97
 Width: 581
 Flags: HMW
 HStem: 0 100<241 540 241 540> 299 60<76 145 76 146 76 145 269 449 269 269> 625 54<341 390>
@@ -3146,7 +3146,7 @@ EndSplineSet
 EndChar
 
 StartChar: fraction
-Encoding: 305 8260 98
+Encoding: 8260 8260 98
 Width: 167
 Flags: HMW
 HStem: 0 671<-166 332 -166 332>
@@ -3163,7 +3163,7 @@ EndSplineSet
 EndChar
 
 StartChar: yen
-Encoding: 100 165 99
+Encoding: 165 165 99
 Width: 595
 Flags: HMW
 HStem: 0 50<152 451 152 152> 235 49<22 227 22 237 22 227 365 578 365 365> 380 50<22 148 22 178 22 148 446 578> 622 49<-7 256 -7 256>
@@ -3215,7 +3215,7 @@ EndSplineSet
 EndChar
 
 StartChar: florin
-Encoding: 200 402 100
+Encoding: 402 402 100
 Width: 581
 Flags: HMW
 HStem: -148 56<75 167> 309 60<105 215 105 215 105 217 338 338 338 493> 628 55<381 467.5>
@@ -3250,7 +3250,7 @@ EndSplineSet
 EndChar
 
 StartChar: section
-Encoding: 102 167 101
+Encoding: 167 167 101
 Width: 500
 Flags: HMW
 HStem: -142 53<218.5 262.5 218.5 295> 668 51<240.5 283>
@@ -3290,7 +3290,7 @@ EndSplineSet
 EndChar
 
 StartChar: currency
-Encoding: 99 164 102
+Encoding: 164 164 102
 Width: 606
 Flags: HMW
 HStem: 226 65<281 327> 574 65<280 326 280 343>
@@ -3328,7 +3328,7 @@ EndSplineSet
 EndChar
 
 StartChar: quotesingle
-Encoding: 8 39 103
+Encoding: 39 39 103
 Width: 175
 Flags: HMW
 HStem: 418 296<78 78 78 97>
@@ -3348,7 +3348,7 @@ EndSplineSet
 EndChar
 
 StartChar: quotedblleft
-Encoding: 295 8220 104
+Encoding: 8220 8220 104
 Width: 475
 Flags: HMW
 HStem: 395 303<113 200 200 380>
@@ -3379,7 +3379,7 @@ Kerns2: 89 19 "LGC kerning subtable"  57 37 "LGC kerning subtable"  56 37 "LGC k
 EndChar
 
 StartChar: guillemotleft
-Encoding: 106 171 105
+Encoding: 171 171 105
 Width: 449
 Flags: HMW
 HStem: 54 372<208 208 208 404>
@@ -3407,7 +3407,7 @@ EndSplineSet
 EndChar
 
 StartChar: guilsinglleft
-Encoding: 303 8249 106
+Encoding: 8249 8249 106
 Width: 255
 Flags: HMW
 HStem: 54 372<207 207>
@@ -3427,7 +3427,7 @@ EndSplineSet
 EndChar
 
 StartChar: guilsinglright
-Encoding: 304 8250 107
+Encoding: 8250 8250 107
 Width: 255
 Flags: HMW
 HStem: 54 372<38 38>
@@ -3448,7 +3448,7 @@ Kerns2: 57 -56 "LGC kerning subtable"
 EndChar
 
 StartChar: fi
-Encoding: 384 64257 108
+Encoding: 64257 64257 108
 Width: 622
 Flags: HW
 HStem: 0 45<31 286 31 31> 414 60<218 415 218 437> 579 139<466.5 503.5> 693 52<254 341.5>
@@ -3499,7 +3499,7 @@ EndSplineSet
 EndChar
 
 StartChar: fl
-Encoding: 385 64258 109
+Encoding: 64258 64258 109
 Width: 627
 Flags: HMW
 HStem: 0 45<31 286 31 31> 414 60<218 353 218 353> 695 50<258 340>
@@ -3547,7 +3547,7 @@ EndSplineSet
 EndChar
 
 StartChar: endash
-Encoding: 290 8211 110
+Encoding: 8211 8211 110
 Width: 500
 Flags: HMW
 HStem: 195 91<0 500 0 500>
@@ -3564,7 +3564,7 @@ EndSplineSet
 EndChar
 
 StartChar: dagger
-Encoding: 298 8224 111
+Encoding: 8224 8224 111
 Width: 500
 Flags: HMW
 HStem: -130 20 460 42<242 259 242 259> 698 20<250 250>
@@ -3600,7 +3600,7 @@ EndSplineSet
 EndChar
 
 StartChar: daggerdbl
-Encoding: 299 8225 112
+Encoding: 8225 8225 112
 Width: 500
 Flags: HMW
 HStem: -132 20 84 43<243 258 243 259 243 259> 460 42<243 258 258 258> 698 20<250 250>
@@ -3654,7 +3654,7 @@ EndSplineSet
 EndChar
 
 StartChar: periodcentered
-Encoding: 117 183 113
+Encoding: 183 183 113
 Width: 289
 Flags: W
 HStem: 256 158<90.352 199.648>
@@ -3673,7 +3673,7 @@ Refer: 14 46 N 1 0 0 1 0 264 2
 EndChar
 
 StartChar: paragraph
-Encoding: 116 182 114
+Encoding: 182 182 114
 Width: 491
 Flags: HMW
 HStem: -79 20 628 43<261 457>
@@ -3697,7 +3697,7 @@ EndSplineSet
 EndChar
 
 StartChar: bullet
-Encoding: 300 8226 115
+Encoding: 8226 8226 115
 Width: 590
 Flags: MW
 HStem: 227 289<255 334>
@@ -3714,7 +3714,7 @@ EndSplineSet
 EndChar
 
 StartChar: quotesinglbase
-Encoding: 294 8218 116
+Encoding: 8218 8218 116
 Width: 255
 Flags: HMW
 HStem: -174 303<55 141.5>
@@ -3736,7 +3736,7 @@ Kerns2: 57 -19 "LGC kerning subtable"  56 19 "LGC kerning subtable"  54 -37 "LGC
 EndChar
 
 StartChar: quotedblbase
-Encoding: 297 8222 117
+Encoding: 8222 8222 117
 Width: 475
 Flags: HMW
 HStem: -174 303<57 145.5 98 278>
@@ -3767,7 +3767,7 @@ Kerns2: 57 -19 "LGC kerning subtable"  56 19 "LGC kerning subtable"  54 -37 "LGC
 EndChar
 
 StartChar: quotedblright
-Encoding: 296 8221 118
+Encoding: 8221 8221 118
 Width: 475
 Flags: HMW
 HStem: 395 303<69 157.5 110 290>
@@ -3797,7 +3797,7 @@ EndSplineSet
 EndChar
 
 StartChar: guillemotright
-Encoding: 121 187 119
+Encoding: 187 187 119
 Width: 449
 Flags: HMW
 HStem: 54 372<43 43 43 239>
@@ -3819,7 +3819,7 @@ Kerns2: 57 -56 "LGC kerning subtable"
 EndChar
 
 StartChar: ellipsis
-Encoding: 301 8230 120
+Encoding: 8230 8230 120
 Width: 1000
 Flags: W
 HStem: -8 158<112.352 221.648 445.352 554.648 779.352 888.648>
@@ -3832,7 +3832,7 @@ Refer: 14 46 S 1 0 0 1 22 0 2
 EndChar
 
 StartChar: perthousand
-Encoding: 302 8240 121
+Encoding: 8240 8240 121
 Width: 1287
 Flags: HW
 HStem: -12 45<671.5 716.5 671.5 747 1070.5 1115.5> 263 46<178 222.5 178 254> 363 44<672 716.5 1071 1115.5> 638 45<178 222.5>
@@ -3879,7 +3879,7 @@ EndSplineSet
 EndChar
 
 StartChar: questiondown
-Encoding: 125 191 122
+Encoding: 191 191 122
 Width: 487
 Flags: HMW
 HStem: -8 59<297 300 297 317> 531 152<257 298.5>
@@ -3909,7 +3909,7 @@ EndSplineSet
 EndChar
 
 StartChar: grave
-Encoding: 65 96 123
+Encoding: 96 96 123
 Width: 500
 Flags: MW
 HStem: 552 190<86 307 86 239>
@@ -3926,7 +3926,7 @@ EndSplineSet
 EndChar
 
 StartChar: acute
-Encoding: 114 180 124
+Encoding: 180 180 124
 Width: 500
 Flags: HMW
 HStem: 552 190<206 427 206 427>
@@ -3943,7 +3943,7 @@ EndSplineSet
 EndChar
 
 StartChar: circumflex
-Encoding: 202 710 125
+Encoding: 710 710 125
 Width: 500
 Flags: HMW
 HStem: 552 190<96 294 96 294 206 404 206 327>
@@ -3963,7 +3963,7 @@ EndSplineSet
 EndChar
 
 StartChar: tilde
-Encoding: 208 732 126
+Encoding: 732 732 126
 Width: 500
 Flags: HMW
 HStem: 570 152
@@ -3988,7 +3988,7 @@ EndSplineSet
 EndChar
 
 StartChar: macron
-Encoding: 109 175 127
+Encoding: 175 175 127
 Width: 500
 Flags: HMW
 HStem: 604 71<86 417 86 417>
@@ -4005,7 +4005,7 @@ EndSplineSet
 EndChar
 
 StartChar: breve
-Encoding: 204 728 128
+Encoding: 728 728 128
 Width: 500
 Flags: HMW
 HStem: 567 71<214.5 287.5 214.5 305>
@@ -4028,7 +4028,7 @@ EndSplineSet
 EndChar
 
 StartChar: dotaccent
-Encoding: 205 729 129
+Encoding: 729 729 129
 Width: 500
 Flags: HMW
 HStem: 579 134<232 267.5 232 268>
@@ -4045,7 +4045,7 @@ EndSplineSet
 EndChar
 
 StartChar: dieresis
-Encoding: 103 168 130
+Encoding: 168 168 130
 Width: 500
 Flags: HMW
 HStem: 579 131<129.5 164 129.5 164.5 335.5 370>
@@ -4067,7 +4067,7 @@ EndSplineSet
 EndChar
 
 StartChar: ring
-Encoding: 206 730 131
+Encoding: 730 730 131
 Width: 500
 Flags: HMW
 HStem: 546 52<232 268.5 232 283.5> 731 52<232 268.5>
@@ -4089,7 +4089,7 @@ EndSplineSet
 EndChar
 
 StartChar: cedilla
-Encoding: 118 184 132
+Encoding: 184 184 132
 Width: 500
 Flags: HMW
 HStem: -230 50<239.5 253.5 225.5 290> -110 54<246.5 318>
@@ -4114,7 +4114,7 @@ EndSplineSet
 EndChar
 
 StartChar: hungarumlaut
-Encoding: 209 733 133
+Encoding: 733 733 133
 Width: 500
 Flags: HW
 HStem: 552 190<108 311 108 311 239 239 239 305>
@@ -4136,7 +4136,7 @@ EndSplineSet
 EndChar
 
 StartChar: ogonek
-Encoding: 207 731 134
+Encoding: 731 731 134
 Width: 500
 Flags: HMW
 HStem: -224 72<287 289.5> -20 20<245 299 299 299>
@@ -4157,7 +4157,7 @@ EndSplineSet
 EndChar
 
 StartChar: caron
-Encoding: 203 711 135
+Encoding: 711 711 135
 Width: 500
 Flags: MW
 HStem: 551 190<96 294 96 206>
@@ -4177,7 +4177,7 @@ EndSplineSet
 EndChar
 
 StartChar: emdash
-Encoding: 291 8212 136
+Encoding: 8212 8212 136
 Width: 1000
 Flags: MW
 HStem: 196 90<0 1000 0 1000>
@@ -4194,7 +4194,7 @@ EndSplineSet
 EndChar
 
 StartChar: AE
-Encoding: 132 198 137
+Encoding: 198 198 137
 Width: 890
 Flags: MW
 HStem: 0 57<544 764 544 863> 245 59<229 417 229 417 194 417> 317 60<544 663 544 663> 615 56<544 732 544 544>
@@ -4252,7 +4252,7 @@ Kerns2: 13 19 "LGC kerning subtable"
 EndChar
 
 StartChar: ordfeminine
-Encoding: 105 170 138
+Encoding: 170 170 138
 Width: 408
 Flags: HMW
 HStem: 324 6 361 17 513 35<257 258> 642 37<181.5 211.5>
@@ -4287,7 +4287,7 @@ EndSplineSet
 EndChar
 
 StartChar: Lslash
-Encoding: 191 321 139
+Encoding: 321 321 139
 Width: 543
 Flags: HMW
 HStem: 0 58<237 430 237 532> 622 49<27 315 27 315>
@@ -4327,7 +4327,7 @@ Kerns2: 116 19 "LGC kerning subtable"  7 -167 "LGC kerning subtable"  64 -74 "LG
 EndChar
 
 StartChar: Oslash
-Encoding: 150 216 140
+Encoding: 216 216 140
 Width: 752
 Flags: HMW
 HStem: -16 62<358 420> 622 64<323.5 400>
@@ -4364,7 +4364,7 @@ Kerns2: 14 -60 "LGC kerning subtable"  13 37 "LGC kerning subtable"  12 -60 "LGC
 EndChar
 
 StartChar: OE
-Encoding: 193 338 141
+Encoding: 338 338 141
 Width: 1010
 Flags: W
 HStem: -11 66<289.912 439.383> 0 57<662 881> 319 58<662 780> 615 56<662 848> 616 65<292.806 439.265>
@@ -4412,7 +4412,7 @@ EndSplineSet
 EndChar
 
 StartChar: ordmasculine
-Encoding: 120 186 142
+Encoding: 186 186 142
 Width: 433
 Flags: HMW
 HStem: 324 37<192 246 192 275.5> 642 37<192.5 245.5>
@@ -4434,7 +4434,7 @@ EndSplineSet
 EndChar
 
 StartChar: ae
-Encoding: 164 230 143
+Encoding: 230 230 143
 Width: 768
 Flags: HMW
 HStem: -10 78<131 250> 252 52<446 607 444 734 446 446> 443 55<526.5 555.5>
@@ -4478,7 +4478,7 @@ EndSplineSet
 EndChar
 
 StartChar: dotlessi
-Encoding: 190 305 144
+Encoding: 305 305 144
 Width: 305
 Flags: HMW
 HStem: 0 45<30 292 30 30> 409 40<32 98 32 32> 476 20<173 221 221 221>
@@ -4504,7 +4504,7 @@ EndSplineSet
 EndChar
 
 StartChar: lslash
-Encoding: 192 322 145
+Encoding: 322 322 145
 Width: 304
 Flags: HMW
 HStem: 0 44<23 291 23 23> 652 39<23 95 23 23> 719 20<174 218 218 218>
@@ -4538,7 +4538,7 @@ EndSplineSet
 EndChar
 
 StartChar: oslash
-Encoding: 182 248 146
+Encoding: 248 248 146
 Width: 577
 Flags: HMW
 HStem: -8 53<278 328.5 274.5 373> 446 52<254.5 302.5>
@@ -4573,7 +4573,7 @@ EndSplineSet
 EndChar
 
 StartChar: oe
-Encoding: 194 339 147
+Encoding: 339 339 147
 Width: 861
 Flags: HMW
 HStem: -8 53<249 313> 255 53<522 696 522 827 518 696> 445 54<599.5 641.5>
@@ -4609,7 +4609,7 @@ EndSplineSet
 EndChar
 
 StartChar: germandbls
-Encoding: 157 223 148
+Encoding: 223 223 148
 Width: 642
 Flags: HW
 HStem: -8 55<414 449.5 414 487.5> 0 44<18 245> 684 58<290.5 359>
@@ -4651,7 +4651,7 @@ EndSplineSet
 EndChar
 
 StartChar: Aacute
-Encoding: 127 193 149
+Encoding: 193 193 149
 Width: 651
 Flags: HW
 LayerCount: 2
@@ -4661,7 +4661,7 @@ Refer: 124 180 N 1 0 0 1 76 187 2
 EndChar
 
 StartChar: Acircumflex
-Encoding: 128 194 150
+Encoding: 194 194 150
 Width: 651
 Flags: HW
 LayerCount: 2
@@ -4671,7 +4671,7 @@ Refer: 125 710 N 1 0 0 1 76 187 2
 EndChar
 
 StartChar: Adieresis
-Encoding: 130 196 151
+Encoding: 196 196 151
 Width: 651
 Flags: HW
 LayerCount: 2
@@ -4681,7 +4681,7 @@ Refer: 130 168 N 1 0 0 1 76 187 2
 EndChar
 
 StartChar: Agrave
-Encoding: 126 192 152
+Encoding: 192 192 152
 Width: 651
 Flags: HW
 LayerCount: 2
@@ -4691,7 +4691,7 @@ Refer: 123 96 N 1 0 0 1 76 187 2
 EndChar
 
 StartChar: Aring
-Encoding: 131 197 153
+Encoding: 197 197 153
 Width: 651
 Flags: HMW
 HStem: 0 49<-11 204 -11 -11> 238 56<210 386 210 409 191 386> 658 20<275 380 380 380> 726 52<298.5 334 298.5 348.5> 911 52<298.5 334>
@@ -4715,7 +4715,7 @@ Kerns2: 7 -130 "LGC kerning subtable"  118 -130 "LGC kerning subtable"  89 -23 "
 EndChar
 
 StartChar: Atilde
-Encoding: 129 195 154
+Encoding: 195 195 154
 Width: 651
 Flags: HW
 LayerCount: 2
@@ -4725,7 +4725,7 @@ Refer: 126 732 N 1 0 0 1 76 187 2
 EndChar
 
 StartChar: Ccedilla
-Encoding: 133 199 155
+Encoding: 199 199 155
 Width: 638
 Flags: HW
 LayerCount: 2
@@ -4735,7 +4735,7 @@ Refer: 132 184 N 1 0 0 1 135 0 2
 EndChar
 
 StartChar: Eacute
-Encoding: 135 201 156
+Encoding: 201 201 156
 Width: 596
 Flags: HW
 LayerCount: 2
@@ -4745,7 +4745,7 @@ Refer: 124 180 N 1 0 0 1 48 187 2
 EndChar
 
 StartChar: Ecircumflex
-Encoding: 136 202 157
+Encoding: 202 202 157
 Width: 596
 Flags: HW
 LayerCount: 2
@@ -4755,7 +4755,7 @@ Refer: 125 710 N 1 0 0 1 48 187 2
 EndChar
 
 StartChar: Edieresis
-Encoding: 137 203 158
+Encoding: 203 203 158
 Width: 596
 Flags: HW
 LayerCount: 2
@@ -4765,7 +4765,7 @@ Refer: 130 168 N 1 0 0 1 48 187 2
 EndChar
 
 StartChar: Egrave
-Encoding: 134 200 159
+Encoding: 200 200 159
 Width: 596
 Flags: HW
 LayerCount: 2
@@ -4775,7 +4775,7 @@ Refer: 123 96 N 1 0 0 1 48 187 2
 EndChar
 
 StartChar: Iacute
-Encoding: 139 205 160
+Encoding: 205 205 160
 Width: 354
 Flags: HW
 LayerCount: 2
@@ -4785,7 +4785,7 @@ Refer: 124 180 N 1 0 0 1 -73 187 2
 EndChar
 
 StartChar: Icircumflex
-Encoding: 140 206 161
+Encoding: 206 206 161
 Width: 354
 Flags: HW
 LayerCount: 2
@@ -4795,7 +4795,7 @@ Refer: 125 710 N 1 0 0 1 -73 187 2
 EndChar
 
 StartChar: Idieresis
-Encoding: 141 207 162
+Encoding: 207 207 162
 Width: 354
 Flags: HW
 LayerCount: 2
@@ -4805,7 +4805,7 @@ Refer: 130 168 N 1 0 0 1 -73 187 2
 EndChar
 
 StartChar: Igrave
-Encoding: 138 204 163
+Encoding: 204 204 163
 Width: 354
 Flags: HW
 LayerCount: 2
@@ -4815,7 +4815,7 @@ Refer: 123 96 N 1 0 0 1 -73 187 2
 EndChar
 
 StartChar: Ntilde
-Encoding: 143 209 164
+Encoding: 209 209 164
 Width: 727
 Flags: HW
 LayerCount: 2
@@ -4825,7 +4825,7 @@ Refer: 126 732 N 1 0 0 1 114 187 2
 EndChar
 
 StartChar: Oacute
-Encoding: 145 211 165
+Encoding: 211 211 165
 Width: 752
 Flags: HW
 LayerCount: 2
@@ -4835,7 +4835,7 @@ Refer: 124 180 N 1 0 0 1 126 187 2
 EndChar
 
 StartChar: Ocircumflex
-Encoding: 146 212 166
+Encoding: 212 212 166
 Width: 752
 Flags: HW
 LayerCount: 2
@@ -4845,7 +4845,7 @@ Refer: 125 710 N 1 0 0 1 126 187 2
 EndChar
 
 StartChar: Odieresis
-Encoding: 148 214 167
+Encoding: 214 214 167
 Width: 752
 Flags: HW
 LayerCount: 2
@@ -4855,7 +4855,7 @@ Refer: 130 168 N 1 0 0 1 126 187 2
 EndChar
 
 StartChar: Ograve
-Encoding: 144 210 168
+Encoding: 210 210 168
 Width: 752
 Flags: HW
 LayerCount: 2
@@ -4865,7 +4865,7 @@ Refer: 123 96 N 1 0 0 1 126 187 2
 EndChar
 
 StartChar: Otilde
-Encoding: 147 213 169
+Encoding: 213 213 169
 Width: 752
 Flags: HW
 LayerCount: 2
@@ -4875,7 +4875,7 @@ Refer: 126 732 N 1 0 0 1 126 187 2
 EndChar
 
 StartChar: Scaron
-Encoding: 195 352 170
+Encoding: 352 352 170
 Width: 568
 Flags: HW
 LayerCount: 2
@@ -4885,7 +4885,7 @@ Refer: 135 711 N 1 0 0 1 34 187 2
 EndChar
 
 StartChar: Uacute
-Encoding: 152 218 171
+Encoding: 218 218 171
 Width: 705
 Flags: HW
 LayerCount: 2
@@ -4895,7 +4895,7 @@ Refer: 124 180 N 1 0 0 1 103 187 2
 EndChar
 
 StartChar: Ucircumflex
-Encoding: 153 219 172
+Encoding: 219 219 172
 Width: 705
 Flags: HW
 LayerCount: 2
@@ -4905,7 +4905,7 @@ Refer: 125 710 N 1 0 0 1 103 187 2
 EndChar
 
 StartChar: Udieresis
-Encoding: 154 220 173
+Encoding: 220 220 173
 Width: 705
 Flags: HW
 LayerCount: 2
@@ -4915,7 +4915,7 @@ Refer: 130 168 N 1 0 0 1 103 187 2
 EndChar
 
 StartChar: Ugrave
-Encoding: 151 217 174
+Encoding: 217 217 174
 Width: 705
 Flags: HW
 LayerCount: 2
@@ -4925,7 +4925,7 @@ Refer: 123 96 N 1 0 0 1 103 187 2
 EndChar
 
 StartChar: Ydieresis
-Encoding: 197 376 175
+Encoding: 376 376 175
 Width: 610
 Flags: HW
 LayerCount: 2
@@ -4935,7 +4935,7 @@ Refer: 130 168 N 1 0 0 1 55 187 2
 EndChar
 
 StartChar: Zcaron
-Encoding: 198 381 176
+Encoding: 381 381 176
 Width: 592
 Flags: HW
 LayerCount: 2
@@ -4945,7 +4945,7 @@ Refer: 135 711 N 1 0 0 1 46 187 2
 EndChar
 
 StartChar: aacute
-Encoding: 159 225 177
+Encoding: 225 225 177
 Width: 544
 Flags: HW
 LayerCount: 2
@@ -4955,7 +4955,7 @@ Refer: 124 180 N 1 0 0 1 22 0 2
 EndChar
 
 StartChar: acircumflex
-Encoding: 160 226 178
+Encoding: 226 226 178
 Width: 544
 Flags: HW
 LayerCount: 2
@@ -4965,7 +4965,7 @@ Refer: 125 710 N 1 0 0 1 22 0 2
 EndChar
 
 StartChar: adieresis
-Encoding: 162 228 179
+Encoding: 228 228 179
 Width: 544
 Flags: HW
 LayerCount: 2
@@ -4975,7 +4975,7 @@ Refer: 130 168 N 1 0 0 1 22 0 2
 EndChar
 
 StartChar: agrave
-Encoding: 158 224 180
+Encoding: 224 224 180
 Width: 544
 Flags: HW
 LayerCount: 2
@@ -4985,7 +4985,7 @@ Refer: 123 96 N 1 0 0 1 22 0 2
 EndChar
 
 StartChar: aring
-Encoding: 163 229 181
+Encoding: 229 229 181
 Width: 544
 Flags: HW
 HStem: -9 9 44 24 261 51<343 344> 446 53<241.5 282> 546 52<258.5 293.5 258.5 308.5> 731 52<258.5 294>
@@ -5008,7 +5008,7 @@ Refer: 65 97 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: atilde
-Encoding: 161 227 182
+Encoding: 227 227 182
 Width: 544
 Flags: HW
 LayerCount: 2
@@ -5018,7 +5018,7 @@ Refer: 126 732 N 1 0 0 1 22 0 2
 EndChar
 
 StartChar: ccedilla
-Encoding: 165 231 183
+Encoding: 231 231 183
 Width: 476
 Flags: HW
 LayerCount: 2
@@ -5028,7 +5028,7 @@ Refer: 132 184 N 1 0 0 1 14 0 2
 EndChar
 
 StartChar: eacute
-Encoding: 167 233 184
+Encoding: 233 233 184
 Width: 524
 Flags: HW
 LayerCount: 2
@@ -5038,7 +5038,7 @@ Refer: 124 180 N 1 0 0 1 12 0 2
 EndChar
 
 StartChar: ecircumflex
-Encoding: 168 234 185
+Encoding: 234 234 185
 Width: 524
 Flags: HW
 LayerCount: 2
@@ -5048,7 +5048,7 @@ Refer: 125 710 N 1 0 0 1 12 0 2
 EndChar
 
 StartChar: edieresis
-Encoding: 169 235 186
+Encoding: 235 235 186
 Width: 524
 Flags: HW
 LayerCount: 2
@@ -5058,7 +5058,7 @@ Refer: 130 168 N 1 0 0 1 12 0 2
 EndChar
 
 StartChar: egrave
-Encoding: 166 232 187
+Encoding: 232 232 187
 Width: 524
 Flags: HW
 LayerCount: 2
@@ -5068,7 +5068,7 @@ Refer: 123 96 N 1 0 0 1 12 0 2
 EndChar
 
 StartChar: iacute
-Encoding: 171 237 188
+Encoding: 237 237 188
 Width: 305
 Flags: HW
 LayerCount: 2
@@ -5078,7 +5078,7 @@ Refer: 124 180 N 1 0 0 1 -97 0 2
 EndChar
 
 StartChar: icircumflex
-Encoding: 172 238 189
+Encoding: 238 238 189
 Width: 305
 Flags: HW
 LayerCount: 2
@@ -5088,7 +5088,7 @@ Refer: 125 710 N 1 0 0 1 -97 0 2
 EndChar
 
 StartChar: idieresis
-Encoding: 173 239 190
+Encoding: 239 239 190
 Width: 305
 Flags: HW
 LayerCount: 2
@@ -5098,7 +5098,7 @@ Refer: 130 168 N 1 0 0 1 -97 0 2
 EndChar
 
 StartChar: igrave
-Encoding: 170 236 191
+Encoding: 236 236 191
 Width: 305
 Flags: HW
 LayerCount: 2
@@ -5108,7 +5108,7 @@ Refer: 123 96 N 1 0 0 1 -97 0 2
 EndChar
 
 StartChar: ntilde
-Encoding: 175 241 192
+Encoding: 241 241 192
 Width: 605
 Flags: HW
 LayerCount: 2
@@ -5118,7 +5118,7 @@ Refer: 126 732 N 1 0 0 1 53 0 2
 EndChar
 
 StartChar: oacute
-Encoding: 177 243 193
+Encoding: 243 243 193
 Width: 577
 Flags: HW
 LayerCount: 2
@@ -5128,7 +5128,7 @@ Refer: 124 180 N 1 0 0 1 39 0 2
 EndChar
 
 StartChar: ocircumflex
-Encoding: 178 244 194
+Encoding: 244 244 194
 Width: 577
 Flags: HW
 LayerCount: 2
@@ -5138,7 +5138,7 @@ Refer: 125 710 N 1 0 0 1 39 0 2
 EndChar
 
 StartChar: odieresis
-Encoding: 180 246 195
+Encoding: 246 246 195
 Width: 577
 Flags: HW
 LayerCount: 2
@@ -5148,7 +5148,7 @@ Refer: 130 168 N 1 0 0 1 39 0 2
 EndChar
 
 StartChar: ograve
-Encoding: 176 242 196
+Encoding: 242 242 196
 Width: 577
 Flags: HW
 LayerCount: 2
@@ -5158,7 +5158,7 @@ Refer: 123 96 N 1 0 0 1 39 0 2
 EndChar
 
 StartChar: otilde
-Encoding: 179 245 197
+Encoding: 245 245 197
 Width: 577
 Flags: HW
 LayerCount: 2
@@ -5168,7 +5168,7 @@ Refer: 126 732 N 1 0 0 1 39 0 2
 EndChar
 
 StartChar: scaron
-Encoding: 196 353 198
+Encoding: 353 353 198
 Width: 447
 Flags: HW
 LayerCount: 2
@@ -5178,7 +5178,7 @@ Refer: 135 711 N 1 0 0 1 -26 0 2
 EndChar
 
 StartChar: uacute
-Encoding: 184 250 199
+Encoding: 250 250 199
 Width: 600
 Flags: HW
 LayerCount: 2
@@ -5188,7 +5188,7 @@ Refer: 124 180 N 1 0 0 1 50 0 2
 EndChar
 
 StartChar: ucircumflex
-Encoding: 185 251 200
+Encoding: 251 251 200
 Width: 600
 Flags: HW
 LayerCount: 2
@@ -5198,7 +5198,7 @@ Refer: 125 710 N 1 0 0 1 50 0 2
 EndChar
 
 StartChar: udieresis
-Encoding: 186 252 201
+Encoding: 252 252 201
 Width: 600
 Flags: HW
 LayerCount: 2
@@ -5208,7 +5208,7 @@ Refer: 130 168 N 1 0 0 1 50 0 2
 EndChar
 
 StartChar: ugrave
-Encoding: 183 249 202
+Encoding: 249 249 202
 Width: 600
 Flags: HW
 LayerCount: 2
@@ -5218,7 +5218,7 @@ Refer: 123 96 N 1 0 0 1 50 0 2
 EndChar
 
 StartChar: ydieresis
-Encoding: 189 255 203
+Encoding: 255 255 203
 Width: 515
 Flags: HW
 LayerCount: 2
@@ -5228,7 +5228,7 @@ Refer: 130 168 N 1 0 0 1 8 0 2
 EndChar
 
 StartChar: zcaron
-Encoding: 199 382 204
+Encoding: 382 382 204
 Width: 495
 Flags: HW
 LayerCount: 2
@@ -5238,7 +5238,7 @@ Refer: 135 711 N 1 0 0 1 -2 0 2
 EndChar
 
 StartChar: trademark
-Encoding: 335 8482 205
+Encoding: 8482 8482 205
 Width: 800
 Flags: HMW
 HStem: 398 25<163 290 163 163> 637 25<156 198 156 156 256 298 256 256>
@@ -5297,7 +5297,7 @@ EndSplineSet
 EndChar
 
 StartChar: copyright
-Encoding: 104 169 206
+Encoding: 169 169 206
 Width: 876
 Flags: HMW
 HStem: -50 46<398 487.5 398 490.5> 103 49<426.5 478.5> 525 48<427.5 482> 684 45<399.5 486.5>
@@ -5342,7 +5342,7 @@ EndSplineSet
 EndChar
 
 StartChar: logicalnot
-Encoding: 107 172 207
+Encoding: 172 172 207
 Width: 833
 Flags: HMW
 HStem: 340 81<124 628 124 709>
@@ -5361,7 +5361,7 @@ EndSplineSet
 EndChar
 
 StartChar: registered
-Encoding: 108 174 208
+Encoding: 174 174 208
 Width: 876
 Flags: HMW
 HStem: -50 46<397.5 487.5 397.5 490.5> 122 37<690 695> 313 41<391 446 391 446> 519 40<408 445.5> 684 45<400 487.5>
@@ -5419,7 +5419,7 @@ EndSplineSet
 EndChar
 
 StartChar: minus
-Encoding: 352 8722 209
+Encoding: 8722 8722 209
 Width: 833
 Flags: HMW
 HStem: 257 83<124 709 124 709>
@@ -5436,7 +5436,7 @@ EndSplineSet
 EndChar
 
 StartChar: Eth
-Encoding: 142 208 210
+Encoding: 208 208 210
 Width: 716
 Flags: HMW
 HStem: 0 56<238 296 296 320> 321 61<15 105 15 105 238 379> 615 56<238 238 238 296>
@@ -5475,7 +5475,7 @@ Kerns2: 33 -19 "LGC kerning subtable"  153 -19 "LGC kerning subtable"  54 -19 "L
 EndChar
 
 StartChar: Thorn
-Encoding: 156 222 211
+Encoding: 222 222 211
 Width: 587
 Flags: HMW
 HStem: 0 49<32 323 32 32> 128 58<302.5 329 270.5 393> 492 56<272 298 298 330> 622 49<32 323 32 323>
@@ -5515,7 +5515,7 @@ EndSplineSet
 EndChar
 
 StartChar: Yacute
-Encoding: 155 221 212
+Encoding: 221 221 212
 Width: 610
 Flags: HW
 LayerCount: 2
@@ -5525,7 +5525,7 @@ Refer: 124 180 N 1 0 0 1 55 187 2
 EndChar
 
 StartChar: brokenbar
-Encoding: 101 166 213
+Encoding: 166 166 213
 Width: 500
 Flags: HMW
 HStem: -171 20 199 130<207 294 207 294> 679 20<207 294 294 294>
@@ -5547,7 +5547,7 @@ EndSplineSet
 EndChar
 
 StartChar: degree
-Encoding: 110 176 214
+Encoding: 176 176 214
 Width: 329
 Flags: HMW
 HStem: 424 54<140 190.5 140 204.5> 659 54<140 190>
@@ -5569,7 +5569,7 @@ EndSplineSet
 EndChar
 
 StartChar: divide
-Encoding: 181 247 215
+Encoding: 247 247 215
 Width: 833
 Flags: HMW
 HStem: 46 133<399 435.5 399 436> 258 81<124 709 124 709> 417 134<399 435.5 399 436>
@@ -5596,7 +5596,7 @@ EndSplineSet
 EndChar
 
 StartChar: eth
-Encoding: 174 240 216
+Encoding: 240 240 216
 Width: 569
 Flags: HMW
 HStem: -9 53<253.5 328 253.5 366> 436 50<265.5 287 205 317.5> 724 20<270 270>
@@ -5632,7 +5632,7 @@ EndSplineSet
 EndChar
 
 StartChar: micro
-Encoding: 115 181 217
+Encoding: 181 181 217
 Width: 578
 Flags: HMW
 HStem: -205 20 -12 81<175 223> 412 20<86 187 187 187 355 457 457 457>
@@ -5667,7 +5667,7 @@ EndSplineSet
 EndChar
 
 StartChar: multiply
-Encoding: 149 215 218
+Encoding: 215 215 218
 Width: 833
 Flags: HMW
 HStem: 16 564<197 197 197 646>
@@ -5692,7 +5692,7 @@ EndSplineSet
 EndChar
 
 StartChar: onehalf
-Encoding: 123 189 219
+Encoding: 189 189 219
 Width: 899
 Flags: HW
 HStem: 0 57<642 818 642 868> 0 671<200 698 200 698 563 698 628 698 628 868> 295 28<93 312 93 93> 347 35<684.5 714> 607 28<69 69> 665 11
@@ -5705,7 +5705,7 @@ Refer: 98 8260 N 1 0 0 1 366 0 2
 EndChar
 
 StartChar: onequarter
-Encoding: 122 188 220
+Encoding: 188 188 220
 Width: 899
 Flags: HW
 HStem: -17 11 0 671<200 698 200 698> 101 45<606 745 606 745 818 890> 295 28<93 312 93 93> 368 11 607 28<69 69> 665 11
@@ -5718,7 +5718,7 @@ Refer: 98 8260 N 1 0 0 1 366 0 2
 EndChar
 
 StartChar: onesuperior
-Encoding: 119 185 221
+Encoding: 185 185 221
 Width: 383
 Flags: HMW
 HStem: 268 30<98 327 98 98> 602 31<72 72> 665 12
@@ -5745,7 +5745,7 @@ EndSplineSet
 EndChar
 
 StartChar: plusminus
-Encoding: 111 177 222
+Encoding: 177 177 222
 Width: 833
 Flags: HMW
 HStem: 7 82<124 709 124 709> 345 81<124 375 124 375 458 709>
@@ -5775,7 +5775,7 @@ EndSplineSet
 EndChar
 
 StartChar: thorn
-Encoding: 188 254 223
+Encoding: 254 254 223
 Width: 591
 Flags: HMW
 HStem: -219 46<25 25 25 293> -1 54<286 323 269 378.5> 413 86<282 426> 652 39<20 93 20 20> 719 20<171 215 215 215>
@@ -5812,7 +5812,7 @@ EndSplineSet
 EndChar
 
 StartChar: threequarters
-Encoding: 124 190 224
+Encoding: 190 190 224
 Width: 899
 Flags: HW
 HStem: -17 11 0 671<200 698 200 698> 101 45<606 745 606 745 818 890> 289 33<153 183 153 208> 368 11 469 37<152.5 165.5 118 183.5> 641 36<145.5 174>
@@ -5825,7 +5825,7 @@ Refer: 98 8260 N 1 0 0 1 366 0 2
 EndChar
 
 StartChar: threesuperior
-Encoding: 113 179 225
+Encoding: 179 179 225
 Width: 383
 Flags: HW
 HStem: 261 36<160.5 192 160.5 218> 454 40<159.5 174 123 192> 639 38<152.5 182>
@@ -5859,7 +5859,7 @@ EndSplineSet
 EndChar
 
 StartChar: twosuperior
-Encoding: 112 178 226
+Encoding: 178 178 226
 Width: 383
 Flags: HMW
 HStem: 268 61<114 299 114 351> 639 39<159 190>
@@ -5887,7 +5887,7 @@ EndSplineSet
 EndChar
 
 StartChar: yacute
-Encoding: 187 253 227
+Encoding: 253 253 227
 Width: 515
 Flags: HW
 LayerCount: 2
@@ -5897,7 +5897,7 @@ Refer: 124 180 N 1 0 0 1 8 0 2
 EndChar
 
 StartChar: uni0237
-Encoding: 201 567 228
+Encoding: 567 567 228
 Width: 297
 Flags: HMW
 HStem: -214 45<-17 76> 409 39<38 109 38 38> 476 20<189 231 231 231>
@@ -5922,7 +5922,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10017
-Encoding: 215 1040 229
+Encoding: 1040 1040 229
 Width: 651
 Flags: W
 HStem: 0 49<-11 204 -11 -11> 238 56<210 386 210 409 191 386> 658 20<275 380 380 380>
@@ -5935,7 +5935,7 @@ Kerns2: 320 -48 "LGC kerning subtable"  440 -72 "LGC kerning subtable"  436 -24 
 EndChar
 
 StartChar: afii10019
-Encoding: 217 1042 230
+Encoding: 1042 1042 230
 Width: 628
 Flags: W
 HStem: 0 55<29 88 234.796 389.069> 317 55<234 360.56> 617 54<29 88 234.656 368.674>
@@ -5947,7 +5947,7 @@ Kerns2: 282 -32 "LGC kerning subtable"
 EndChar
 
 StartChar: afii10022
-Encoding: 220 1045 231
+Encoding: 1045 1045 231
 Width: 596
 Flags: W
 HStem: 0 57<236 468 236 566> 317 60<236 366 236 366> 615 56<236 435 236 236>
@@ -5958,7 +5958,7 @@ Refer: 37 69 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: afii10031
-Encoding: 228 1053 232
+Encoding: 1053 1053 232
 Width: 760
 Flags: W
 HStem: 0 49<30 313 30 30> 322 60<237 526 237 526> 622 49<30 313 30 313>
@@ -5969,7 +5969,7 @@ Refer: 40 72 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: afii10055
-Encoding: 212 1030 233
+Encoding: 1030 1030 233
 Width: 354
 Flags: HW
 LayerCount: 2
@@ -5978,7 +5978,7 @@ Refer: 41 73 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: afii10030
-Encoding: 227 1052 234
+Encoding: 1052 1052 234
 Width: 883
 Flags: HW
 LayerCount: 2
@@ -5987,7 +5987,7 @@ Refer: 45 77 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: afii10032
-Encoding: 229 1054 235
+Encoding: 1054 1054 235
 Width: 752
 Flags: W
 HStem: -16 61<324.5 427> 622 64<331.5 421 331.5 434.5>
@@ -5999,7 +5999,7 @@ Kerns2: 282 -31 "LGC kerning subtable"  274 -71 "LGC kerning subtable"  301 -31 
 EndChar
 
 StartChar: afii10034
-Encoding: 231 1056 236
+Encoding: 1056 1056 236
 Width: 587
 Flags: W
 HStem: 0 49<29 29 29 324> 247 58<298.5 326 268.5 390> 613 58<238 290 238 238>
@@ -6011,7 +6011,7 @@ Kerns2: 421 -48 "LGC kerning subtable"  299 -39 "LGC kerning subtable"  287 -126
 EndChar
 
 StartChar: afii10036
-Encoding: 233 1058 237
+Encoding: 1058 1058 237
 Width: 603
 Flags: W
 HStem: 0 49<155 454 155 155> 614 57<117 237 117 117 372 492 372 372>
@@ -6019,11 +6019,11 @@ VStem: 237 135<70 614 70 614>
 LayerCount: 2
 Fore
 Refer: 52 84 N 1 0 0 1 0 0 3
-Kerns2: 299 -55 "LGC kerning subtable"  303 -23 "LGC kerning subtable"  286 -30 "LGC kerning subtable"  279 -55 "LGC kerning subtable"  255 -15 "LGC kerning subtable"  269 -31 "LGC kerning subtable"  287 -126 "LGC kerning subtable"  293 -30 "LGC kerning subtable"  302 -31 "LGC kerning subtable"  288 -71 "LGC kerning subtable"  270 -30 "LGC kerning subtable"  267 -23 "LGC kerning subtable"  274 -118 "LGC kerning subtable"  275 -95 "LGC kerning subtable" 
+Kerns2: 448 -58 "LGC kerning subtable"  428 -68 "LGC kerning subtable"  299 -55 "LGC kerning subtable"  303 -23 "LGC kerning subtable"  286 -30 "LGC kerning subtable"  279 -55 "LGC kerning subtable"  255 -15 "LGC kerning subtable"  269 -31 "LGC kerning subtable"  287 -126 "LGC kerning subtable"  293 -30 "LGC kerning subtable"  302 -31 "LGC kerning subtable"  288 -71 "LGC kerning subtable"  270 -30 "LGC kerning subtable"  267 -23 "LGC kerning subtable"  274 -118 "LGC kerning subtable"  275 -95 "LGC kerning subtable" 
 EndChar
 
 StartChar: afii10039
-Encoding: 236 1061 238
+Encoding: 1061 1061 238
 Width: 637
 Flags: W
 HStem: 0 48<0 231 0 0> 623 48<14 297 14 297>
@@ -6036,7 +6036,7 @@ Kerns2: 238 29 "LGC kerning subtable"  275 14 "LGC kerning subtable"  229 30 "LG
 EndChar
 
 StartChar: afii10035
-Encoding: 232 1057 239
+Encoding: 1057 1057 239
 Width: 638
 Flags: HW
 LayerCount: 2
@@ -6045,7 +6045,7 @@ Refer: 35 67 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: afii10065
-Encoding: 247 1072 240
+Encoding: 1072 1072 240
 Width: 544
 Flags: W
 HStem: -9 9 44 24 261 51<343 344> 446 53<241.5 282>
@@ -6057,7 +6057,7 @@ Kerns2: 321 -24 "LGC kerning subtable"  286 -31 "LGC kerning subtable"
 EndChar
 
 StartChar: afii10070
-Encoding: 252 1077 241
+Encoding: 1077 1077 241
 Width: 524
 Flags: W
 HStem: -9 78<276.5 319> 255 53<170 361 170 492 165 361> 445 55<244 301.5>
@@ -6068,7 +6068,7 @@ Refer: 69 101 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: afii10080
-Encoding: 261 1086 242
+Encoding: 1086 1086 242
 Width: 577
 Flags: W
 HStem: -8 53<256 328 256 367> 446 53<256.5 327.5>
@@ -6080,7 +6080,7 @@ Kerns2: 286 -31 "LGC kerning subtable"  287 -39 "LGC kerning subtable"  288 -39 
 EndChar
 
 StartChar: afii10082
-Encoding: 263 1088 243
+Encoding: 1088 1088 243
 Width: 591
 Flags: W
 HStem: -219 46<23 77 228 290> -1 54<214.31 348.035> 409 40<22 43.7447> 413 86<283.35 420.522>
@@ -6091,7 +6091,7 @@ Refer: 80 112 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: afii10083
-Encoding: 264 1089 244
+Encoding: 1089 1089 244
 Width: 476
 Flags: HW
 LayerCount: 2
@@ -6100,7 +6100,7 @@ Refer: 67 99 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: afii10087
-Encoding: 268 1093 245
+Encoding: 1093 1093 245
 Width: 531
 Flags: W
 HStem: 0 44<11 205 11 11> 441 46<14 255>
@@ -6112,7 +6112,7 @@ Refer: 88 120 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: afii10102
-Encoding: 280 1109 246
+Encoding: 1109 1109 246
 Width: 447
 Flags: HW
 LayerCount: 2
@@ -6121,7 +6121,7 @@ Refer: 83 115 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: afii10054
-Encoding: 211 1029 247
+Encoding: 1029 1029 247
 Width: 568
 Flags: HW
 LayerCount: 2
@@ -6130,7 +6130,7 @@ Refer: 51 83 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: afii10105
-Encoding: 283 1112 248
+Encoding: 1112 1112 248
 Width: 297
 Flags: HW
 LayerCount: 2
@@ -6139,7 +6139,7 @@ Refer: 74 106 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: afii10057
-Encoding: 214 1032 249
+Encoding: 1032 1032 249
 Width: 465
 Flags: HW
 LayerCount: 2
@@ -6148,7 +6148,7 @@ Refer: 42 74 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: afii10056
-Encoding: 213 1031 250
+Encoding: 1031 1031 250
 Width: 354
 Flags: HW
 LayerCount: 2
@@ -6157,7 +6157,7 @@ Refer: 162 207 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: afii10104
-Encoding: 282 1111 251
+Encoding: 1111 1111 251
 Width: 305
 Flags: HW
 LayerCount: 2
@@ -6166,7 +6166,7 @@ Refer: 190 239 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: afii10023
-Encoding: 210 1025 252
+Encoding: 1025 1025 252
 Width: 596
 Flags: HW
 LayerCount: 2
@@ -6175,7 +6175,7 @@ Refer: 158 203 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: afii10071
-Encoding: 279 1105 253
+Encoding: 1105 1105 253
 Width: 524
 Flags: HW
 LayerCount: 2
@@ -6184,7 +6184,7 @@ Refer: 186 235 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: afii10103
-Encoding: 281 1110 254
+Encoding: 1110 1110 254
 Width: 305
 Flags: HW
 LayerCount: 2
@@ -6193,7 +6193,7 @@ Refer: 73 105 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: afii10085
-Encoding: 266 1091 255
+Encoding: 1091 1091 255
 Width: 515
 Flags: W
 HStem: -219 85<78.5 156> 443 43<-4 250 -4 250>
@@ -6202,11 +6202,11 @@ DStem2: 189 423 56 434 0.370672 -0.928764<0 302.873> 297 140 289 -35 0.380551 0.
 LayerCount: 2
 Fore
 Refer: 89 121 N 1 0 0 1 0 0 3
-Kerns2: 245 22 "LGC kerning subtable"  287 -79 "LGC kerning subtable"  302 38 "LGC kerning subtable"  288 -32 "LGC kerning subtable" 
+Kerns2: 299 -28 "LGC kerning subtable"  245 22 "LGC kerning subtable"  287 -79 "LGC kerning subtable"  302 38 "LGC kerning subtable"  288 -32 "LGC kerning subtable" 
 EndChar
 
 StartChar: afii10033
-Encoding: 230 1055 256
+Encoding: 1055 1055 256
 Width: 758
 Flags: HW
 HStem: 0 49<30 88 253 313 445 505 670 728> 611 60<237 521> 622 49<30 88 670 728>
@@ -6245,7 +6245,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10040
-Encoding: 237 1062 257
+Encoding: 1062 1062 257
 Width: 764
 Flags: W
 HStem: -170 21G<663.762 738> 0 60<237 517> 0 49<30 88> 622 49<30 88 253 313 441 501 666 724>
@@ -6287,7 +6287,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10026
-Encoding: 223 1048 258
+Encoding: 1048 1048 258
 Width: 772
 Flags: W
 HStem: 0 49<30 88 253 313 459 519 684 742> 622 49<30 88 253 313 459 519 684 742>
@@ -6379,7 +6379,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10020
-Encoding: 218 1043 259
+Encoding: 1043 1043 259
 Width: 540
 Flags: W
 HStem: 0 49<30 90 255 325> 490 21G<451.909 522> 613 58<238 424> 622 49<26 90>
@@ -6439,11 +6439,11 @@ SplineSet
  90 617 l 1
  26 622 l 1xdc
 EndSplineSet
-Kerns2: 14 -214 "LGC kerning subtable"  26 -71 "LGC kerning subtable"  299 -86 "LGC kerning subtable"  291 -31 "LGC kerning subtable"  303 -25 "LGC kerning subtable"  286 -38 "LGC kerning subtable"  279 -71 "LGC kerning subtable"  255 -30 "LGC kerning subtable"  242 -103 "LGC kerning subtable"  269 -39 "LGC kerning subtable"  287 -158 "LGC kerning subtable"  293 -39 "LGC kerning subtable"  288 -103 "LGC kerning subtable"  240 -111 "LGC kerning subtable"  270 -40 "LGC kerning subtable"  274 -158 "LGC kerning subtable"  275 -118 "LGC kerning subtable"  229 -119 "LGC kerning subtable" 
+Kerns2: 448 -68 "LGC kerning subtable"  421 -60 "LGC kerning subtable"  428 -78 "LGC kerning subtable"  417 -78 "LGC kerning subtable"  14 -214 "LGC kerning subtable"  26 -71 "LGC kerning subtable"  299 -86 "LGC kerning subtable"  291 -31 "LGC kerning subtable"  303 -25 "LGC kerning subtable"  286 -38 "LGC kerning subtable"  279 -71 "LGC kerning subtable"  255 -30 "LGC kerning subtable"  242 -103 "LGC kerning subtable"  269 -39 "LGC kerning subtable"  287 -158 "LGC kerning subtable"  293 -39 "LGC kerning subtable"  288 -103 "LGC kerning subtable"  240 -111 "LGC kerning subtable"  270 -40 "LGC kerning subtable"  274 -158 "LGC kerning subtable"  275 -118 "LGC kerning subtable"  229 -119 "LGC kerning subtable" 
 EndChar
 
 StartChar: afii10046
-Encoding: 243 1068 260
+Encoding: 1068 1068 260
 Width: 605
 Flags: W
 HStem: 0 58<237.841 389.286> 0 49<29 88> 325 58<237 386.448> 622 49<30 88 253 318>
@@ -6545,7 +6545,7 @@ Kerns2: 237 -54 "LGC kerning subtable"
 EndChar
 
 StartChar: afii10018
-Encoding: 216 1041 261
+Encoding: 1041 1041 261
 Width: 632
 Flags: MW
 HStem: 0 58<237.846 394.513> 335 58<237 390.157> 613 58<237 442>
@@ -6612,7 +6612,7 @@ Kerns2: 282 -24 "LGC kerning subtable"
 EndChar
 
 StartChar: afii10045
-Encoding: 242 1067 262
+Encoding: 1067 1067 262
 Width: 922
 Flags: HW
 HStem: 0 49<30 88 609 669 834 892> 0 58<237.841 389.286> 325 58<237 386.448> 622 49<30 88 253 318 609 669 834 892>
@@ -6642,7 +6642,7 @@ Refer: 260 1068 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: afii10048
-Encoding: 245 1070 263
+Encoding: 1070 1070 263
 Width: 1052
 Flags: HW
 HStem: -16 61<622.5 725> 0 49<30 88 253 313> 322 60<237 386> 622 49<30 88 253 313> 622 64<629.5 719 629.5 732.5>
@@ -6676,7 +6676,7 @@ Refer: 47 79 N 1 0 0 1 298 0 2
 EndChar
 
 StartChar: afii10047
-Encoding: 244 1069 264
+Encoding: 1069 1069 264
 Width: 648
 Flags: HW
 HStem: -12 63<141.332 329.072> 288 87<294.385 399.666> 324 87<171.272 274.994> 487 21G<37 112.656> 618 65<138.85 332.727>
@@ -6737,7 +6737,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10042
-Encoding: 239 1064 265
+Encoding: 1064 1064 265
 Width: 1039
 Flags: W
 HStem: 0 60<237 453 586 802> 0 49<30 88 951 1009> 622 49<30 88 252 306 384 438 601 655 733 787 951 1009>
@@ -6787,7 +6787,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10043
-Encoding: 240 1065 266
+Encoding: 1065 1065 266
 Width: 1051
 Flags: HW
 HStem: -170 21G<950.762 1025> 0 49<30 88 951 1009> 0 60<237 453 586 802> 622 49<30 88 252 306 384 438 601 655 733 787 951 1009>
@@ -6807,7 +6807,7 @@ Refer: 265 1064 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: afii10038
-Encoding: 235 1060 267
+Encoding: 1060 1060 267
 Width: 823
 Flags: W
 HStem: -4 49<263 328 497 562> 111 58<244.635 345 480 580.365> 517 58<244.635 345 480 580.365> 631 49<263 328 497 562>
@@ -6848,11 +6848,11 @@ SplineSet
  720 575 789 473 789 343 c 0
  789 213 720 111 480 111 c 9
 EndSplineSet
-Kerns2: 274 -64 "LGC kerning subtable"  275 -48 "LGC kerning subtable"  229 -40 "LGC kerning subtable"  14 -110 "LGC kerning subtable"  299 -23 "LGC kerning subtable"  287 -79 "LGC kerning subtable"  288 -55 "LGC kerning subtable"  237 -23 "LGC kerning subtable" 
+Kerns2: 428 -49 "LGC kerning subtable"  274 -64 "LGC kerning subtable"  275 -48 "LGC kerning subtable"  229 -40 "LGC kerning subtable"  14 -110 "LGC kerning subtable"  299 -23 "LGC kerning subtable"  287 -79 "LGC kerning subtable"  288 -55 "LGC kerning subtable"  237 -23 "LGC kerning subtable" 
 EndChar
 
 StartChar: afii10041
-Encoding: 238 1063 268
+Encoding: 1063 1063 268
 Width: 715
 Flags: W
 HStem: 0 49<397 462 627 685> 251 84<253.171 399.594> 622 49<25 83 248 305 405 462 627 685>
@@ -6895,7 +6895,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10079
-Encoding: 260 1085 269
+Encoding: 1085 1085 269
 Width: 624
 Flags: W
 HStem: 0 45<31 82 234 277 347 390 542 593> 229 56<133 428> 441 45<31 82 234 277 347 390 542 593>
@@ -6946,7 +6946,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10049
-Encoding: 246 1071 270
+Encoding: 1071 1071 270
 Width: 703
 Flags: W
 HStem: -10 59<15.6788 112.323> 0 49<14 97.8288 390 451 615 673> 287 57<351.259 467> 614 57<299.646 467> 622 49<615 673>
@@ -7023,7 +7023,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10044
-Encoding: 241 1066 271
+Encoding: 1066 1066 271
 Width: 764
 Flags: HMW
 HStem: 0 58<396.841 548.286> 325 58<396 545.448> 613 58<120 356.1>
@@ -7060,7 +7060,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10081
-Encoding: 262 1087 272
+Encoding: 1087 1087 272
 Width: 622
 Flags: W
 HStem: 0 45<31 82 234 277 345 388 540 591> 430 56<220 402> 441 45<31 82 540 591>
@@ -7099,7 +7099,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10096
-Encoding: 277 1102 273
+Encoding: 1102 1102 273
 Width: 835
 Flags: W
 HStem: -8 53<514 586 514 625> 0 45<31 82 234 277> 225 56<133 396> 441 45<31 82 234 277> 446 53<514.5 585.5>
@@ -7134,7 +7134,7 @@ Refer: 79 111 N 1 0 0 1 258 0 2
 EndChar
 
 StartChar: afii10029
-Encoding: 226 1051 274
+Encoding: 1051 1051 274
 Width: 742
 Flags: W
 HStem: -16 21G<83 152.5> 0 49<488 550 724.417 760> 622 49<282 349>
@@ -7178,7 +7178,7 @@ Kerns2: 449 -56 "LGC kerning subtable"  436 -24 "LGC kerning subtable"  267 -16 
 EndChar
 
 StartChar: afii10021
-Encoding: 219 1044 275
+Encoding: 1044 1044 275
 Width: 700
 Flags: W
 HStem: -170 21G<10 84.2384 615.762 690> 0 60<165 482> 622 49<198 267>
@@ -7237,7 +7237,7 @@ Kerns2: 449 -64 "LGC kerning subtable"  431 -32 "LGC kerning subtable"  436 -40 
 EndChar
 
 StartChar: afii10090
-Encoding: 271 1096 276
+Encoding: 1096 1096 276
 Width: 891
 Flags: W
 HStem: 0 56<219 384 507 672> 0 45<31 82 809 860> 441 45<31 82 233 274 329 370 521 562 617 658 809 860>
@@ -7287,7 +7287,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10088
-Encoding: 269 1094 277
+Encoding: 1094 1094 277
 Width: 626
 Flags: W
 HStem: -146 21G<529.188 599> 0 56<220 402> 0 45<31 82 540 591> 441 45<31 82 234 277 345 388 540 591>
@@ -7333,7 +7333,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10091
-Encoding: 272 1097 278
+Encoding: 1097 1097 278
 Width: 897
 Flags: HW
 HStem: -146 21G<800.188 870> 0 45<31 82 809 860> 0 56<219 384 507 672> 441 45<31 82 233 274 329 370 521 562 617 658 809 860>
@@ -7353,7 +7353,7 @@ Refer: 276 1096 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: afii10086
-Encoding: 267 1092 279
+Encoding: 1092 1092 279
 Width: 709
 Flags: W
 HStem: -219 46<216 279 432 495> -6 53<233.2 294 417 477.8> 442 53<233.2 294 417 477.8> 643 39<221 243.043>
@@ -7394,7 +7394,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10028
-Encoding: 225 1050 280
+Encoding: 1050 1050 280
 Width: 709
 Flags: W
 HStem: -11 60<604.124 703.34> 0 49<31 89 254 314 685.332 704> 322 60<238 325.555> 596 87<507.417 602> 622 49<31 89 254 314>
@@ -7442,7 +7442,7 @@ Kerns2: 282 -30 "LGC kerning subtable"  235 -31 "LGC kerning subtable"  229 22 "
 EndChar
 
 StartChar: afii10025
-Encoding: 222 1047 281
+Encoding: 1047 1047 281
 Width: 580
 Flags: W
 HStem: -12 63<140.357 337.704> 327 56<182 330.973> 489 21G<37 112.678> 618 65<141.109 325.105>
@@ -7505,7 +7505,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10037
-Encoding: 234 1059 282
+Encoding: 1059 1059 282
 Width: 662
 Flags: W
 HStem: -16 21G<167 255.5> 622 49<4 42.5 226 275 444 502 625.538 660>
@@ -7551,7 +7551,7 @@ Kerns2: 424 -40 "LGC kerning subtable"  417 -80 "LGC kerning subtable"  431 -72 
 EndChar
 
 StartChar: afii10068
-Encoding: 250 1075 283
+Encoding: 1075 1075 283
 Width: 476
 Flags: W
 HStem: 0 46<31 81 234 301> 432 54<218 363> 441 45<26 81>
@@ -7583,7 +7583,7 @@ Kerns2: 14 -134 "LGC kerning subtable"  299 -23 "LGC kerning subtable"  287 -102
 EndChar
 
 StartChar: afii10084
-Encoding: 265 1090 284
+Encoding: 1090 1090 284
 Width: 505
 Flags: W
 HStem: 0 46<108 175 330 397> 318 168<18 81 424 487> 432 54<117 191 314 388>
@@ -7618,7 +7618,7 @@ Kerns2: 14 -95 "LGC kerning subtable"  284 15 "LGC kerning subtable"  287 -95 "L
 EndChar
 
 StartChar: afii10066
-Encoding: 248 1073 285
+Encoding: 1073 1073 285
 Width: 577
 Flags: W
 HStem: -8 53<233.729 352.406> 438 53<234.736 350.462>
@@ -7661,7 +7661,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10089
-Encoding: 270 1095 286
+Encoding: 1095 1095 286
 Width: 604
 Flags: W
 HStem: 0 45<327 370 522 573> 182 72<158 328.69> 441 45<23 74 224 265 329 370 522 573>
@@ -7704,7 +7704,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10077
-Encoding: 258 1083 287
+Encoding: 1083 1083 287
 Width: 602
 Flags: W
 HStem: -9 21G<69 139> 0 46<352 412 552 610> 442 45<206 270>
@@ -7767,7 +7767,7 @@ Kerns2: 317 -55 "LGC kerning subtable"  299 14 "LGC kerning subtable"  303 -55 "
 EndChar
 
 StartChar: afii10069
-Encoding: 251 1076 288
+Encoding: 1076 1076 288
 Width: 562
 Flags: MW
 HStem: -146 20 0 56<146 359> 442 45<137 203>
@@ -7827,7 +7827,7 @@ Kerns2: 317 -71 "LGC kerning subtable"  303 -71 "LGC kerning subtable"  286 -78 
 EndChar
 
 StartChar: afii10078
-Encoding: 259 1084 289
+Encoding: 1084 1084 289
 Width: 742
 Flags: W
 HStem: 0 45<31 82 172 213 467 508 660 711> 441 45<31 82 660 711>
@@ -7888,7 +7888,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10094
-Encoding: 275 1100 290
+Encoding: 1100 1100 290
 Width: 550
 Flags: MW
 HStem: 0 55<221.023 361.728> 236 56<221.142 364.515> 442 45<31 82 234 289>
@@ -7966,7 +7966,7 @@ Kerns2: 286 -39 "LGC kerning subtable"  284 -46 "LGC kerning subtable"
 EndChar
 
 StartChar: afii10095
-Encoding: 276 1101 291
+Encoding: 1101 1101 291
 Width: 490
 Flags: W
 HStem: -8 72<97.7675 253.442> 49 67<30 97> 204 62<197.904 299.911> 232 62<106.299 210.616> 443 56<125.609 263.479>
@@ -8018,7 +8018,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10067
-Encoding: 249 1074 292
+Encoding: 1074 1074 292
 Width: 570
 Flags: HMW
 HStem: 0 53<221.17 368.392> 232 52<221.669 356.889> 433 53<220.479 352.215>
@@ -8084,7 +8084,7 @@ Kerns2: 255 -32 "LGC kerning subtable"
 EndChar
 
 StartChar: afii10073
-Encoding: 254 1079 293
+Encoding: 1079 1079 293
 Width: 482
 Flags: MW
 HStem: -9 55<122.388 273.472> 233 54<145 272.062> 444 55<121.948 274.537>
@@ -8147,7 +8147,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10076
-Encoding: 257 1082 294
+Encoding: 1082 1082 294
 Width: 580
 Flags: HW
 HStem: -7 55<506.533 575.758> 0 45<31 82 234 277 554.372 576> 229 54<220 280.225> 441 45<31 82 234 277> 476 20G<452 516.5>
@@ -8232,7 +8232,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10074
-Encoding: 255 1080 295
+Encoding: 1080 1080 295
 Width: 630
 Flags: MW
 HStem: 0 45<31 82 234 277 353 396 548 599> 441 45<31 82 234 277 353 396 548 599>
@@ -8324,7 +8324,7 @@ EndSplineSet
 EndChar
 
 StartChar: cyrbreve
-Encoding: 383 63188 296
+Encoding: 63188 63188 296
 Width: 630
 Flags: W
 HStem: 547 49<248.803 381.197>
@@ -8347,7 +8347,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10075
-Encoding: 256 1081 297
+Encoding: 1081 1081 297
 Width: 630
 Flags: HW
 LayerCount: 2
@@ -8357,7 +8357,7 @@ Refer: 295 1080 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: afii10027
-Encoding: 224 1049 298
+Encoding: 1049 1049 298
 Width: 772
 Flags: HW
 LayerCount: 2
@@ -8367,7 +8367,7 @@ Refer: 258 1048 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: afii10097
-Encoding: 278 1103 299
+Encoding: 1103 1103 299
 Width: 592
 Flags: W
 HStem: -7 55<8.19876 83.7578> 0 45<8 31.625 315 358 510 561> 205 52<275.344 370.846> 431 55<235.918 371.116> 441 45<510 561>
@@ -8409,7 +8409,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10093
-Encoding: 274 1099 300
+Encoding: 1099 1099 300
 Width: 834
 Flags: HW
 HStem: 0 45<31 82 557 600 752 803> 0 55<221.023 361.728> 236 56<221.142 364.515> 442 45<31 82 234 289 557 600 752 803>
@@ -8439,7 +8439,7 @@ Refer: 290 1100 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: afii10024
-Encoding: 221 1046 301
+Encoding: 1046 1046 301
 Width: 1047
 Flags: W
 HStem: -11 60<5.66025 103.91 943.09 1041.34> 0 49<5 23.6683 381 441 606 666 1023.33 1042> 322 60<378.569 457 590 668.431> 596 87<107 200.054 846.946 940> 622 49<381 441 606 666>
@@ -8507,7 +8507,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10072
-Encoding: 253 1078 302
+Encoding: 1078 1078 302
 Width: 824
 Flags: W
 HStem: -7 55<4.24166 73.0649 750.935 819.758> 0 45<4 25.6279 293 336 488 531 798.372 820> 229 54<294.268 350 474 529.732> 441 45<293 336 488 531> 476 20G<63.5 128 696 760.5>
@@ -8573,7 +8573,7 @@ Kerns2: 288 15 "LGC kerning subtable"
 EndChar
 
 StartChar: afii10092
-Encoding: 273 1098 303
+Encoding: 1098 1098 303
 Width: 660
 Flags: W
 HStem: 0 55<331.023 471.728> 0 45<141 192> 236 56<331.142 474.515> 432 54<108 206> 441 45<344 399>
@@ -8610,7 +8610,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2116
-Encoding: 334 8470 304
+Encoding: 8470 8470 304
 Width: 1058
 Flags: W
 HStem: -16 65<14.6995 116.639> 0 49<14 73.6559 756 998> 117 42<840.612 913.388> 377 42<840.612 913.388> 621 65<664.361 766.301> 622 49<66 130 744.239 767>
@@ -8735,7 +8735,7 @@ EndSplineSet
 EndChar
 
 StartChar: dotaccent.i
-Encoding: 386 -1 306
+Encoding: 65536 -1 306
 Width: 305
 Flags: W
 HStem: 575 149<110.625 215.75>
@@ -8752,7 +8752,7 @@ EndSplineSet
 EndChar
 
 StartChar: acute.cap
-Encoding: 379 63177 307
+Encoding: 63177 63177 307
 Width: 500
 Flags: HW
 LayerCount: 2
@@ -8761,7 +8761,7 @@ Refer: 124 180 N 1 0 0 1 0 187 3
 EndChar
 
 StartChar: grave.cap
-Encoding: 382 63182 308
+Encoding: 63182 63182 308
 Width: 500
 Flags: HW
 LayerCount: 2
@@ -8770,7 +8770,7 @@ Refer: 123 96 N 1 0 0 1 0 187 3
 EndChar
 
 StartChar: circumflex.cap
-Encoding: 357 61431 309
+Encoding: 61431 61431 309
 Width: 500
 Flags: HW
 LayerCount: 2
@@ -8779,7 +8779,7 @@ Refer: 125 710 S 1 0 0 1 0 187 3
 EndChar
 
 StartChar: dieresis.cap
-Encoding: 381 63179 310
+Encoding: 63179 63179 310
 Width: 500
 Flags: HW
 LayerCount: 2
@@ -8788,7 +8788,7 @@ Refer: 130 168 S 1 0 0 1 0 187 3
 EndChar
 
 StartChar: dotaccent.cap
-Encoding: 353 61421 311
+Encoding: 61421 61421 311
 Width: 500
 Flags: HW
 LayerCount: 2
@@ -8797,7 +8797,7 @@ Refer: 129 729 N 1 0 0 1 0 187 3
 EndChar
 
 StartChar: caron.cap
-Encoding: 380 63178 312
+Encoding: 63178 63178 312
 Width: 500
 Flags: HW
 LayerCount: 2
@@ -8806,7 +8806,7 @@ Refer: 135 711 S 1 0 0 1 0 187 3
 EndChar
 
 StartChar: ring.cap
-Encoding: 355 61427 313
+Encoding: 61427 61427 313
 Width: 500
 Flags: W
 HStem: 726 52<203.6 298.232> 911 52<203.6 296.926>
@@ -8828,7 +8828,7 @@ EndSplineSet
 EndChar
 
 StartChar: breve.cap
-Encoding: 354 61422 314
+Encoding: 61422 61422 314
 Width: 500
 Flags: HW
 LayerCount: 2
@@ -8837,7 +8837,7 @@ Refer: 128 728 N 1 0 0 1 0 187 3
 EndChar
 
 StartChar: tilde.cap
-Encoding: 356 61429 315
+Encoding: 61429 61429 315
 Width: 500
 Flags: HW
 LayerCount: 2
@@ -8846,7 +8846,7 @@ Refer: 126 732 S 1 0 0 1 0 187 3
 EndChar
 
 StartChar: afii10146
-Encoding: 284 1122 316
+Encoding: 1122 1122 316
 Width: 735
 Flags: MW
 HStem: 0 58<367.841 519.286> 325 58<367 516.448> 538 57<120 234 367 481> 630 49<158 218 383 443>
@@ -8895,7 +8895,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10194
-Encoding: 285 1123 317
+Encoding: 1123 1123 317
 Width: 657
 Flags: W
 HStem: 0 55<328.023 468.728> 0 45<138 189> 236 56<328.142 471.515> 340 146<18 78 452 512> 432 54<112 203 327 418> 653 39<130 152.043> 719 20G<215.021 327>
@@ -8941,7 +8941,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10147
-Encoding: 286 1138 318
+Encoding: 1138 1138 318
 Width: 752
 Flags: W
 HStem: -16 63<303.891 455.357> 278 87<384.872 511.808> 314 87<246.117 374.411> 623 63<302.643 453.652>
@@ -8991,7 +8991,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10195
-Encoding: 287 1139 319
+Encoding: 1139 1139 319
 Width: 577
 Flags: W
 HStem: -9 53<235.259 348.741> 201 62<285.477 382.568> 229 62<201.432 298.523> 444 53<235.259 348.741>
@@ -9037,7 +9037,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10148
-Encoding: 288 1140 320
+Encoding: 1140 1140 320
 Width: 754
 Flags: W
 HStem: -2 21G<264.582 380.25> 596 87<595.222 665.885> 622 49<-21 17.5 196 254>
@@ -9089,7 +9089,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10196
-Encoding: 289 1141 321
+Encoding: 1141 1141 321
 Width: 620
 Flags: W
 HStem: 0 21G<206.644 311.953> 441 46<-6 54 196 248> 476 20G<507 572.5>
@@ -9139,7 +9139,7 @@ EndSplineSet
 EndChar
 
 StartChar: Euro
-Encoding: 333 8364 322
+Encoding: 8364 8364 322
 Width: 581
 Flags: W
 HStem: -12 57<301.136 449.119> 262 50<15 405> 378 50<15 405> 626 57<304.719 450.532>
@@ -9178,7 +9178,7 @@ EndSplineSet
 EndChar
 
 StartChar: space_uni030F
-Encoding: 358 61861 323
+Encoding: 61861 61861 323
 Width: 500
 Flags: MW
 HStem: 552 190
@@ -9200,7 +9200,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2070
-Encoding: 306 8304 324
+Encoding: 8304 8304 324
 Width: 383
 VWidth: 868
 Flags: W
@@ -9223,7 +9223,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2074
-Encoding: 307 8308 325
+Encoding: 8308 8308 325
 Width: 383
 VWidth: 868
 Flags: W
@@ -9253,7 +9253,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2075
-Encoding: 308 8309 326
+Encoding: 8309 8309 326
 Width: 383
 VWidth: 868
 Flags: W
@@ -9283,7 +9283,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2076
-Encoding: 309 8310 327
+Encoding: 8310 8310 327
 Width: 383
 VWidth: 868
 Flags: W
@@ -9311,7 +9311,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2077
-Encoding: 310 8311 328
+Encoding: 8311 8311 328
 Width: 383
 VWidth: 868
 Flags: W
@@ -9336,7 +9336,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2078
-Encoding: 311 8312 329
+Encoding: 8312 8312 329
 Width: 383
 VWidth: 868
 Flags: W
@@ -9368,7 +9368,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2079
-Encoding: 312 8313 330
+Encoding: 8313 8313 330
 Width: 383
 VWidth: 868
 Flags: W
@@ -9396,7 +9396,7 @@ EndSplineSet
 EndChar
 
 StartChar: zero.denominator
-Encoding: 369 63061 331
+Encoding: 63061 63061 331
 Width: 366
 VWidth: 560
 Flags: HW
@@ -9432,7 +9432,7 @@ EndSplineSet
 EndChar
 
 StartChar: one.denominator
-Encoding: 370 63062 332
+Encoding: 63062 63062 332
 Width: 366
 VWidth: 560
 Flags: W
@@ -9478,7 +9478,7 @@ EndSplineSet
 EndChar
 
 StartChar: two.denominator
-Encoding: 371 63063 333
+Encoding: 63063 63063 333
 Width: 366
 VWidth: 560
 Flags: W
@@ -9526,7 +9526,7 @@ EndSplineSet
 EndChar
 
 StartChar: three.denominator
-Encoding: 372 63064 334
+Encoding: 63064 63064 334
 Width: 366
 VWidth: 560
 Flags: W
@@ -9586,7 +9586,7 @@ EndSplineSet
 EndChar
 
 StartChar: four.denominator
-Encoding: 373 63065 335
+Encoding: 63065 63065 335
 Width: 366
 VWidth: 560
 Flags: W
@@ -9635,7 +9635,7 @@ EndSplineSet
 EndChar
 
 StartChar: five.denominator
-Encoding: 374 63066 336
+Encoding: 63066 63066 336
 Width: 366
 VWidth: 560
 Flags: HW
@@ -9685,7 +9685,7 @@ EndSplineSet
 EndChar
 
 StartChar: six.denominator
-Encoding: 375 63067 337
+Encoding: 63067 63067 337
 Width: 366
 VWidth: 560
 Flags: HW
@@ -9731,7 +9731,7 @@ EndSplineSet
 EndChar
 
 StartChar: seven.denominator
-Encoding: 376 63068 338
+Encoding: 63068 63068 338
 Width: 366
 VWidth: 560
 Flags: HW
@@ -9770,7 +9770,7 @@ EndSplineSet
 EndChar
 
 StartChar: eight.denominator
-Encoding: 377 63069 339
+Encoding: 63069 63069 339
 Width: 366
 VWidth: 560
 Flags: HW
@@ -9824,7 +9824,7 @@ EndSplineSet
 EndChar
 
 StartChar: nine.denominator
-Encoding: 378 63070 340
+Encoding: 63070 63070 340
 Width: 366
 VWidth: 560
 Flags: HW
@@ -9870,7 +9870,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2150
-Encoding: 336 8528 341
+Encoding: 8528 8528 341
 Width: 899
 VWidth: 0
 Flags: HW
@@ -9882,7 +9882,7 @@ Refer: 332 63062 N 1 0 0 1 0 295 2
 EndChar
 
 StartChar: uni2151
-Encoding: 337 8529 342
+Encoding: 8529 8529 342
 Width: 899
 VWidth: 0
 Flags: HW
@@ -9894,7 +9894,7 @@ Refer: 332 63062 N 1 0 0 1 0 295 2
 EndChar
 
 StartChar: onethird
-Encoding: 339 8531 343
+Encoding: 8531 8531 343
 Width: 899
 VWidth: 0
 Flags: HW
@@ -9906,7 +9906,7 @@ Refer: 332 63062 N 1 0 0 1 0 295 2
 EndChar
 
 StartChar: twothirds
-Encoding: 340 8532 344
+Encoding: 8532 8532 344
 Width: 899
 VWidth: 0
 Flags: HW
@@ -9918,7 +9918,7 @@ Refer: 333 63063 N 1 0 0 1 0 295 2
 EndChar
 
 StartChar: uni2155
-Encoding: 341 8533 345
+Encoding: 8533 8533 345
 Width: 899
 VWidth: 0
 Flags: HW
@@ -9930,7 +9930,7 @@ Refer: 332 63062 N 1 0 0 1 0 295 2
 EndChar
 
 StartChar: uni2156
-Encoding: 342 8534 346
+Encoding: 8534 8534 346
 Width: 899
 VWidth: 0
 Flags: HW
@@ -9942,7 +9942,7 @@ Refer: 333 63063 N 1 0 0 1 0 295 2
 EndChar
 
 StartChar: uni2157
-Encoding: 343 8535 347
+Encoding: 8535 8535 347
 Width: 899
 VWidth: 0
 Flags: HW
@@ -9954,7 +9954,7 @@ Refer: 334 63064 N 1 0 0 1 0 295 2
 EndChar
 
 StartChar: uni2158
-Encoding: 344 8536 348
+Encoding: 8536 8536 348
 Width: 899
 VWidth: 0
 Flags: HW
@@ -9966,7 +9966,7 @@ Refer: 335 63065 N 1 0 0 1 0 295 2
 EndChar
 
 StartChar: uni2159
-Encoding: 345 8537 349
+Encoding: 8537 8537 349
 Width: 899
 VWidth: 0
 Flags: HW
@@ -9978,7 +9978,7 @@ Refer: 332 63062 N 1 0 0 1 0 295 2
 EndChar
 
 StartChar: uni215A
-Encoding: 346 8538 350
+Encoding: 8538 8538 350
 Width: 899
 VWidth: 0
 Flags: HW
@@ -9990,7 +9990,7 @@ Refer: 336 63066 N 1 0 0 1 0 295 2
 EndChar
 
 StartChar: oneeighth
-Encoding: 347 8539 351
+Encoding: 8539 8539 351
 Width: 899
 VWidth: 0
 Flags: HW
@@ -10002,7 +10002,7 @@ Refer: 332 63062 N 1 0 0 1 0 295 2
 EndChar
 
 StartChar: threeeighths
-Encoding: 348 8540 352
+Encoding: 8540 8540 352
 Width: 899
 VWidth: 0
 Flags: HW
@@ -10014,7 +10014,7 @@ Refer: 334 63064 N 1 0 0 1 0 295 2
 EndChar
 
 StartChar: fiveeighths
-Encoding: 349 8541 353
+Encoding: 8541 8541 353
 Width: 899
 VWidth: 0
 Flags: HW
@@ -10026,7 +10026,7 @@ Refer: 336 63066 N 1 0 0 1 0 295 2
 EndChar
 
 StartChar: seveneighths
-Encoding: 350 8542 354
+Encoding: 8542 8542 354
 Width: 899
 VWidth: 0
 Flags: HW
@@ -10038,7 +10038,7 @@ Refer: 338 63068 N 1 0 0 1 0 295 2
 EndChar
 
 StartChar: uni2152
-Encoding: 338 8530 355
+Encoding: 8530 8530 355
 Width: 1236
 VWidth: 0
 Flags: HW
@@ -10051,7 +10051,7 @@ Refer: 332 63062 N 1 0 0 1 0 295 2
 EndChar
 
 StartChar: uni215F
-Encoding: 351 8543 356
+Encoding: 8543 8543 356
 Width: 899
 VWidth: 0
 Flags: HW
@@ -10062,7 +10062,7 @@ Refer: 332 63062 S 1 0 0 1 0 295 2
 EndChar
 
 StartChar: uni2080
-Encoding: 318 8320 357
+Encoding: 8320 8320 357
 Width: 383
 VWidth: 868
 Flags: HW
@@ -10072,7 +10072,7 @@ Refer: 324 8304 S 1 0 0 1 0 -406 3
 EndChar
 
 StartChar: uni2081
-Encoding: 319 8321 358
+Encoding: 8321 8321 358
 Width: 383
 Flags: HW
 LayerCount: 2
@@ -10081,7 +10081,7 @@ Refer: 221 185 S 1 0 0 1 0 -406 3
 EndChar
 
 StartChar: uni2082
-Encoding: 320 8322 359
+Encoding: 8322 8322 359
 Width: 383
 Flags: HW
 LayerCount: 2
@@ -10090,7 +10090,7 @@ Refer: 226 178 S 1 0 0 1 0 -406 3
 EndChar
 
 StartChar: uni2083
-Encoding: 321 8323 360
+Encoding: 8323 8323 360
 Width: 383
 Flags: HW
 LayerCount: 2
@@ -10099,7 +10099,7 @@ Refer: 225 179 S 1 0 0 1 0 -406 3
 EndChar
 
 StartChar: uni2084
-Encoding: 322 8324 361
+Encoding: 8324 8324 361
 Width: 383
 VWidth: 868
 Flags: HW
@@ -10109,7 +10109,7 @@ Refer: 325 8308 N 1 0 0 1 0 -406 3
 EndChar
 
 StartChar: uni2085
-Encoding: 323 8325 362
+Encoding: 8325 8325 362
 Width: 383
 VWidth: 868
 Flags: HW
@@ -10119,7 +10119,7 @@ Refer: 326 8309 S 1 0 0 1 0 -406 3
 EndChar
 
 StartChar: uni2086
-Encoding: 324 8326 363
+Encoding: 8326 8326 363
 Width: 383
 VWidth: 868
 Flags: HW
@@ -10129,7 +10129,7 @@ Refer: 327 8310 S 1 0 0 1 0 -406 3
 EndChar
 
 StartChar: uni2087
-Encoding: 325 8327 364
+Encoding: 8327 8327 364
 Width: 383
 VWidth: 868
 Flags: HW
@@ -10139,7 +10139,7 @@ Refer: 328 8311 S 1 0 0 1 0 -406 3
 EndChar
 
 StartChar: uni2088
-Encoding: 326 8328 365
+Encoding: 8328 8328 365
 Width: 383
 VWidth: 868
 Flags: HW
@@ -10149,7 +10149,7 @@ Refer: 329 8312 S 1 0 0 1 0 -406 3
 EndChar
 
 StartChar: uni2089
-Encoding: 327 8329 366
+Encoding: 8329 8329 366
 Width: 383
 VWidth: 868
 Flags: HW
@@ -10159,7 +10159,7 @@ Refer: 330 8313 N 1 0 0 1 0 -406 3
 EndChar
 
 StartChar: uni207A
-Encoding: 313 8314 367
+Encoding: 8314 8314 367
 Width: 549
 VWidth: 868
 Flags: W
@@ -10185,7 +10185,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni207B
-Encoding: 314 8315 368
+Encoding: 8315 8315 368
 Width: 549
 VWidth: 868
 Flags: W
@@ -10202,7 +10202,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni207C
-Encoding: 315 8316 369
+Encoding: 8316 8316 369
 Width: 549
 VWidth: 868
 Flags: W
@@ -10224,7 +10224,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni207D
-Encoding: 316 8317 370
+Encoding: 8317 8317 370
 Width: 282
 VWidth: 868
 Flags: W
@@ -10244,7 +10244,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni207E
-Encoding: 317 8318 371
+Encoding: 8318 8318 371
 Width: 282
 VWidth: 868
 Flags: W
@@ -10264,7 +10264,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni208A
-Encoding: 328 8330 372
+Encoding: 8330 8330 372
 Width: 549
 VWidth: 868
 Flags: HW
@@ -10274,7 +10274,7 @@ Refer: 367 8314 S 1 0 0 1 0 -406 3
 EndChar
 
 StartChar: uni208B
-Encoding: 329 8331 373
+Encoding: 8331 8331 373
 Width: 549
 VWidth: 868
 Flags: HW
@@ -10284,7 +10284,7 @@ Refer: 368 8315 S 1 0 0 1 0 -406 3
 EndChar
 
 StartChar: uni208C
-Encoding: 330 8332 374
+Encoding: 8332 8332 374
 Width: 549
 VWidth: 868
 Flags: HW
@@ -10294,7 +10294,7 @@ Refer: 369 8316 S 1 0 0 1 0 -406 3
 EndChar
 
 StartChar: uni208D
-Encoding: 331 8333 375
+Encoding: 8333 8333 375
 Width: 282
 VWidth: 868
 Flags: HW
@@ -10304,7 +10304,7 @@ Refer: 370 8317 S 1 0 0 1 0 -406 3
 EndChar
 
 StartChar: uni208E
-Encoding: 332 8334 376
+Encoding: 8334 8334 376
 Width: 282
 VWidth: 868
 Flags: HW
@@ -10314,7 +10314,7 @@ Refer: 371 8318 S 1 0 0 1 0 -406 3
 EndChar
 
 StartChar: zero.taboldstyle
-Encoding: 359 63043 377
+Encoding: 63043 63043 377
 Width: 581
 Flags: W
 HStem: -10 52<237.178 344.822> 448 52<237.178 344.822>
@@ -10336,7 +10336,7 @@ EndSplineSet
 EndChar
 
 StartChar: one.taboldstyle
-Encoding: 360 63044 378
+Encoding: 63044 63044 378
 Width: 581
 Flags: W
 HStem: 0 50<118 216 364 464> 440 50<118 216 364 464>
@@ -10383,7 +10383,7 @@ EndSplineSet
 EndChar
 
 StartChar: two.taboldstyle
-Encoding: 361 63045 379
+Encoding: 63045 63045 379
 Width: 581
 Flags: W
 HStem: 0 92<203 523> 439 61<204.632 347.355>
@@ -10428,7 +10428,7 @@ EndSplineSet
 EndChar
 
 StartChar: three.taboldstyle
-Encoding: 362 63046 380
+Encoding: 63046 63046 380
 Width: 581
 Flags: W
 HStem: -160 58<184.925 324.809> 145 62<190.26 309.85> 439 62<186.486 314.359>
@@ -10487,7 +10487,7 @@ EndSplineSet
 EndChar
 
 StartChar: four.taboldstyle
-Encoding: 363 63047 381
+Encoding: 63047 63047 381
 Width: 581
 Flags: W
 HStem: -170 21G<331 448> 0 74<116 331 448 557> 473 20G<334.545 448>
@@ -10535,7 +10535,7 @@ EndSplineSet
 EndChar
 
 StartChar: five.taboldstyle
-Encoding: 364 63048 382
+Encoding: 63048 63048 382
 Width: 581
 Flags: W
 HStem: -160 58<200.771 330.962> 173 78<179.958 318.393> 392 98<178 487>
@@ -10584,7 +10584,7 @@ EndSplineSet
 EndChar
 
 StartChar: six.taboldstyle
-Encoding: 365 63049 383
+Encoding: 63049 63049 383
 Width: 581
 Flags: W
 HStem: -10 58<248.43 364.983> 356 77<238.017 362.298> 611 71<425 467>
@@ -10629,7 +10629,7 @@ EndSplineSet
 EndChar
 
 StartChar: seven.taboldstyle
-Encoding: 366 63050 384
+Encoding: 63050 63050 384
 Width: 581
 Flags: W
 HStem: -170 21G<137 244> 388 102<158 444>
@@ -10667,7 +10667,7 @@ EndSplineSet
 EndChar
 
 StartChar: eight.taboldstyle
-Encoding: 367 63051 385
+Encoding: 63051 63051 385
 Width: 581
 Flags: W
 HStem: -14 58<222.047 366.63> 595 58<235.354 354.181>
@@ -10720,7 +10720,7 @@ EndSplineSet
 EndChar
 
 StartChar: nine.taboldstyle
-Encoding: 368 63052 386
+Encoding: 63052 63052 386
 Width: 581
 Flags: W
 HStem: 65 73<231.147 357.216> 442 58<230.176 356.181>
@@ -10765,7 +10765,7 @@ EndSplineSet
 EndChar
 
 StartChar: A.sc
-Encoding: 387 -1 387
+Encoding: 63329 63329 387
 Width: 579
 VWidth: 0
 Flags: W
@@ -10825,11 +10825,11 @@ SplineSet
  260 382 l 1
  201 233 l 1
 EndSplineSet
-Kerns2: 406 -72 "LGC kerning subtable"  407 -24 "LGC kerning subtable"  401 -16 "LGC kerning subtable"  409 -24 "LGC kerning subtable"  411 -40 "LGC kerning subtable"  408 -40 "LGC kerning subtable" 
+Kerns2: 406 -65 "LGC kerning subtable"  407 -24 "LGC kerning subtable"  401 -16 "LGC kerning subtable"  409 -24 "LGC kerning subtable"  411 -40 "LGC kerning subtable"  408 -40 "LGC kerning subtable" 
 EndChar
 
 StartChar: B.sc
-Encoding: 388 -1 388
+Encoding: 63330 63330 388
 Width: 572
 VWidth: 0
 Flags: W
@@ -10899,7 +10899,7 @@ Kerns2: 407 -24 "LGC kerning subtable"  408 -40 "LGC kerning subtable"  411 -32 
 EndChar
 
 StartChar: C.sc
-Encoding: 389 -1 389
+Encoding: 63331 63331 389
 Width: 560
 VWidth: 0
 Flags: MW
@@ -10954,7 +10954,7 @@ Kerns2: 387 -16 "LGC kerning subtable"
 EndChar
 
 StartChar: D.sc
-Encoding: 390 -1 390
+Encoding: 63332 63332 390
 Width: 631
 VWidth: 0
 Flags: HMW
@@ -11009,7 +11009,7 @@ Kerns2: 411 -24 "LGC kerning subtable"  408 -24 "LGC kerning subtable"
 EndChar
 
 StartChar: E.sc
-Encoding: 391 -1 391
+Encoding: 63333 63333 391
 Width: 540
 VWidth: 0
 Flags: MW
@@ -11087,7 +11087,7 @@ EndSplineSet
 EndChar
 
 StartChar: F.sc
-Encoding: 392 -1 392
+Encoding: 63334 63334 392
 Width: 505
 Flags: MW
 HStem: 0 46<31 87 244 313> 218 56<229 318> 445 55<229 384>
@@ -11161,7 +11161,7 @@ Kerns2: 12 -96 "LGC kerning subtable"  14 -80 "LGC kerning subtable"  387 -56 "L
 EndChar
 
 StartChar: G.sc
-Encoding: 393 -1 393
+Encoding: 63335 63335 393
 Width: 629
 VWidth: 0
 Flags: MW
@@ -11221,7 +11221,7 @@ EndSplineSet
 EndChar
 
 StartChar: H.sc
-Encoding: 394 -1 394
+Encoding: 63336 63336 394
 Width: 664
 VWidth: 0
 Flags: W
@@ -11310,10 +11310,11 @@ SplineSet
  633 46 l 1
  633 0 l 1
 EndSplineSet
+Kerns2: 402 0 "LGC kerning subtable" 
 EndChar
 
 StartChar: I.sc
-Encoding: 395 -1 395
+Encoding: 63337 63337 395
 Width: 334
 VWidth: 0
 Flags: W
@@ -11363,7 +11364,7 @@ EndSplineSet
 EndChar
 
 StartChar: J.sc
-Encoding: 396 -1 396
+Encoding: 63338 63338 396
 Width: 422
 VWidth: 0
 Flags: MW
@@ -11416,7 +11417,7 @@ Kerns2: 387 -16 "LGC kerning subtable"
 EndChar
 
 StartChar: K.sc
-Encoding: 397 -1 397
+Encoding: 63339 63339 397
 Width: 610
 VWidth: 0
 Flags: W
@@ -11503,7 +11504,7 @@ Kerns2: 401 -40 "LGC kerning subtable"
 EndChar
 
 StartChar: L.sc
-Encoding: 398 -1 398
+Encoding: 63340 63340 398
 Width: 499
 Flags: W
 HStem: 0 55<227 381> 0 46<28 85> 454 46<28 85 242 301>
@@ -11557,7 +11558,7 @@ Kerns2: 411 -72 "LGC kerning subtable"  408 -80 "LGC kerning subtable"  409 -48 
 EndChar
 
 StartChar: M.sc
-Encoding: 399 -1 399
+Encoding: 63341 63341 399
 Width: 786
 VWidth: 0
 Flags: W
@@ -11645,7 +11646,7 @@ EndSplineSet
 EndChar
 
 StartChar: N.sc
-Encoding: 400 -1 400
+Encoding: 63342 63342 400
 Width: 637
 VWidth: 0
 Flags: W
@@ -11715,10 +11716,11 @@ SplineSet
  87 450 l 1
  29 454 l 1
 EndSplineSet
+Kerns2: 387 -28 "LGC kerning subtable" 
 EndChar
 
 StartChar: O.sc
-Encoding: 401 -1 401
+Encoding: 63343 63343 401
 Width: 650
 VWidth: 0
 Flags: W
@@ -11754,11 +11756,11 @@ SplineSet
  467 380 407 458 325 458 c 0
  243 458 183 380 183 250 c 0
 EndSplineSet
-Kerns2: 12 -40 "LGC kerning subtable"  14 -40 "LGC kerning subtable"  410 -24 "LGC kerning subtable"  387 -16 "LGC kerning subtable"  411 -32 "LGC kerning subtable"  408 -16 "LGC kerning subtable" 
+Kerns2: 56 0 "LGC kerning subtable"  12 -40 "LGC kerning subtable"  14 -40 "LGC kerning subtable"  410 -24 "LGC kerning subtable"  387 -16 "LGC kerning subtable"  411 -32 "LGC kerning subtable"  408 -16 "LGC kerning subtable" 
 EndChar
 
 StartChar: P.sc
-Encoding: 402 -1 402
+Encoding: 63344 63344 402
 Width: 537
 VWidth: 0
 Flags: HMW
@@ -11817,11 +11819,11 @@ SplineSet
  229 445 l 1
  229 237 l 1
 EndSplineSet
-Kerns2: 12 -80 "LGC kerning subtable"  14 -128 "LGC kerning subtable"  387 -64 "LGC kerning subtable" 
+Kerns2: 12 -80 "LGC kerning subtable"  14 -128 "LGC kerning subtable"  387 -60 "LGC kerning subtable" 
 EndChar
 
 StartChar: Q.sc
-Encoding: 403 -1 403
+Encoding: 63345 63345 403
 Width: 650
 VWidth: 0
 Flags: HMW
@@ -11870,7 +11872,7 @@ EndSplineSet
 EndChar
 
 StartChar: R.sc
-Encoding: 404 -1 404
+Encoding: 63346 63346 404
 Width: 614
 VWidth: 0
 Flags: HMW
@@ -11950,7 +11952,7 @@ Kerns2: 411 -48 "LGC kerning subtable"  408 -48 "LGC kerning subtable"  406 -32 
 EndChar
 
 StartChar: S.sc
-Encoding: 405 -1 405
+Encoding: 63347 63347 405
 Width: 484
 VWidth: 0
 Flags: HMW
@@ -12010,7 +12012,7 @@ EndSplineSet
 EndChar
 
 StartChar: T.sc
-Encoding: 406 -1 406
+Encoding: 63348 63348 406
 Width: 538
 Flags: W
 HStem: 0 46<132 190 348 406> 327 172<19 82 456 519> 445 54<118 205 333 420>
@@ -12065,11 +12067,11 @@ SplineSet
  82 327 l 1
  19 327 l 1xdc
 EndSplineSet
-Kerns2: 12 -96 "LGC kerning subtable"  14 -96 "LGC kerning subtable"  387 -72 "LGC kerning subtable" 
+Kerns2: 12 -96 "LGC kerning subtable"  14 -96 "LGC kerning subtable"  387 -65 "LGC kerning subtable" 
 EndChar
 
 StartChar: U.sc
-Encoding: 407 -1 407
+Encoding: 63349 63349 407
 Width: 618
 VWidth: 0
 Flags: W
@@ -12133,7 +12135,7 @@ Kerns2: 12 -32 "LGC kerning subtable"  14 -32 "LGC kerning subtable"  387 -32 "L
 EndChar
 
 StartChar: V.sc
-Encoding: 408 -1 408
+Encoding: 63350 63350 408
 Width: 583
 VWidth: 0
 Flags: W
@@ -12187,7 +12189,7 @@ Kerns2: 12 -152 "LGC kerning subtable"  14 -152 "LGC kerning subtable"  401 -16 
 EndChar
 
 StartChar: W.sc
-Encoding: 409 -1 409
+Encoding: 63351 63351 409
 Width: 828
 VWidth: 0
 Flags: W
@@ -12255,7 +12257,7 @@ Kerns2: 12 -120 "LGC kerning subtable"  14 -120 "LGC kerning subtable"  387 -40 
 EndChar
 
 StartChar: X.sc
-Encoding: 410 -1 410
+Encoding: 63352 63352 410
 Width: 564
 Flags: W
 HStem: 0 45<6 17.2727 199 213 307 331 553.556 566> 454 47<10 32.5 224 277 353 379.4 527.143 552>
@@ -12339,7 +12341,7 @@ Kerns2: 401 -24 "LGC kerning subtable"
 EndChar
 
 StartChar: Y.sc
-Encoding: 411 -1 411
+Encoding: 63353 63353 411
 Width: 548
 Flags: W
 HStem: 0 46<152 210 368 426> 454 46<2 48.5 223 273 346 390.571 512 550>
@@ -12409,7 +12411,7 @@ Kerns2: 12 -96 "LGC kerning subtable"  14 -96 "LGC kerning subtable"  401 -32 "L
 EndChar
 
 StartChar: Z.sc
-Encoding: 412 -1 412
+Encoding: 63354 63354 412
 Width: 522
 Flags: W
 HStem: 0 56<198 381> 445 55<153 319>
@@ -12461,7 +12463,7 @@ EndSplineSet
 EndChar
 
 StartChar: AE.sc
-Encoding: 413 -1 413
+Encoding: 63462 63462 413
 Width: 795
 VWidth: 0
 Flags: HMW
@@ -12567,18 +12569,18 @@ EndSplineSet
 EndChar
 
 StartChar: Edieresis.sc
-Encoding: 414 -1 414
+Encoding: 63467 63467 414
 Width: 540
 VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 391 -1 N 1 0 0 1 0 0 3
+Refer: 391 63333 N 1 0 0 1 0 0 3
 Refer: 130 168 N 1 0 0 1 10 6 2
 EndChar
 
 StartChar: OE.sc
-Encoding: 415 -1 415
+Encoding: 63226 63226 415
 Width: 874
 VWidth: 0
 Flags: HMW
@@ -12667,17 +12669,17 @@ EndSplineSet
 EndChar
 
 StartChar: afii10023.sc
-Encoding: 416 -1 416
+Encoding: 61942 61942 416
 Width: 540
 VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 414 -1 S 1 0 0 1 0 0 3
+Refer: 414 63467 S 1 0 0 1 0 0 3
 EndChar
 
 StartChar: afii10017.sc
-Encoding: 417 -1 417
+Encoding: 61909 61909 417
 Width: 579
 VWidth: 0
 Flags: W
@@ -12685,14 +12687,14 @@ HStem: 0 46<-3 46 140 197 330 385 542.444 586> 179 54<201 322>
 DStem2: 53 54 131 65 0.382292 0.924042<39.9832 162.909 221.983 382.22> 337 506 261 382 0.393427 -0.919356<84.0996 245.083 303.383 427.994>
 LayerCount: 2
 Back
-Refer: 387 -1 S 1 0 0 1 0 0 3
+Refer: 387 63329 S 1 0 0 1 0 0 3
 Fore
-Refer: 387 -1 S 1 0 0 1 0 0 3
-Kerns2: 451 -32 "LGC kerning subtable"  440 -72 "LGC kerning subtable"  436 -32 "LGC kerning subtable" 
+Refer: 387 63329 S 1 0 0 1 0 0 3
+Kerns2: 420 0 "LGC kerning subtable"  451 -32 "LGC kerning subtable"  440 -72 "LGC kerning subtable"  436 -32 "LGC kerning subtable" 
 EndChar
 
 StartChar: afii10018.sc
-Encoding: 418 -1 418
+Encoding: 61910 61910 418
 Width: 572
 VWidth: 0
 Flags: HMW
@@ -12759,7 +12761,7 @@ Kerns2: 436 -32 "LGC kerning subtable"
 EndChar
 
 StartChar: afii10019.sc
-Encoding: 419 -1 419
+Encoding: 61911 61911 419
 Width: 572
 VWidth: 0
 Flags: W
@@ -12767,14 +12769,14 @@ HStem: 0 52<30 83 225.612 361.797> 231 54<225.285 333.935> 448 52<30 83 225.471 
 VStem: 98 127<65 229.708 285.011 435> 362 132<323.581 425.381> 397 134<83.2095 200.405>
 LayerCount: 2
 Back
-Refer: 388 -1 N 1 0 0 1 0 0 3
+Refer: 388 63330 N 1 0 0 1 0 0 3
 Fore
-Refer: 388 -1 N 1 0 0 1 0 0 3
+Refer: 388 63330 N 1 0 0 1 0 0 3
 Kerns2: 436 -40 "LGC kerning subtable" 
 EndChar
 
 StartChar: afii10020.sc
-Encoding: 420 -1 420
+Encoding: 61912 61912 420
 Width: 494
 Flags: MW
 HStem: 0 46<31 87 244 313> 445 55<229 379>
@@ -12824,11 +12826,11 @@ SplineSet
  87 450 l 1
  29 454 l 1
 EndSplineSet
-Kerns2: 12 -128 "LGC kerning subtable"  14 -152 "LGC kerning subtable"  431 -16 "LGC kerning subtable"  417 -104 "LGC kerning subtable" 
+Kerns2: 299 -20 "LGC kerning subtable"  421 -30 "LGC kerning subtable"  428 -78 "LGC kerning subtable"  12 -128 "LGC kerning subtable"  14 -152 "LGC kerning subtable"  431 -16 "LGC kerning subtable"  417 -90 "LGC kerning subtable" 
 EndChar
 
 StartChar: afii10021.sc
-Encoding: 421 -1 421
+Encoding: 61913 61913 421
 Width: 603
 Flags: HMW
 HStem: 0 56<156 386> 455 46<147 213>
@@ -12886,21 +12888,21 @@ SplineSet
  271 364 l 1
  156 56 l 1
 EndSplineSet
-Kerns2: 449 -48 "LGC kerning subtable"  443 -56 "LGC kerning subtable"  437 -32 "LGC kerning subtable"  431 -32 "LGC kerning subtable"  436 -48 "LGC kerning subtable" 
+Kerns2: 435 -40 "LGC kerning subtable"  449 -48 "LGC kerning subtable"  443 -56 "LGC kerning subtable"  437 -32 "LGC kerning subtable"  431 -32 "LGC kerning subtable"  436 -48 "LGC kerning subtable" 
 EndChar
 
 StartChar: afii10022.sc
-Encoding: 422 -1 422
+Encoding: 61914 61914 422
 Width: 540
 VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 391 -1 N 1 0 0 1 0 0 3
+Refer: 391 63333 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: afii10024.sc
-Encoding: 423 -1 423
+Encoding: 61915 61915 423
 Width: 893
 VWidth: 0
 Flags: HMW
@@ -13027,7 +13029,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10025.sc
-Encoding: 424 -1 424
+Encoding: 61916 61916 424
 Width: 517
 VWidth: 0
 Flags: HMW
@@ -13092,7 +13094,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10026.sc
-Encoding: 425 -1 425
+Encoding: 61917 61917 425
 Width: 670
 VWidth: 0
 Flags: MW
@@ -13185,18 +13187,18 @@ EndSplineSet
 EndChar
 
 StartChar: afii10027.sc
-Encoding: 426 -1 426
+Encoding: 61918 61918 426
 Width: 670
 VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
 Refer: 296 63188 N 1 0 0 1 20 10 2
-Refer: 425 -1 N 1 0 0 1 0 0 3
+Refer: 425 61917 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: afii10028.sc
-Encoding: 427 -1 427
+Encoding: 61919 61919 427
 Width: 618
 VWidth: 0
 Flags: HMW
@@ -13285,7 +13287,7 @@ Kerns2: 431 -24 "LGC kerning subtable"
 EndChar
 
 StartChar: afii10029.sc
-Encoding: 428 -1 428
+Encoding: 61920 61920 428
 Width: 644
 Flags: W
 HStem: -12 21G<75 146> 0 47<380 443 590 651> 454 46<214 281>
@@ -13338,21 +13340,21 @@ SplineSet
  217 30 188 -12 104 -12 c 0
  46 -12 20 30 20 67 c 0xa0
 EndSplineSet
-Kerns2: 449 -40 "LGC kerning subtable"  443 -40 "LGC kerning subtable"  437 -32 "LGC kerning subtable"  431 -24 "LGC kerning subtable"  436 -32 "LGC kerning subtable" 
+Kerns2: 435 -48 "LGC kerning subtable"  449 -40 "LGC kerning subtable"  443 -40 "LGC kerning subtable"  437 -32 "LGC kerning subtable"  431 -24 "LGC kerning subtable"  436 -32 "LGC kerning subtable" 
 EndChar
 
 StartChar: afii10030.sc
-Encoding: 429 -1 429
+Encoding: 61921 61921 429
 Width: 786
 VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 399 -1 N 1 0 0 1 0 0 3
+Refer: 399 63341 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: afii10031.sc
-Encoding: 430 -1 430
+Encoding: 61922 61922 430
 Width: 664
 VWidth: 0
 Flags: W
@@ -13360,11 +13362,11 @@ HStem: 0 46<31 83 240 293 371 424 581 633> 234 56<225 439> 454 46<31 83 240 293 
 VStem: 98 127<65 435> 439 127<65 435>
 LayerCount: 2
 Fore
-Refer: 394 -1 N 1 0 0 1 0 0 3
+Refer: 394 63336 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: afii10032.sc
-Encoding: 431 -1 431
+Encoding: 61923 61923 431
 Width: 650
 VWidth: 0
 Flags: W
@@ -13372,12 +13374,12 @@ HStem: -12 54<258.863 391.137> 458 54<258.863 391.137>
 VStem: 41 142<143.28 356.72> 467 142<143.28 356.72>
 LayerCount: 2
 Fore
-Refer: 401 -1 N 1 0 0 1 0 0 3
-Kerns2: 428 -48 "LGC kerning subtable"  421 -24 "LGC kerning subtable"  423 -24 "LGC kerning subtable"  387 -16 "LGC kerning subtable"  436 -32 "LGC kerning subtable" 
+Refer: 401 63343 N 1 0 0 1 0 0 3
+Kerns2: 394 0 "LGC kerning subtable"  428 -48 "LGC kerning subtable"  421 -24 "LGC kerning subtable"  423 -24 "LGC kerning subtable"  387 -16 "LGC kerning subtable"  436 -32 "LGC kerning subtable" 
 EndChar
 
 StartChar: afii10033.sc
-Encoding: 432 -1 432
+Encoding: 61924 61924 432
 Width: 662
 VWidth: 0
 Flags: MW
@@ -13447,7 +13449,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10034.sc
-Encoding: 433 -1 433
+Encoding: 61925 61925 433
 Width: 537
 VWidth: 0
 Flags: W
@@ -13455,22 +13457,22 @@ HStem: 0 46<31 87 244 313> 179 56<229 342.978> 445 55<229 346.076>
 VStem: 102 127<65 182 235.288 435> 383 132<272.592 410.346>
 LayerCount: 2
 Fore
-Refer: 402 -1 S 1 0 0 1 0 0 3
+Refer: 402 63344 S 1 0 0 1 0 0 3
 Kerns2: 421 -48 "LGC kerning subtable"  448 -24 "LGC kerning subtable" 
 EndChar
 
 StartChar: afii10035.sc
-Encoding: 434 -1 434
+Encoding: 61926 61926 434
 Width: 560
 VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 389 -1 S 1 0 0 1 0 0 3
+Refer: 389 63331 S 1 0 0 1 0 0 3
 EndChar
 
 StartChar: afii10036.sc
-Encoding: 435 -1 435
+Encoding: 61927 61927 435
 Width: 538
 VWidth: 0
 Flags: W
@@ -13479,12 +13481,12 @@ VStem: 19 63<327 368.588> 205 128<65 445> 456 63<327 368.588>
 CounterMasks: 1 1c
 LayerCount: 2
 Fore
-Refer: 406 -1 N 1 0 0 1 0 0 3
+Refer: 406 63348 N 1 0 0 1 0 0 3
 Kerns2: 428 -64 "LGC kerning subtable" 
 EndChar
 
 StartChar: afii10037.sc
-Encoding: 436 -1 436
+Encoding: 61928 61928 436
 Width: 578
 Flags: W
 HStem: -12 21G<152 235> 454 46<5 48.4 219 273 374 426 536.455 574>
@@ -13541,11 +13543,11 @@ SplineSet
  67 444 l 1
  5 454 l 1
 EndSplineSet
-Kerns2: 12 -160 "LGC kerning subtable"  14 -160 "LGC kerning subtable"  431 -32 "LGC kerning subtable"  421 -48 "LGC kerning subtable"  428 -96 "LGC kerning subtable"  417 -64 "LGC kerning subtable" 
+Kerns2: 448 -58 "LGC kerning subtable"  12 -160 "LGC kerning subtable"  14 -160 "LGC kerning subtable"  431 -32 "LGC kerning subtable"  421 -48 "LGC kerning subtable"  428 -96 "LGC kerning subtable"  417 -64 "LGC kerning subtable" 
 EndChar
 
 StartChar: afii10038.sc
-Encoding: 437 -1 437
+Encoding: 61929 61929 437
 Width: 708
 VWidth: 0
 Flags: W
@@ -13625,7 +13627,7 @@ Kerns2: 421 -32 "LGC kerning subtable"  417 -32 "LGC kerning subtable"  428 -40 
 EndChar
 
 StartChar: afii10039.sc
-Encoding: 438 -1 438
+Encoding: 61930 61930 438
 Width: 564
 VWidth: 0
 Flags: W
@@ -13633,11 +13635,11 @@ HStem: 0 45<6 17.2727 199 213 307 331 553.556 566> 454 47<10 32.5 224 277 353 37
 DStem2: 68 56 158 62 0.657534 0.753425<63.6986 228.986 356.247 508.836> 219 441 70 446 0.600991 -0.799256<0 146.196 230.458 389.454>
 LayerCount: 2
 Fore
-Refer: 410 -1 S 1 0 0 1 0 0 3
+Refer: 410 63352 S 1 0 0 1 0 0 3
 EndChar
 
 StartChar: afii10040.sc
-Encoding: 439 -1 439
+Encoding: 61931 61931 439
 Width: 667
 VWidth: 0
 Flags: HMW
@@ -13717,7 +13719,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10041.sc
-Encoding: 440 -1 440
+Encoding: 61932 61932 440
 Width: 633
 VWidth: 0
 Flags: W
@@ -13796,7 +13798,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10042.sc
-Encoding: 441 -1 441
+Encoding: 61933 61933 441
 Width: 921
 VWidth: 0
 Flags: MW
@@ -13887,7 +13889,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10043.sc
-Encoding: 442 -1 442
+Encoding: 61934 61934 442
 Width: 930
 VWidth: 0
 Flags: HMW
@@ -13987,7 +13989,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10044.sc
-Encoding: 443 -1 443
+Encoding: 61935 61935 443
 Width: 668
 VWidth: 0
 Flags: HMW
@@ -14053,7 +14055,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10045.sc
-Encoding: 444 -1 444
+Encoding: 61936 61936 444
 Width: 846
 VWidth: 0
 Flags: HW
@@ -14080,11 +14082,11 @@ SplineSet
  815 46 l 1
  815 0 l 1xbe
 EndSplineSet
-Refer: 445 -1 N 1 0 0 1 0 0 2
+Refer: 445 61937 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: afii10046.sc
-Encoding: 445 -1 445
+Encoding: 61937 61937 445
 Width: 547
 VWidth: 0
 Flags: HMW
@@ -14186,7 +14188,7 @@ Kerns2: 435 -56 "LGC kerning subtable"
 EndChar
 
 StartChar: afii10047.sc
-Encoding: 446 -1 446
+Encoding: 61938 61938 446
 Width: 554
 VWidth: 0
 Flags: HMW
@@ -14253,7 +14255,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10048.sc
-Encoding: 447 -1 447
+Encoding: 61939 61939 447
 Width: 915
 VWidth: 0
 Flags: HW
@@ -14330,7 +14332,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10049.sc
-Encoding: 448 -1 448
+Encoding: 61940 61940 448
 Width: 621
 VWidth: 0
 Flags: HMW
@@ -14407,7 +14409,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10146.sc
-Encoding: 449 -1 449
+Encoding: 61958 61958 449
 Width: 647
 VWidth: 0
 Flags: HMW
@@ -14497,7 +14499,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10147.sc
-Encoding: 450 -1 450
+Encoding: 61966 61966 450
 Width: 650
 VWidth: 0
 Flags: HW
@@ -14555,7 +14557,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10148.sc
-Encoding: 451 -1 451
+Encoding: 61967 61967 451
 Width: 659
 VWidth: 0
 Flags: MW
@@ -14610,25 +14612,25 @@ EndSplineSet
 EndChar
 
 StartChar: FI.sc
-Encoding: 452 61879 452
+Encoding: 61879 61879 452
 Width: 839
 VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 395 -1 S 1 0 0 1 505 0 2
-Refer: 392 -1 N 1 0 0 1 0 0 2
+Refer: 395 63337 S 1 0 0 1 505 0 2
+Refer: 392 63334 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: FL.sc
-Encoding: 453 61880 453
+Encoding: 61880 61880 453
 Width: 1004
 VWidth: 0
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 398 -1 N 1 0 0 1 505 0 2
-Refer: 392 -1 N 1 0 0 1 0 0 2
+Refer: 398 63340 N 1 0 0 1 505 0 2
+Refer: 392 63334 N 1 0 0 1 0 0 2
 EndChar
 EndChars
 EndSplineFont
