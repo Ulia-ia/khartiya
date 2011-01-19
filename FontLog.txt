@@ -29,8 +29,16 @@ as root to install fonts system-wide (/usr/share/fonts/TTF). Otherwise
 copy *.ttf files into ~/.fonts/ directory. Then run fc-cache if you have
 fontconfig.
 
+The sources and compiled fonts are available at
+http://code.google.com/p/khartiya/
+Tarballs are compressed with xz (http://tukaani.org/xz/).
+
 ChangeLog
 ---------
+
+2011-01-19 Andrey V. Panov
+	Added smallcaps in upright fonts.
+	Version 0.4 is released.
 
 2010-12-21 Andrey V. Panov
 	Version 0.3 is released.
