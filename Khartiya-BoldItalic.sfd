@@ -20,25 +20,25 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1136849748
-ModificationTime: 1294055253
+ModificationTime: 1310811200
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
-LineGap: 200
+LineGap: 0
 VLineGap: 0
 OS2TypoAscent: 770
 OS2TypoAOffset: 0
 OS2TypoDescent: -230
 OS2TypoDOffset: 0
 OS2TypoLinegap: 200
-OS2WinAscent: 0
-OS2WinAOffset: 1
-OS2WinDescent: 0
-OS2WinDOffset: 1
-HheadAscent: 0
-HheadAOffset: 1
-HheadDescent: 0
-HheadDOffset: 1
+OS2WinAscent: 964
+OS2WinAOffset: 0
+OS2WinDescent: 236
+OS2WinDOffset: 0
+HheadAscent: 964
+HheadAOffset: 0
+HheadDescent: -236
+HheadDOffset: 0
 OS2Vendor: 'PfEd'
 Lookup: 258 0 0 "LGC kerning"  {"LGC kerning subtable" [150,15,0] } ['kern' ('cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
@@ -51,7 +51,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 63024 16 12
+WinInfo: 992 16 12
 BeginPrivate: 5
 BlueValues 32 [-13 0 483 496 671 685 733 736 ]
 OtherBlues 31 [-218 -218 -190 -190 -170 -170]
