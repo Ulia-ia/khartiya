@@ -51,7 +51,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 57472 16 14
+WinInfo: 8192 16 14
 BeginPrivate: 5
 BlueValues 32 [-16 0 481 492 671 689 736 744 ]
 OtherBlues 31 [-218 -218 -170 -170 -146 -146]
@@ -500,6 +500,7 @@ SplineSet
  170 564 138 503 74 442 c 1
  31 442 l 1
 EndSplineSet
+Kerns2: 275 -50 "LGC kerning subtable"  33 -130 "LGC kerning subtable" 
 EndChar
 
 StartChar: parenleft
@@ -1622,7 +1623,7 @@ SplineSet
  300 574 l 1
  201 297 l 1
 EndSplineSet
-Kerns2: 409 -16 "LGC kerning subtable"  411 -24 "LGC kerning subtable"  408 -24 "LGC kerning subtable"  7 -130 "LGC kerning subtable"  118 -130 "LGC kerning subtable"  89 -23 "LGC kerning subtable"  57 -42 "LGC kerning subtable"  87 -46 "LGC kerning subtable"  55 -42 "LGC kerning subtable"  86 -32 "LGC kerning subtable"  54 -56 "LGC kerning subtable"  53 -23 "LGC kerning subtable"  84 -19 "LGC kerning subtable"  52 -111 "LGC kerning subtable"  109 -19 "LGC kerning subtable"  108 -19 "LGC kerning subtable"  70 -19 "LGC kerning subtable" 
+Kerns2: 64 -85 "LGC kerning subtable"  409 -16 "LGC kerning subtable"  411 -24 "LGC kerning subtable"  408 -24 "LGC kerning subtable"  7 -130 "LGC kerning subtable"  118 -130 "LGC kerning subtable"  89 -23 "LGC kerning subtable"  57 -42 "LGC kerning subtable"  87 -46 "LGC kerning subtable"  55 -42 "LGC kerning subtable"  86 -32 "LGC kerning subtable"  54 -56 "LGC kerning subtable"  53 -23 "LGC kerning subtable"  84 -19 "LGC kerning subtable"  52 -111 "LGC kerning subtable"  109 -19 "LGC kerning subtable"  108 -19 "LGC kerning subtable"  70 -19 "LGC kerning subtable" 
 EndChar
 
 StartChar: B
@@ -2338,7 +2339,7 @@ SplineSet
  506 0 l 1
  27 0 l 1
 EndSplineSet
-Kerns2: 409 -16 "LGC kerning subtable"  411 -32 "LGC kerning subtable"  408 -24 "LGC kerning subtable"  406 -64 "LGC kerning subtable"  7 -241 "LGC kerning subtable"  118 -241 "LGC kerning subtable"  89 -19 "LGC kerning subtable"  57 -102 "LGC kerning subtable"  55 -88 "LGC kerning subtable"  54 -120 "LGC kerning subtable"  53 -19 "LGC kerning subtable"  52 -83 "LGC kerning subtable" 
+Kerns2: 64 -219 "LGC kerning subtable"  409 -16 "LGC kerning subtable"  411 -32 "LGC kerning subtable"  408 -24 "LGC kerning subtable"  406 -64 "LGC kerning subtable"  7 -241 "LGC kerning subtable"  118 -241 "LGC kerning subtable"  89 -19 "LGC kerning subtable"  57 -102 "LGC kerning subtable"  55 -88 "LGC kerning subtable"  54 -120 "LGC kerning subtable"  53 -19 "LGC kerning subtable"  52 -83 "LGC kerning subtable" 
 EndChar
 
 StartChar: M

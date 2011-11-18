@@ -338,6 +338,7 @@ SplineSet
  227 585 183 514 94 442 c 1
  51 442 l 1
 EndSplineSet
+Kerns2: 276 -40 "LGC kerning subtable"  33 -110 "LGC kerning subtable" 
 EndChar
 
 StartChar: parenleft
@@ -1215,7 +1216,7 @@ SplineSet
  345 579 l 1
  182 291 l 1
 EndSplineSet
-Kerns2: 27 19 "LGC kerning subtable"  7 -130 "LGC kerning subtable"  118 -130 "LGC kerning subtable"  26 19 "LGC kerning subtable"  89 -19 "LGC kerning subtable"  57 -42 "LGC kerning subtable"  55 -42 "LGC kerning subtable"  54 -56 "LGC kerning subtable"  53 -23 "LGC kerning subtable"  52 -37 "LGC kerning subtable"  51 19 "LGC kerning subtable" 
+Kerns2: 64 -85 "LGC kerning subtable"  27 19 "LGC kerning subtable"  7 -130 "LGC kerning subtable"  118 -130 "LGC kerning subtable"  26 19 "LGC kerning subtable"  89 -19 "LGC kerning subtable"  57 -42 "LGC kerning subtable"  55 -42 "LGC kerning subtable"  54 -56 "LGC kerning subtable"  53 -23 "LGC kerning subtable"  52 -37 "LGC kerning subtable"  51 19 "LGC kerning subtable" 
 EndChar
 
 StartChar: B
@@ -1659,7 +1660,7 @@ SplineSet
  418 0 l 1
  -28 0 l 1
 EndSplineSet
-Kerns2: 116 19 "LGC kerning subtable"  7 -185 "LGC kerning subtable"  118 -185 "LGC kerning subtable"  117 19 "LGC kerning subtable"  13 56 "LGC kerning subtable"  89 -37 "LGC kerning subtable"  57 -88 "LGC kerning subtable"  55 -88 "LGC kerning subtable"  54 -102 "LGC kerning subtable"  85 -19 "LGC kerning subtable"  53 -19 "LGC kerning subtable"  52 -74 "LGC kerning subtable"  153 19 "LGC kerning subtable"  33 19 "LGC kerning subtable" 
+Kerns2: 64 -152 "LGC kerning subtable"  116 19 "LGC kerning subtable"  7 -185 "LGC kerning subtable"  118 -185 "LGC kerning subtable"  117 19 "LGC kerning subtable"  13 56 "LGC kerning subtable"  89 -37 "LGC kerning subtable"  57 -88 "LGC kerning subtable"  55 -88 "LGC kerning subtable"  54 -102 "LGC kerning subtable"  85 -19 "LGC kerning subtable"  53 -19 "LGC kerning subtable"  52 -74 "LGC kerning subtable"  153 19 "LGC kerning subtable"  33 19 "LGC kerning subtable" 
 EndChar
 
 StartChar: M
@@ -7614,7 +7615,7 @@ EndChar
 StartChar: afii10049
 Encoding: 1071 1071 276
 Width: 637
-Flags: HW
+Flags: W
 HStem: -11 50<-37.3701 57.5393> 0 38<-38 -27.1421 310 375 488 552> 292 46<292.888 436> 628 43<323.536 502 602 666>
 VStem: 131 93<396.227 545.247>
 DStem2: 377.588 -11 464.588 -11 0.190809 0.981627<86.8918 306.615 351.77 650.999>
