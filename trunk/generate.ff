@@ -78,6 +78,8 @@ if (smallcap)
  same_kern_sc.ff("globkern")
  make_kern_sc.ff()
 endif
+cop_kern_left.ff("f","ff")
+cop_kern_right.ff("f",0,"ff")
 liga_sub.ff()
 ## import BDF files
 /*
