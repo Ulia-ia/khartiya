@@ -36,6 +36,12 @@ Tarballs are compressed with xz (http://tukaani.org/xz/).
 ChangeLog
 ---------
 
+2011-12-12 Andrey V. Panov
+	Changed Win and HHead OS/2 metrics.
+	Added more ligatures with "f".
+	Set panose values.
+	Version 0.4.1 is released.
+
 2011-01-19 Andrey V. Panov
 	Added smallcaps in upright fonts.
 	Version 0.4 is released.
