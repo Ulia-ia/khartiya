@@ -19,7 +19,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1136849748
-ModificationTime: 1325765912
+ModificationTime: 1329220913
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -51,7 +51,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 1008 16 14
+WinInfo: 63152 16 14
 BeginPrivate: 5
 BlueValues 32 [-17 0 473 487 671 684 732 736 ]
 OtherBlues 32 [-218 -218  -190 -190 -170 -170]
@@ -81,7 +81,7 @@ Grid
  667 613 l 5
  559 58 l 5
 EndSplineSet
-BeginChars: 65537 422
+BeginChars: 65537 423
 
 StartChar: space
 Encoding: 32 32 0
@@ -2581,11 +2581,11 @@ DStem2: 23 0 108 0 0.200332 0.979728<17.0283 396.146 411.787 683.863> 319 108 40
 LayerCount: 2
 Fore
 SplineSet
-23 0 m 1
+23 0 m 1x7c
  160 670 l 1
  66 678 l 1
  66 703 l 1
- 223 736 l 1x7c
+ 223 736 l 1
  254 736 l 1
  241 688 228 629 214 559 c 2
  181 388 l 1
@@ -2597,7 +2597,7 @@ SplineSet
  398 61 416 43 449 43 c 0
  463 43 482 46 505 52 c 1
  505 25 l 1
- 452 4 411 -6 385 -6 c 0xac
+ 452 4 411 -6 385 -6 c 0xbc
  335 -6 312 13 312 55 c 0
  312 68 314 86 319 108 c 2
  362 293 l 2
@@ -2605,7 +2605,7 @@ SplineSet
  372 400 356 421 318 421 c 0
  285 421 232 395 170 339 c 1
  108 0 l 1
- 23 0 l 1
+ 23 0 l 1x7c
 EndSplineSet
 EndChar
 
@@ -2665,11 +2665,11 @@ DStem2: 25 0 108 0 0.193295 0.981141<16.0435 210.608 256.9 687.384>
 LayerCount: 2
 Fore
 SplineSet
-25 0 m 1
+25 0 m 1x7c
  160 674 l 1
  68 679 l 1
  68 707 l 1
- 225 736 l 1x5c
+ 225 736 l 1
  253 736 l 1
  146 238 l 1
  331 429 l 2
@@ -2678,15 +2678,15 @@ SplineSet
  476 405 458 384 421 369 c 1
  385 408 l 1
  342 377 300 340 256 300 c 1
- 332 128 372 43 441 43 c 0xac
+ 332 128 372 43 441 43 c 0xbc
  456 43 473 46 493 50 c 1
- 493 22 l 1x5c
- 435 3 395 -5 376 -5 c 0xac
+ 493 22 l 1x7c
+ 435 3 395 -5 376 -5 c 0xbc
  336 -5 308 20 282 72 c 2
  197 244 l 1
  140 192 l 1
  108 0 l 1
- 25 0 l 1
+ 25 0 l 1x7c
 EndSplineSet
 EndChar
 
@@ -6328,7 +6328,7 @@ EndChar
 StartChar: afii10080
 Encoding: 1086 1086 243
 Width: 502
-Flags: HW
+Flags: W
 HStem: -9 41<174 226.5> 444 39<245 296.5>
 VStem: 22 85<132 221.5> 364 85<247.5 342.5>
 LayerCount: 2
@@ -8816,7 +8816,7 @@ EndChar
 StartChar: afii10096
 Encoding: 1102 1102 303
 Width: 732
-Flags: HW
+Flags: W
 HStem: -9 41<404 456.5> 0 21G<32 119.983> 230 46<121 319> 424 25<32 64.8788> 444 39<475 526.5> 462 20G<93.0606 212>
 VStem: 32 84<0 84> 252 85<132 221.5> 594 85<247.5 342.5>
 LayerCount: 2
@@ -12505,6 +12505,7 @@ SplineSet
  102 436 l 9
  45 448 l 1xb8
 EndSplineSet
+Kerns2: 12 -85 "LGC kerning subtable"  14 -85 "LGC kerning subtable"  404 -95 "LGC kerning subtable"  292 -95 "LGC kerning subtable" 
 EndChar
 
 StartChar: afii10100
@@ -12659,6 +12660,56 @@ SplineSet
  249 445 209 424 173 381 c 0
  136 336 106 254 106 171 c 0xe8
 EndSplineSet
+EndChar
+
+StartChar: be.alt
+Encoding: 63173 63173 422
+Width: 498
+Flags: MW
+HStem: -9 39<148.924 260.842> 440 39<204.935 316.436> 658 74<179.365 395.352>
+VStem: 22 85<78.3041 296.79> 99 51<521.936 630.744> 360 85<167.738 388.209>
+LayerCount: 2
+Back
+SplineSet
+107 177 m 0xf4
+ 107 81 144 30 202 30 c 0
+ 285 30 360 138 360 290 c 0
+ 360 389 323 440 264 440 c 0
+ 180 440 107 332 107 177 c 0xf4
+22 178 m 0
+ 22 259 51 339 101 396 c 0
+ 149 450 210 479 277 479 c 0
+ 379 479 445 405 445 284 c 0
+ 445 205 417 132 365 72 c 0
+ 318 18 258 -9 190 -9 c 0
+ 89 -9 22 62 22 178 c 0
+EndSplineSet
+Fore
+SplineSet
+22 178 m 0xf4
+ 22 298 85 417 189 459 c 1
+ 189 461 l 1
+ 131 488 99 531 99 584 c 0
+ 99 665 159 732 282 732 c 0
+ 341 732 365 722 421 722 c 0
+ 442 722 460 725 482 751 c 1
+ 510 751 l 1
+ 475 665 423 651 374 651 c 0
+ 338 651 293 658 258 658 c 0
+ 202 658 150 637 150 576 c 0xec
+ 150 538 178 508 213 488 c 0
+ 223 482 259 479 277 479 c 0
+ 379 479 445 405 445 284 c 0
+ 445 205 417 132 365 72 c 0
+ 318 18 258 -9 190 -9 c 0
+ 89 -9 22 62 22 178 c 0xf4
+107 177 m 0xf4
+ 107 81 144 30 202 30 c 0
+ 285 30 360 138 360 290 c 0
+ 360 389 323 440 264 440 c 0
+ 180 440 107 332 107 177 c 0xf4
+EndSplineSet
+Kerns2: 292 -47 "LGC kerning subtable"  404 -47 "LGC kerning subtable" 
 EndChar
 EndChars
 EndSplineFont

@@ -14,27 +14,32 @@ Build and install instructions
 
 You need fontforge (http://fontforge.sourceforge.net/), xgridfit
 (http://xgridfit.sourceforge.net/) and font-helpers
-(http://code.google.com/p/font-helpers/ ) in order to build fonts from
+(http://code.google.com/p/font-helpers/ ) in order to build the fonts from
 the sources. Also you should have GNU make and coreutils. At first you
 must unpack/copy files from font-helpers into the directory where *.sfd
 files are located. Then type
 
 make
 
-and truetype fonts will be produced. On systems with X.Org you may do
+and the truetype fonts will be produced. On systems with X.Org you may do
 
 make install
 
-as root to install fonts system-wide (/usr/share/fonts/TTF). Otherwise
-copy *.ttf files into ~/.fonts/ directory. Then run fc-cache if you have
+as root to install the fonts system-wide (/usr/share/fonts/TTF). Otherwise
+copy *.ttf files into the ~/.fonts/ directory. Then run "fc-cache" if you have
 fontconfig.
 
-The sources and compiled fonts are available at
+The sources and the compiled fonts are available at
 http://code.google.com/p/khartiya/
 Tarballs are compressed with xz (http://tukaani.org/xz/).
 
 ChangeLog
 ---------
+
+2012-02-16 Andrey V. Panov
+	Added Cyrillic for Slavic languages.
+	Added smallcaps for accented letters.
+	Version 1.0 is released.
 
 2011-12-12 Andrey V. Panov
 	Changed Win and HHead OS/2 metrics.
