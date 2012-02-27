@@ -19,7 +19,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1136849748
-ModificationTime: 1329306401
+ModificationTime: 1330225735
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -51,7 +51,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 928 16 14
+WinInfo: 63440 16 14
 BeginPrivate: 5
 BlueValues 32 [-16 0 486 500 671 687 739 743 ]
 OtherBlues 31 [-219 -219 -170 -170 -146 -146]
@@ -16233,15 +16233,15 @@ EndChar
 
 StartChar: Igrave.sc
 Encoding: 63468 63468 495
-Width: 314
+Width: 334
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 0 46<31 88 246 303> 454 46<31 88 246 303> 566 190<2 223 2 155>
 VStem: 2 221<566 756> 103 128<65 435>
 LayerCount: 2
 Fore
-Refer: 123 96 S 1 0 0 1 -84 14 2
-Refer: 395 63337 N 1 0 0 1 0 0 2
+Refer: 123 96 N 1 0 0 1 -84 14 2
+Refer: 395 63337 S 1 0 0 1 0 0 3
 EndChar
 
 StartChar: Iacute.sc
