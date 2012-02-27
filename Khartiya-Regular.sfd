@@ -19,7 +19,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1136849748
-ModificationTime: 1329306512
+ModificationTime: 1330139124
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -20344,13 +20344,13 @@ StartChar: Igrave.sc
 Encoding: 63468 63468 508
 Width: 314
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 0 37<38 97 217 276> 459 37<38 97 217 276> 560 190<-3 193 -3 143>
 VStem: -3 196<560 750> 114 86<58 438>
 LayerCount: 2
 Fore
-Refer: 395 63337 N 1 0 0 1 0 0 2
-Refer: 123 96 S 1 0 0 1 -107 14 2
+Refer: 395 63337 S 1 0 0 1 0 0 3
+Refer: 123 96 N 1 0 0 1 -107 14 2
 EndChar
 
 StartChar: Iacute.sc
@@ -20489,7 +20489,7 @@ VStem: 43 98<138.945 358.887> 147 42<583 643.533> 411 42<656.602 718> 465 98<137
 LayerCount: 2
 Fore
 Refer: 401 63343 N 1 0 0 1 0 0 3
-Refer: 126 732 S 1 0 0 1 50 10 2
+Refer: 126 732 N 1 0 0 1 50 10 2
 EndChar
 
 StartChar: Odieresis.sc
