@@ -19,7 +19,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1136849748
-ModificationTime: 1330139124
+ModificationTime: 1331361508
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -51,7 +51,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 61792 16 14
+WinInfo: 8208 16 14
 BeginPrivate: 5
 BlueValues 32 [-16 0 481 492 671 689 736 744 ]
 OtherBlues 31 [-218 -218 -170 -170 -146 -146]
@@ -59,7 +59,7 @@ StdHW 4 [43]
 StdVW 4 [83]
 ForceBold 5 false
 EndPrivate
-BeginChars: 65537 531
+BeginChars: 65537 534
 
 StartChar: space
 Encoding: 32 32 0
@@ -20295,13 +20295,13 @@ StartChar: Ccedilla.sc
 Encoding: 63463 63463 504
 Width: 536
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -223 38<288 309.5 277.5 335> -105 45<301.5 364.5> -20 20<284 321 321 321> -12 45<240.637 413.551> 463 45<235.15 412.508>
 VStem: 43 97<144.583 355.038> 284 37<-61 0 -61 0 -61 0> 355 61<-155 -130.5> 438 51<99.5385 148 357 401.545>
 LayerCount: 2
 Fore
-Refer: 389 63331 N 1 0 0 1 0 0 2
-Refer: 132 184 S 1 0 0 1 49 0 2
+Refer: 389 63331 N 1 0 0 1 0 0 3
+Refer: 132 184 N 1 0 0 1 49 0 2
 EndChar
 
 StartChar: Egrave.sc
@@ -20619,12 +20619,12 @@ EndChar
 StartChar: uni0400.sc
 Encoding: 61941 61941 526
 Width: 508
-Flags: W
+Flags: HW
 HStem: 0 37<36 91> 0 46<193 396> 234 46<193 312> 450 46<193 373> 459 37<36 91> 560 190<123 319 123 269>
 VStem: 108 85<58 234 280 438> 123 196<560 750> 333 46<165 214 299.75 347> 399 50<372 412.091> 427 50<105.438 140>
 LayerCount: 2
 Fore
-Refer: 505 63464 N 1 0 0 1 0 0 2
+Refer: 505 63464 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: afii10050.sc
@@ -20663,12 +20663,12 @@ StartChar: afii10056.sc
 Encoding: 61948 61948 528
 Width: 314
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 0 37<38 97 217 276> 459 37<38 97 217 276> 579 101<50 78 236 264>
 VStem: 13 101<615 643.5> 114 86<58 438> 199 101<615 643.5>
 LayerCount: 2
 Fore
-Refer: 511 63471 N 1 0 0 1 0 0 2
+Refer: 511 63471 S 1 0 0 1 0 0 3
 EndChar
 
 StartChar: Oslash.sc
@@ -20792,6 +20792,47 @@ SplineSet
  189 442 131 364 131 238 c 0xf4
 EndSplineSet
 Kerns2: 477 -42 "LGC kerning subtable"  280 -42 "LGC kerning subtable"  294 -30 "LGC kerning subtable" 
+EndChar
+
+StartChar: minute
+Encoding: 8242 8242 531
+Width: 218
+Flags: MW
+HStem: 422 292
+VStem: 81 98<422 679>
+LayerCount: 2
+Fore
+SplineSet
+81 422 m 1
+ 92 645 l 2
+ 92 652 93 658 94 664 c 0
+ 100 697 118 714 144 714 c 0
+ 166 714 179 698 179 679 c 0
+ 179 669 177 658 172 645 c 2
+ 97 422 l 1
+ 81 422 l 1
+EndSplineSet
+EndChar
+
+StartChar: second
+Encoding: 8243 8243 532
+Width: 378
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 531 8242 N 1 0 0 1 160 0 2
+Refer: 531 8242 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni2034
+Encoding: 8244 8244 533
+Width: 492
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 531 8242 N 1 0 0 1 280 0 2
+Refer: 531 8242 N 1 0 0 1 130 0 2
+Refer: 531 8242 N 1 0 0 1 -20 0 2
 EndChar
 EndChars
 EndSplineFont

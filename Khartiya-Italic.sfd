@@ -19,7 +19,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1136849748
-ModificationTime: 1329220913
+ModificationTime: 1331361615
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -51,7 +51,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 63152 16 14
+WinInfo: 8208 16 14
 BeginPrivate: 5
 BlueValues 32 [-17 0 473 487 671 684 732 736 ]
 OtherBlues 32 [-218 -218  -190 -190 -170 -170]
@@ -81,7 +81,7 @@ Grid
  667 613 l 5
  559 58 l 5
 EndSplineSet
-BeginChars: 65537 423
+BeginChars: 65537 426
 
 StartChar: space
 Encoding: 32 32 0
@@ -661,9 +661,9 @@ EndChar
 StartChar: three
 Encoding: 51 51 19
 Width: 556
-Flags: HW
-HStem: -11 47<174.5 213> 636 47<286.5 337.5>
-VStem: 377 95<193.5 249> 415 97<503.5 562>
+Flags: W
+HStem: -11 47<110.112 281.088> 324 51<202.127 325.845> 636 47<225.05 374.984>
+VStem: 1 90<105.867 143.525> 103 91<501.861 556> 377 95<140.384 284.039> 415 97<468.171 597.013>
 LayerCount: 2
 Back
 SplineSet
@@ -692,12 +692,12 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-1 97 m 0
+1 97 m 0xfc
  1 131 22 153 56 153 c 0
  66 153 78 151 91 146 c 1
  106 60 l 1
  132 44 159 36 190 36 c 0
- 298 36 377 115 377 215 c 0xa0
+ 298 36 377 115 377 215 c 0xfc
  377 283 333 324 255 324 c 0
  237 324 217 322 195 320 c 1
  203 376 l 1
@@ -709,12 +709,12 @@ SplineSet
  174 501 159 496 147 496 c 0
  122 496 103 515 103 543 c 0
  103 609 203 683 341 683 c 0
- 449 683 512 629 512 546 c 0
- 512 461 444 388 319 357 c 1x50
+ 449 683 512 629 512 546 c 0xfa
+ 512 461 444 388 319 357 c 1
  417 353 472 303 472 227 c 0
  472 160 433 91 365 44 c 0
  313 9 247 -11 179 -11 c 0
- 73 -11 1 37 1 97 c 0
+ 73 -11 1 37 1 97 c 0xfc
 EndSplineSet
 EndChar
 
@@ -12710,6 +12710,47 @@ SplineSet
  180 440 107 332 107 177 c 0xf4
 EndSplineSet
 Kerns2: 292 -47 "LGC kerning subtable"  404 -47 "LGC kerning subtable" 
+EndChar
+
+StartChar: minute
+Encoding: 8242 8242 423
+Width: 218
+Flags: W
+HStem: 422 292
+VStem: 81 98<422 679>
+LayerCount: 2
+Fore
+SplineSet
+81 422 m 1
+ 92 645 l 2
+ 92 652 93 658 94 664 c 0
+ 100 697 118 714 144 714 c 0
+ 166 714 179 698 179 679 c 0
+ 179 669 177 658 172 645 c 2
+ 97 422 l 1
+ 81 422 l 1
+EndSplineSet
+EndChar
+
+StartChar: second
+Encoding: 8243 8243 424
+Width: 378
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 423 8242 N 1 0 0 1 0 0 2
+Refer: 423 8242 N 1 0 0 1 160 0 2
+EndChar
+
+StartChar: uni2034
+Encoding: 8244 8244 425
+Width: 492
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 423 8242 N 1 0 0 1 -20 0 2
+Refer: 423 8242 N 1 0 0 1 130 0 2
+Refer: 423 8242 N 1 0 0 1 280 0 2
 EndChar
 EndChars
 EndSplineFont
