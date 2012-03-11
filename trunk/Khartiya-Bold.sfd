@@ -19,7 +19,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1136849748
-ModificationTime: 1330225735
+ModificationTime: 1331362055
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -51,7 +51,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 63440 16 14
+WinInfo: 8208 16 14
 BeginPrivate: 5
 BlueValues 32 [-16 0 486 500 671 687 739 743 ]
 OtherBlues 31 [-219 -219 -170 -170 -146 -146]
@@ -60,7 +60,7 @@ StdVW 5 [122]
 ForceBold 5 false
 EndPrivate
 TeXData: 1 0 0 305135 152567 101711 509608 1048576 101711 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65537 531
+BeginChars: 65537 534
 
 StartChar: space
 Encoding: 32 32 0
@@ -112,7 +112,7 @@ SplineSet
  206 642 l 2
  205 649 205 655 205 661 c 0
 EndSplineSet
-Refer: 103 39 S 1 0 0 1 0 0 2
+Refer: 103 39 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: numbersign
@@ -16181,15 +16181,15 @@ EndChar
 
 StartChar: Ccedilla.sc
 Encoding: 63463 63463 491
-Width: 536
+Width: 560
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -230 50<303.5 317.5 289.5 354> -110 54<310.5 382> -12 56<271.041 422.765> 456 56<268.086 423.328>
 VStem: 41 140<148.947 354.203> 359 78<-155 -133> 450 68<121.842 155 348 381.765>
 LayerCount: 2
 Fore
 Refer: 132 184 N 1 0 0 1 64 0 2
-Refer: 389 63331 N 1 0 0 1 0 0 2
+Refer: 389 63331 S 1 0 0 1 0 0 3
 EndChar
 
 StartChar: Egrave.sc
@@ -16523,13 +16523,13 @@ EndChar
 
 StartChar: uni0400.sc
 Encoding: 61941 61941 513
-Width: 508
-Flags: W
+Width: 540
+Flags: HW
 HStem: 0 54<227 409> 230 56<227 315> 446 54<227 387> 566 190<134 355 134 287>
 VStem: 100 127<65 230 286 435> 134 221<566 756> 337 58<162 210.125 305.5 351> 417 63<369 404> 443 65<116.059 149>
 LayerCount: 2
 Fore
-Refer: 492 63464 N 1 0 0 1 0 0 2
+Refer: 492 63464 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: afii10051.sc
@@ -16709,14 +16709,14 @@ EndChar
 
 StartChar: afii10056.sc
 Encoding: 61948 61948 519
-Width: 314
+Width: 334
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 0 37<38 97 217 276> 459 37<38 97 217 276> 579 101<50 78 236 264>
 VStem: 13 101<615 643.5> 114 86<58 438> 199 101<615 643.5>
 LayerCount: 2
 Fore
-Refer: 498 63471 N 1 0 0 1 0 0 2
+Refer: 498 63471 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: afii10057.sc
@@ -16801,13 +16801,13 @@ StartChar: afii10059.sc
 Encoding: 61951 61951 522
 Width: 885
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 0 55<566.658 693.489> 0 46<31 83 240 293 371 424> 234 56<225 439 566 698.598> 454 46<31 83 240 293 371 424 581 638>
 VStem: 98 127<65 435> 439 127<65 236.584 290 435> 722 134<80.6294 211.188>
 LayerCount: 2
 Fore
 SplineSet
-31 0 m 1x7e
+31 0 m 1
  31 46 l 1
  83 50 l 1
  98 65 l 1
@@ -16819,33 +16819,31 @@ SplineSet
  293 454 l 1
  240 450 l 1
  225 435 l 1
- 225 65 l 1
- 240 50 l 1
- 293 46 l 1
- 293 0 l 1
- 31 0 l 1x7e
-439 234 m 1
- 225 234 l 1
  225 290 l 1
  439 290 l 1
- 439 234 l 1
-638 500 m 1x7e
+ 439 435 l 1
+ 424 450 l 1
+ 371 454 l 1
+ 371 500 l 1
+ 638 500 l 1
  638 454 l 1
  581 450 l 1
  566 435 l 1
  566 290 l 1
  588 292 611 294 623 294 c 0
  769 294 856 252 856 147 c 0
- 856 35 761 0 629 0 c 2xbe
+ 856 35 761 0 629 0 c 2
  371 0 l 1
  371 46 l 1
  424 50 l 1
  439 65 l 1
- 439 435 l 1
- 424 450 l 1
- 371 454 l 1
- 371 500 l 1
- 638 500 l 1x7e
+ 439 234 l 1
+ 225 234 l 1
+ 225 65 l 1
+ 240 50 l 1
+ 293 46 l 1
+ 293 0 l 1
+ 31 0 l 1
 566 57 m 1
  580 56 597 55 606 55 c 0
  693 55 722 82 722 146 c 0
@@ -17132,6 +17130,47 @@ SplineSet
  221 437 175 367 175 241 c 0xf4
 EndSplineSet
 Kerns2: 470 -39 "LGC kerning subtable"  288 -39 "LGC kerning subtable"  287 -39 "LGC kerning subtable" 
+EndChar
+
+StartChar: minute
+Encoding: 8242 8242 531
+Width: 235
+Flags: MW
+HStem: 418 296
+VStem: 90 105<418 677>
+LayerCount: 2
+Fore
+SplineSet
+90 418 m 1
+ 98 642 l 2
+ 98 649 99 655 100 661 c 0
+ 107 695 127 714 156 714 c 0
+ 181 714 195 699 195 677 c 0
+ 195 665 192 652 189 642 c 2
+ 109 418 l 1
+ 90 418 l 1
+EndSplineSet
+EndChar
+
+StartChar: second
+Encoding: 8243 8243 532
+Width: 400
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 531 8242 N 1 0 0 1 165 0 2
+Refer: 531 8242 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni2034
+Encoding: 8244 8244 533
+Width: 515
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 531 8242 N 1 0 0 1 290 0 2
+Refer: 531 8242 N 1 0 0 1 135 0 2
+Refer: 531 8242 N 1 0 0 1 -20 0 2
 EndChar
 EndChars
 EndSplineFont
