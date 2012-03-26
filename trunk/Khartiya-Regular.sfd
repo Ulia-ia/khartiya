@@ -19,7 +19,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1136849748
-ModificationTime: 1331361508
+ModificationTime: 1332639650
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -51,7 +51,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 8208 16 14
+WinInfo: 7808 16 14
 BeginPrivate: 5
 BlueValues 32 [-16 0 481 492 671 689 736 744 ]
 OtherBlues 31 [-218 -218 -170 -170 -146 -146]
@@ -59,7 +59,7 @@ StdHW 4 [43]
 StdVW 4 [83]
 ForceBold 5 false
 EndPrivate
-BeginChars: 65537 534
+BeginChars: 65537 541
 
 StartChar: space
 Encoding: 32 32 0
@@ -2084,10 +2084,10 @@ SplineSet
  705 631 l 1
  648 625 l 1
  631 611 l 1
- 631 60 l 5
- 648 46 l 5
- 705 41 l 5
- 705 0 l 5
+ 631 60 l 1
+ 648 46 l 1
+ 705 41 l 1
+ 705 0 l 1
  462 0 l 1
  462 41 l 1
  524 46 l 1
@@ -20833,6 +20833,125 @@ Fore
 Refer: 531 8242 N 1 0 0 1 280 0 2
 Refer: 531 8242 N 1 0 0 1 130 0 2
 Refer: 531 8242 N 1 0 0 1 -20 0 2
+EndChar
+
+StartChar: trianglebullet
+Encoding: 8227 8227 534
+Width: 550
+VWidth: 0
+Flags: W
+HStem: 171 320
+VStem: 165 309<171 491>
+LayerCount: 2
+Fore
+SplineSet
+165 171 m 1
+ 165 491 l 1
+ 474 331 l 1
+ 165 171 l 1
+EndSplineSet
+EndChar
+
+StartChar: onedotenleader
+Encoding: 8228 8228 535
+Width: 278
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 14 46 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: twodotenleader
+Encoding: 8229 8229 536
+Width: 666
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 14 46 N 1 0 0 1 361 0 2
+Refer: 14 46 N 1 0 0 1 28 0 2
+EndChar
+
+StartChar: uni2027
+Encoding: 8231 8231 537
+Width: 278
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 113 183 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: underscoredbl
+Encoding: 8215 8215 538
+Width: 500
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 63 95 S 1 0 0 1 0 111 2
+Refer: 63 95 S 1 0 0 1 0 -9 3
+EndChar
+
+StartChar: uni2016
+Encoding: 8214 8214 539
+Width: 500
+Flags: W
+VStem: 140 62<-236 933> 298 62<-236 933>
+LayerCount: 2
+Fore
+SplineSet
+140 -236 m 1
+ 140 933 l 1
+ 202 933 l 1
+ 202 -236 l 1
+ 140 -236 l 1
+298 -236 m 1
+ 298 933 l 1
+ 360 933 l 1
+ 360 -236 l 1
+ 298 -236 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni1E9E
+Encoding: 7838 7838 540
+Width: 752
+Flags: W
+HStem: -12 53<402.545 546.829> 0 41<25 90 214 264> 337 43<483 522.606> 633 50<309.948 493.33>
+VStem: 107 90<60 477.246> 325 52<119.462 169> 596 99<92.5861 271.806>
+DStem2: 373 358 482 382 0.508729 0.860927<76.1137 281.093>
+LayerCount: 2
+Fore
+SplineSet
+25 0 m 1x7e
+ 25 41 l 1x7e
+ 90 46 l 1
+ 107 60 l 25
+ 107 323 l 2
+ 107 536 202 683 405 683 c 0
+ 502 683 556 658 621 616 c 1
+ 621 599 l 1
+ 482 382 l 1
+ 483 380 l 1
+ 560 380 695 320 695 194 c 0
+ 695 72 618 -12 489 -12 c 0
+ 416 -12 378 0 325 17 c 1
+ 325 169 l 1
+ 377 169 l 1
+ 390 77 l 1
+ 402 61 l 1
+ 428 43 450 41 482 41 c 0xbe
+ 566 41 596 111 596 185 c 0
+ 596 280 550 337 404 337 c 0
+ 396 337 391 336 381 334 c 1
+ 373 358 l 1
+ 516 600 l 1
+ 484 618 451 633 400 633 c 0
+ 262 633 197 518 197 342 c 2
+ 197 60 l 17
+ 214 46 l 1
+ 264 41 l 1
+ 264 0 l 1
+ 25 0 l 1x7e
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont

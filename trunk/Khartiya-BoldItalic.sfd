@@ -19,7 +19,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1136849748
-ModificationTime: 1331362126
+ModificationTime: 1332641879
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -51,7 +51,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 8208 16 12
+WinInfo: 7808 16 12
 BeginPrivate: 5
 BlueValues 32 [-13 0 483 496 671 685 733 736 ]
 OtherBlues 31 [-218 -218 -190 -190 -170 -170]
@@ -65,7 +65,7 @@ Grid
 42 0 m 25
  184.675 734 l 25
 EndSplineSet
-BeginChars: 65537 426
+BeginChars: 65537 433
 
 StartChar: space
 Encoding: 32 32 0
@@ -1444,10 +1444,10 @@ DStem2: 55 70 181 70 0.185508 0.982643<23.374 278.736 339.921 542.485> 462 70 58
 LayerCount: 2
 Fore
 SplineSet
--25 0 m 1
- -25 49 l 1
- 39 54 l 1
- 55 70 l 1
+-25 0 m 5
+ -25 49 l 5
+ 39 54 l 5
+ 55 70 l 5
  156 603 l 1
  146 618 l 1
  84 622 l 1
@@ -1476,11 +1476,11 @@ SplineSet
  462 70 l 1
  508 321 l 1
  228 321 l 1
- 181 70 l 1
- 192 53 l 1
- 256 49 l 1
- 256 0 l 1
- -25 0 l 1
+ 181 70 l 5
+ 192 53 l 5
+ 256 49 l 5
+ 256 0 l 5
+ -25 0 l 5
 EndSplineSet
 EndChar
 
@@ -13104,6 +13104,160 @@ Fore
 Refer: 423 8242 N 1 0 0 1 -20 0 2
 Refer: 423 8242 N 1 0 0 1 135 0 2
 Refer: 423 8242 N 1 0 0 1 290 0 2
+EndChar
+
+StartChar: trianglebullet
+Encoding: 8227 8227 426
+Width: 550
+VWidth: 0
+Flags: W
+HStem: 171 320
+VStem: 165 309<171 491>
+LayerCount: 2
+Fore
+SplineSet
+165 171 m 1
+ 165 491 l 1
+ 474 331 l 1
+ 165 171 l 1
+EndSplineSet
+EndChar
+
+StartChar: onedotenleader
+Encoding: 8228 8228 427
+Width: 294
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 14 46 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: twodotenleader
+Encoding: 8229 8229 428
+Width: 666
+Flags: HW
+HStem: -6 155<97.5 139 430.5 472 764.5 806>
+VStem: 42 152<49.5 92.5> 375 152<49.5 92.5> 709 152<49.5 92.5>
+LayerCount: 2
+Fore
+Refer: 14 46 N 1 0 0 1 20 0 2
+Refer: 14 46 N 1 0 0 1 353 0 2
+EndChar
+
+StartChar: uni2027
+Encoding: 8231 8231 429
+Width: 292
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 113 183 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: underscoredbl
+Encoding: 8215 8215 430
+Width: 500
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 63 95 N 1 0 0 1 0 -39 3
+Refer: 63 95 N 1 0 0 1 0 118 2
+EndChar
+
+StartChar: uni2016
+Encoding: 8214 8214 431
+Width: 538
+Flags: W
+VStem: 134 87<-236 929> 317 87<-236 929>
+LayerCount: 2
+Fore
+SplineSet
+134 -236 m 1
+ 134 929 l 1
+ 221 929 l 1
+ 221 -236 l 1
+ 134 -236 l 1
+317 -236 m 1
+ 317 929 l 1
+ 404 929 l 1
+ 404 -236 l 1
+ 317 -236 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni1E9E
+Encoding: 7838 7838 432
+Width: 795
+Flags: W
+HStem: -8 61<403.534 524.967> 0 49<-33 39 192 247> 624 59<380.932 583.478>
+VStem: 341 56<141.185 178> 584 138<121.661 289.016>
+DStem2: 39.8383 -8 165.838 -8 0.190809 0.981627<103.502 494.584> 414 366 564 388 0.581882 0.813273<105.174 293.874>
+LayerCount: 2
+Back
+SplineSet
+-45 0 m 1x7c
+ -35 49 l 1x7c
+ 31 54 l 1
+ 51 70 l 13
+ 97 310 l 6
+ 138 523 287 683 490 683 c 4
+ 581 683 670 660 730 622 c 5
+ 724 594 l 5
+ 563 388 l 5
+ 564 386 l 5
+ 668 386 743 312 720 194 c 4
+ 695 64 598 -11 460 -11 c 4
+ 387 -11 351 0 301 20 c 5
+ 332 178 l 5
+ 398 178 l 5
+ 395 89 l 5
+ 404 73 l 5
+ 427 55 429 53 463 53 c 4xbc
+ 523 53 566 119 580 193 c 4
+ 597 280 555 331 463 331 c 4
+ 455 331 445 329 435 327 c 5
+ 414 366 l 5
+ 592 601 l 5
+ 559 616 524 619 473 619 c 4
+ 335 619 268 505 234 329 c 6
+ 184 70 l 21
+ 196 54 l 1
+ 247 49 l 1
+ 237 0 l 1
+ -45 0 l 1x7c
+EndSplineSet
+Fore
+SplineSet
+-33 0 m 1x78
+ -33 49 l 1x78
+ 39 54 l 1
+ 55 70 l 9
+ 100 305 l 2
+ 143 527 262 683 486 683 c 0
+ 568 683 644 664 722 619 c 1
+ 717 594 l 1
+ 564 388 l 1
+ 565 386 l 1
+ 614 386 722 346 722 216 c 0
+ 722 98 628 -8 468 -8 c 0
+ 404 -8 372 0 314 36 c 1
+ 341 178 l 1
+ 397 178 l 1
+ 395 86 l 1
+ 404 68 l 1
+ 428 55 435 53 463 53 c 0
+ 534 53 584 126 584 204 c 0
+ 584 290 544 331 467 331 c 0
+ 459 331 445 329 435 327 c 1
+ 414 366 l 1
+ 585 605 l 1
+ 552 620 519 624 468 624 c 0
+ 330 624 263 496 231 329 c 2
+ 181 70 l 17
+ 192 53 l 1xb8
+ 247 49 l 1
+ 247 0 l 1
+ -33 0 l 1x78
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
