@@ -1,5 +1,5 @@
-These fonts are based on Bitstream Charter font which was released by Bitstream for X
-Window System with following license:
+These fonts are based on Bitstream Charter font which was released by Bitstream 
+for X Window System with following license:
 
 You are hereby granted permission under all Bitstream propriety rights
 to use, copy, modify, sublicense, sell, and redistribute the 4 Bitstream
@@ -35,6 +35,13 @@ Tarballs are compressed with xz (http://tukaani.org/xz/).
 
 ChangeLog
 ---------
+
+2012-05-14 Andrey V. Panov
+	Added U+1E9E, U+046A, U+046B, U+205E, "minute", "second", U+2034, 
+	"trianglebullet", "onedotenleader", "twodotenleader", U+2027, 
+	"underscoredbl", U+2016.
+	Fixed width of some smallcap accented letters in Bold.
+	Version 1.0.1 is released.
 
 2012-02-16 Andrey V. Panov
 	Added Cyrillic for Slavic languages.
