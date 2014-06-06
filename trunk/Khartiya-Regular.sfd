@@ -4,7 +4,7 @@ FullName: Khartiya
 FamilyName: Khartiya
 Weight: Regular
 Copyright: Copyright 1990 as an unpublished work by Bitstream Inc.  All rights reserved.  Confidential.\n\nCopyright (c) 2009, 2010, 2011, 2012 Andrey V. Panov
-Version: 1.0.1
+Version: 1.0.2
 ItalicAngle: 0
 UnderlinePosition: -109
 UnderlineWidth: 61
@@ -19,7 +19,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1136849748
-ModificationTime: 1336649635
+ModificationTime: 1402054284
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -51,7 +51,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 992 16 14
+WinInfo: 8304 16 14
 BeginPrivate: 5
 BlueValues 32 [-16 0 481 492 671 689 736 744 ]
 OtherBlues 31 [-218 -218 -170 -170 -146 -146]
@@ -59,7 +59,7 @@ StdHW 4 [43]
 StdVW 4 [83]
 ForceBold 5 false
 EndPrivate
-BeginChars: 65537 546
+BeginChars: 65537 548
 
 StartChar: space
 Encoding: 32 32 0
@@ -10099,7 +10099,7 @@ EndChar
 StartChar: afii10034
 Encoding: 1056 1056 236
 Width: 558
-Flags: W
+Flags: HW
 HStem: 0 41<33 33 33 285> 252 48<262.5 320 255.5 352.5> 625 46<90 90 241 253 253 313>
 VStem: 107 90<60 257 305 611 611 611> 438 93<414 522.5>
 LayerCount: 2
@@ -21349,6 +21349,80 @@ SplineSet
  569 451 l 1
  313 451 l 1x34
  313 450 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni20BD
+Encoding: 8381 8381 546
+Width: 556
+Flags: W
+HStem: 0 41<38 95 214 285> 150 44<28 112 197 402> 263 46<28 112 197 363.491> 625 46<30 95 197.844 362.023>
+VStem: 112 85<60 150 194 263 309 611> 438 90<379.932 559.537>
+LayerCount: 2
+Fore
+SplineSet
+28 150 m 1
+ 28 194 l 1
+ 112 194 l 1
+ 112 263 l 1
+ 28 263 l 1
+ 28 309 l 1
+ 112 309 l 1
+ 112 611 l 1
+ 95 625 l 1
+ 30 631 l 1
+ 30 671 l 1
+ 253 671 l 2
+ 441 671 528 619 528 470 c 0
+ 528 346 428 263 267 263 c 2
+ 197 263 l 1
+ 197 194 l 1
+ 402 194 l 1
+ 402 150 l 1
+ 197 150 l 1
+ 197 60 l 1
+ 214 46 l 1
+ 285 41 l 1
+ 285 0 l 1
+ 38 0 l 1
+ 38 41 l 1
+ 95 46 l 1
+ 112 60 l 1
+ 112 150 l 1
+ 28 150 l 1
+197 309 m 1
+ 261 309 l 2
+ 375 309 438 364 438 471 c 0
+ 438 576 377 625 249 625 c 0
+ 233 625 215 625 197 623 c 1
+ 197 309 l 1
+EndSplineSet
+EndChar
+
+StartChar: longs
+Encoding: 383 383 547
+Width: 316
+Flags: W
+HStem: 0 36<24 77 195 257> 724 20G<238.5 320>
+VStem: 95 83<57 608.291>
+LayerCount: 2
+Fore
+SplineSet
+24 0 m 1
+ 24 36 l 1
+ 77 41 l 1
+ 95 57 l 1
+ 95 479 l 2
+ 95 645 180 744 297 744 c 0
+ 343 744 375 719 375 687 c 0
+ 375 663 360 644 334 637 c 1
+ 243 697 l 1
+ 200 677 178 625 178 541 c 2
+ 178 57 l 1
+ 195 41 l 1
+ 257 36 l 1
+ 257 0 l 1
+ 24 0 l 1
 EndSplineSet
 EndChar
 EndChars
